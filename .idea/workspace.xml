@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="98d302df-2a9f-4bda-8c78-26a1f1e6a444" name="Default Changelist" comment="" />
+    <list default="true" id="98d302df-2a9f-4bda-8c78-26a1f1e6a444" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,22 +38,22 @@
       </list>
     </option>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="22poKWjHLvJEjfAlsHace1nscTT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
@@ -56,6 +65,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -108,6 +118,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -119,60 +130,22 @@
       <option name="presentableId" value="Default" />
       <updated>1640543825935</updated>
       <workItem from="1640543833704" duration="3316000" />
+      <workItem from="1642026901010" duration="1628000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="175" y="0" key="#SQL_Dialects" timestamp="1640545264909">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="175" y="0" key="#SQL_Dialects/0.0.1366.728@0.0.1366.728" timestamp="1640545264909" />
-    <state x="350" y="54" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1640552302806">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="350" y="54" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1640552302806" />
-    <state x="274" y="7" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1640545941028">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="274" y="7" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1640545941028" />
-    <state x="444" y="0" key="#com.intellij.ide.util.MemberChooser" timestamp="1640552390784">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="444" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1640552390784" />
-    <state x="350" y="43" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1640545116855">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="350" y="43" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1640545116855" />
-    <state x="380" y="6" key="DetectedRootsChooserDialog" timestamp="1640545195008">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="380" y="6" key="DetectedRootsChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1640545195008" />
-    <state x="413" y="54" key="FileChooserDialogImpl" timestamp="1640544388318">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="413" y="54" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1640544388318" />
-    <state width="1274" height="151" key="GridCell.Tab.0.bottom" timestamp="1640551849504">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1274" height="151" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1640551849504" />
-    <state width="1274" height="151" key="GridCell.Tab.0.center" timestamp="1640551849504">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1274" height="151" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1640551849504" />
-    <state width="1274" height="151" key="GridCell.Tab.0.left" timestamp="1640551849504">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1274" height="151" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1640551849504" />
-    <state width="1274" height="151" key="GridCell.Tab.0.right" timestamp="1640551849504">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1274" height="151" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1640551849504" />
-    <state x="406" y="6" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1642018497145">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="406" y="6" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1642018497145" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
