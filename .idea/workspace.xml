@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98d302df-2a9f-4bda-8c78-26a1f1e6a444" name="Default Changelist" comment="" />
+    <list default="true" id="98d302df-2a9f-4bda-8c78-26a1f1e6a444" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/services/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/dao/IClient.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,6 +130,7 @@
       <updated>1640543825935</updated>
       <workItem from="1640543833704" duration="3316000" />
       <workItem from="1642026901010" duration="7578000" />
+      <workItem from="1642089613233" duration="1079000" />
     </task>
     <servers />
   </component>

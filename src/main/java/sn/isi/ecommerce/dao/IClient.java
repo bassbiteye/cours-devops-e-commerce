@@ -1,10 +1,10 @@
-package sn.isi.ecommerce.services;
+package sn.isi.ecommerce.dao;
 
 import sn.isi.ecommerce.entities.Client;
 
 import java.util.List;
 
-public interface ClientService {
+public interface IClient {
     List<Client> getAllClients();
     Client getClientById(int id);
     Client getClientByEmail(String email);
