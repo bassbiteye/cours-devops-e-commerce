@@ -20,6 +20,8 @@ public class Client implements Serializable {
     private String ville;
     @Column(length = 20)
     private int telephone;
+    @Column(length = 50)
+    private String email;
     @OneToMany(mappedBy = "client", fetch = FetchType.EAGER)
     private List<Commande> commandes = new ArrayList<Commande>();
 }

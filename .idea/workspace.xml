@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98d302df-2a9f-4bda-8c78-26a1f1e6a444" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/projet-e-commerce.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/entities/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/entities/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +33,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -68,15 +69,16 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="sn.isi.ecommerce.controllers" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Documents\M2 ISI\devops\gestion-ecommerce\src\main" />
+      <recent name="C:\Users\user\Documents\M2 ISI\devops\gestion-ecommerce\src\main\resources" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\user\Documents\M2 ISI\devops\gestion-ecommerce\src\main" />
-      <recent name="C:\Users\user\Documents\M2 ISI\devops\gestion-ecommerce\src\main\resources" />
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="sn.isi.ecommerce.services" />
+      <recent name="sn.isi.ecommerce.controllers" />
     </key>
   </component>
   <component name="RunManager">
@@ -130,7 +132,7 @@
       <option name="presentableId" value="Default" />
       <updated>1640543825935</updated>
       <workItem from="1640543833704" duration="3316000" />
-      <workItem from="1642026901010" duration="1628000" />
+      <workItem from="1642026901010" duration="6394000" />
     </task>
     <servers />
   </component>
