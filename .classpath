@@ -13,8 +13,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="target/tomcat/work/Tomcat/localhost/_"/>
-	<classpathentry kind="lib" path="C:/Users/Thierno/eclipse-workspace/ProjetExamJsp/WebContent/WEB-INF/lib/eclipselink.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Thierno/eclipse-workspace/webjpa/WebContent/WEB-INF/lib/eclipselink.jar"/>
 	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
@@ -38,7 +36,6 @@
 			<attribute name="owner.project.facets" value="jst.web"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Thierno/eclipse-workspace/ProjetExamJsp/WebContent/WEB-INF/lib/javax.persistence_2.1.0.v201304241213.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/eclipseLink2.5.2">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
