@@ -5,37 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98d302df-2a9f-4bda-8c78-26a1f1e6a444" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/JPASupport-project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib__2_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.annotation.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.ejb.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.jms.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.persistence.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.resource.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.transaction.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/cours-devops-e-commerce.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cours-devops-e-commerce.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/eclipselink.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/eclipselink.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/controllers/LoginServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/dao/IRoles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/dao/IRoles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/dao/IUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/dao/IUsers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/dao/RolesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/dao/RolesImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/dao/UsersImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/dao/UsersImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/entities/Roles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/entities/Roles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/entities/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/entities/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/javax.persistence-2.1.0-doc.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/RolesImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/RolesImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/UsersImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/UsersImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -264,7 +235,7 @@
       <workItem from="1642086120765" duration="6945000" />
       <workItem from="1642110837435" duration="1508000" />
       <workItem from="1642114759913" duration="1641000" />
-      <workItem from="1642181842978" duration="3275000" />
+      <workItem from="1642181842978" duration="5344000" />
     </task>
     <servers />
   </component>
