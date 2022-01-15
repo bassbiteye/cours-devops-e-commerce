@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98d302df-2a9f-4bda-8c78-26a1f1e6a444" name="Default Changelist" comment="">
+<<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/.idea/projet-e-commerce.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/entities/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/entities/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +46,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< Updated upstream
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+=======
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+>>>>>>> Stashed changes
   </component>
   <component name="ProjectId" id="22poKWjHLvJEjfAlsHace1nscTT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -131,14 +144,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640543825935</updated>
+<<<<<<< Updated upstream
       <workItem from="1640543833704" duration="3316000" />
       <workItem from="1642026901010" duration="6394000" />
+=======
+      <workItem from="1640543833704" duration="3590000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+<<<<<<< Updated upstream
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -149,5 +167,52 @@
         </entry>
       </map>
     </option>
+=======
+  <component name="WindowStateProjectService">
+    <state x="175" y="0" key="#SQL_Dialects" timestamp="1640545264909">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="175" y="0" key="#SQL_Dialects/0.0.1366.728@0.0.1366.728" timestamp="1640545264909" />
+    <state x="350" y="54" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1640552302806">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="350" y="54" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1640552302806" />
+    <state x="274" y="7" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1640545941028">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="274" y="7" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1640545941028" />
+    <state x="444" y="0" key="#com.intellij.ide.util.MemberChooser" timestamp="1640552390784">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="444" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1640552390784" />
+    <state x="350" y="43" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1640545116855">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="350" y="43" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1640545116855" />
+    <state x="380" y="6" key="DetectedRootsChooserDialog" timestamp="1640545195008">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="380" y="6" key="DetectedRootsChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1640545195008" />
+    <state x="413" y="54" key="FileChooserDialogImpl" timestamp="1640544388318">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="54" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1640544388318" />
+    <state width="1274" height="151" key="GridCell.Tab.0.bottom" timestamp="1640552568373">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1274" height="151" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1640552568373" />
+    <state width="1274" height="151" key="GridCell.Tab.0.center" timestamp="1640552568366">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1274" height="151" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1640552568366" />
+    <state width="1274" height="151" key="GridCell.Tab.0.left" timestamp="1640552568366">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1274" height="151" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1640552568366" />
+    <state width="1274" height="151" key="GridCell.Tab.0.right" timestamp="1640552568366">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1274" height="151" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1640552568366" />
+>>>>>>> Stashed changes
   </component>
 </project>
