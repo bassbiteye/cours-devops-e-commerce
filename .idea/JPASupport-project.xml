@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DatabaseSettingsState">
+    <option name="database" value="ecommercePU" />
+    <option name="driverClass" value="sn.isi.ecommerce.entities" />
+    <option name="driverPath" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/org.eclipse.persistence.jpa.jpql_2.5.2.v20140319-9ad6abd.jar" />
+    <option name="url" value="localhost:3306/ecommercePU" />
+  </component>
+</project>
