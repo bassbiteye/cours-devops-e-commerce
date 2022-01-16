@@ -3,13 +3,22 @@ package sn.isi.ecommerce.dao;
 import sn.isi.ecommerce.entities.Client;
 import sn.isi.ecommerce.entities.Commande;
 
+import javax.persistence.EntityManager;
+import javax.persistence.Persistence;
+import java.util.ArrayList;
 import java.util.List;
 
 public class ClientImpl implements IClient {
+    private EntityManager entityManager;
+
+    public  ClientImpl() {
+        entityManager = Persistence.createEntityManagerFactory("ecommercePU")
+                .createEntityManager();
+    }
 
     @Override
     public List<Client> getAllClients() {
-        return null;
+        return entityManager.createQuery("SELECT c FROM Client c").getResultList();
     }
 
     @Override
@@ -24,7 +33,16 @@ public class ClientImpl implements IClient {
 
     @Override
     public Client addClient(Client client) {
-        return null;
+        try {
+            entityManager.getTransaction().begin();
+            entityManager.persist(client);
+            entityManager.getTransaction().commit();
+            return client;
+        } catch (Exception e) {
+            entityManager.getTransaction().rollback();
+            e.printStackTrace();
+            return null;
+        }
     }
 
     @Override
