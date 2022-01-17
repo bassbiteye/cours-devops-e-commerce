@@ -8,7 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="gestion-ecommerce" />
         <module name="projet-e-commerce" />
+        <module name="cours-devops-e-commerce" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cours-devops-e-commerce" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
