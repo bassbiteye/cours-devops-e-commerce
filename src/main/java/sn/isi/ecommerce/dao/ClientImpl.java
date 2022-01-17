@@ -56,12 +56,15 @@ public class ClientImpl implements IClient {
     }
 
     @Override
-    public boolean checkIfClientIdExists(int id) {
-        return false;
-    }
-
-    @Override
     public List<Commande> getAllCommandesOfClientId(int id) {
-        return null;
+
+        try {
+            List<Commande> commandes = entityManager.createQuery("SELECT c FROM Commande c WHERE c.client = :id")
+                    .setParameter("id", id).getResultList();
+            return commandes ;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
     }
 }
