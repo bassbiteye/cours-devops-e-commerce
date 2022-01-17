@@ -1,0 +1,195 @@
+/*------------------------------------------------------------------
+73. Sidebar / #sidebar
+-------------------------------------------------------------------*/
+#sidebar{
+	@extend %clearfix;
+	padding-top: 20px;
+}
+/*------------------------------------------------------------------
+74. Shop Widget / .shop-widget
+-------------------------------------------------------------------*/
+.shop-widget{
+	margin: 0 0 38px;
+	&.filter-widget{
+		h2{margin: 0 0 35px;}
+		&.bg-grey{
+			background: $clr-35;
+			border: 1px solid #efefef;
+			padding: 36px 38px 48px 30px;
+		}
+	}
+	h2{
+		@include font(22px, 24px);
+		text-transform: uppercase;
+		color: $clr-30;
+		font-family: $font-family-base-1;
+		font-weight: 700;
+		margin: 0 0 32px;
+	}
+	.sub-title{
+		@include font(14px, 16px);
+		color: $clr-30;
+		font-weight: 600;
+		margin: 0 0 15px;
+		display: block;
+	}
+	.category-list{
+		margin: 0;
+		color: $clr-3;
+		padding: 0 0 2px;
+		text-transform: uppercase;
+		font-family: $font-family-base-1;
+		li{
+			overflow: hidden;
+			padding: 0 0 10px;
+			margin: 0 0 13px;
+			border-bottom: 1px solid $clr-3;
+			&:last-child{
+				border-bottom: none;
+			}
+		}
+		.name{
+			float: left;
+			@include font(16px, 18px);
+			font-weight: 700;
+		}
+		.num{
+			float: right;
+			font-weight: 400;
+			@include font(13px, 15px);
+			margin: 2px 0 0;
+		}
+		a{
+			color: $clr-3;
+			transition: all 0.25s linear;
+			&:hover{ color: $clr-20;}
+		}
+	}
+	.price-range{
+		overflow: hidden;
+		.range-slider{
+			background: #b3b3b3;
+			border-radius: 10px;
+			position: relative;
+			width: 100%;
+			height: 6px;
+			margin: 10px 0 23px;
+			z-index: 1;
+			&:before{
+				@include element(0, auto, auto, 32px);
+				@include size(122px, 6px);
+				border-radius: 10px;
+				background: $clr-30;
+			}
+			.dot{
+				position: absolute;
+				left: 21px;
+				top: -4px;
+				@include size(13px, 13px);
+				border: 2px solid $clr-30;
+				background: $white;
+				border-radius: 100%;
+			}
+			.dot2{ left: 150px; }
+		}
+		.price{
+			float: left;
+			@include font(14px, 16px);
+			color: $clr-30;
+			font-weight: 400;
+			padding: 0 0 0 5px;
+		}
+	}
+	.filter-btn{
+		float: right;
+		@include font(14px, 16px);
+		background: $clr-30;
+		color: $white;
+		font-weight: 400;
+		padding: 1px 7px 3px 10px;
+		border-radius: 3px;
+		transition: all 0.25s linear;
+		&:hover{ background: $clr-20;}
+	}
+}
+/*------------------------------------------------------------------
+75. Nice Form / .nice-form
+-------------------------------------------------------------------*/
+.nice-form{
+	overflow: hidden;
+	margin: 0 0 20px;
+	padding: 0 0 18px 5px;
+	border-bottom: 1px solid $clr-30;
+	.num{
+		float: right;
+		font-weight: 400;
+		@include font(13px, 15px);
+		margin: 2px 0 0;
+	}
+}
+.nice-form [type="radio"],
+.nice-form [type="checkbox"]{
+	position:fixed;
+	left:0;
+	top:0;
+	opacity:0;
+	z-index: -1;
+}
+.nice-form .fake-input ,
+.nice-form label {
+	display:inline-block;
+	vertical-align: middle;
+}
+.nice-form label{
+	margin: 0;
+	font-weight: 300;
+}
+.nice-form .fake-input{
+	display: inline-block;
+	width:11px;
+	height:11px;
+	border:1px solid #cecece;
+	background:#f2f2f2;
+	vertical-align: middle;
+	position: relative;
+	margin-right: 5px;
+	border-radius: 2px;
+}
+.nice-form [type=radio] + .fake-input{border-radius:100%;}
+.nice-form [type="checkbox"] + .fake-input:before{
+	content:'';
+	width:10px;
+	height:6px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	border:3px solid #777;
+	border-width:0 0 3px 3px;
+	opacity: 0;
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	margin:-5px 0 0 -2px;
+}
+.nice-form [type="radio"] + .fake-input:before{
+	content:'';
+	position: absolute;
+	top: 3px;
+	right: 3px;
+	bottom: 3px;
+	left: 3px;
+	background: #777;
+	border-radius:100%;
+	opacity: 0;
+}
+.nice-form [type="radio"]:checked + .fake-input:before,
+.nice-form [type="checkbox"]:checked + .fake-input:before{opacity:1;}
+.nice-form [type="radio"]:checked ~ .fake-label,
+.nice-form [type="checkbox"]:checked ~ .fake-label {
+	font-weight:300;
+	color:$clr-30;
+	@include font(13px, 15px);
+}
+.nice-form input:disabled + .fake-input,
+.nice-form input:disabled ~ .fake-label{opacity: .5;}

@@ -7,17 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Schön. | eCommerce HTML5 Template</title>
     <!-- include the site stylesheet -->
-    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic%7cMontserrat:400,700%7cOxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/assets1/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic%7cMontserrat:400,700%7cOxygen:400,300,700' rel='stylesheet' type='text/assets1/css'>
     <!-- include the site stylesheet -->
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="assets1/css/bootstrap.assets1/css">
     <!-- include the site stylesheet -->
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="assets1/css/animate.assets1/css">
     <!-- include the site stylesheet -->
-    <link rel="stylesheet" href="css/icon-fonts.css">
+    <link rel="stylesheet" href="assets1/css/icon-fonts.assets1/css">
     <!-- include the site stylesheet -->
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="assets1/css/main.assets1/css">
     <!-- include the site stylesheet -->
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="assets1/css/responsive.assets1/css">
 </head>
 <body>
 <!-- main container of all the page elements -->
@@ -25,7 +25,7 @@
     <!-- Page Loader -->
     <div id="pre-loader" class="loader-container">
         <div class="loader">
-            <img src="images/svg/rings.svg" alt="loader">
+            <img src="assets1/images/svg/rings.svg" alt="loader">
         </div>
     </div>
     <!-- W1 start here -->
@@ -38,7 +38,7 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <!-- mt logo start here -->
-                            <div class="mt-logo"><a href="#"><img src="images/mt-logo.png" alt="schon"></a></div>
+                            <div class="mt-logo"><a href="#"><img src="assets1/images/mt-logo.png" alt="schon"></a></div>
                             <!-- mt icon list start here -->
                             <ul class="mt-icon-list">
                                 <li class="hidden-lg hidden-md">
@@ -1896,7 +1896,7 @@
                             <!-- F Widget About of the Page -->
                             <div class="f-widget-about">
                                 <div class="logo">
-                                    <a href="index.html"><img src="images/logo.png" alt="Schon"></a>
+                                    <a href="index.html"><img src="assets1/images/logo.png" alt="Schon"></a>
                                 </div>
                                 <p>Exercitation ullamco laboris nisi ut aliquip ex commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                                 <!-- Social Network of the Page -->
@@ -1979,7 +1979,7 @@
                         </div>
                         <div class="col-xs-12 col-sm-6 text-right">
                             <div class="bank-card">
-                                <img src="images/bank-card.png" alt="bank-card">
+                                <img src="assets1/images/bank-card.png" alt="bank-card">
                             </div>
                         </div>
                     </div>
@@ -1991,10 +1991,10 @@
     <span id="back-top" class="fa fa-arrow-up"></span>
 </div>
 <!-- include jQuery -->
-<script src="js/jquery.js"></script>
+<script src="assets1/js/jquery.js"></script>
 <!-- include jQuery -->
-<script src="js/plugins.js"></script>
+<script src="assets1/js/plugins.js"></script>
 <!-- include jQuery -->
-<script src="js/jquery.main.js"></script>
+<script src="assets1/js/jquery.main.js"></script>
 </body>
 </html>
