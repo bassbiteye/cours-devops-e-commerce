@@ -18,7 +18,7 @@ public class ClientImpl implements IClient {
 
     @Override
     public List<Client> getAllClients() {
-        return entityManager.createQuery("SELECT c FROM Client c").getResultList();
+        return null;
     }
 
     @Override

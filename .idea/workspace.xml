@@ -10,10 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98d302df-2a9f-4bda-8c78-26a1f1e6a444" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/dao/ClientImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/dao/ClientImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/sn/isi/ecommerce/dao/IClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sn/isi/ecommerce/dao/IClientTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -271,9 +271,9 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.IClientTest.getAllCommandesOfClientId" />
+      <item itemvalue="JUnit.IClientTest.addClient" />
       <item itemvalue="Maven.gestion-ecommerce [tomcat7:run]" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.35" />
-      <item itemvalue="JUnit.IClientTest.addClient" />
     </list>
     <recent_temporary>
       <list>
@@ -312,7 +312,8 @@
       <workItem from="1642200461111" duration="5092000" />
       <workItem from="1642283859263" duration="6237000" />
       <workItem from="1642337160210" duration="11590000" />
-      <workItem from="1642465994261" duration="2800000" />
+      <workItem from="1642465994261" duration="2939000" />
+      <workItem from="1642469180692" duration="141000" />
     </task>
     <servers />
   </component>
