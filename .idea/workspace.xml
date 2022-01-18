@@ -307,8 +307,11 @@
       <item itemvalue="JUnit.IClientTest.getAllCommandesOfClientId" />
       <item itemvalue="JUnit.IClientTest.addClient" />
       <item itemvalue="Maven.gestion-ecommerce [tomcat7:run]" />
+<<<<<<< HEAD
       <item itemvalue="JUnit.IClientTest.updateClient" />
       <item itemvalue="JUnit.IClientTest.deleteClient" />
+=======
+>>>>>>> bf5a1821f58391c95a2b03fe275c594863dd1699
     </list>
     <recent_temporary>
       <list>

@@ -21,10 +21,12 @@ class IClientTest {
 
     @Test
     void getClientById() {
+        Assertions.assertNotNull(iClient.getClientById(1), "LE Test getClientById a echoué");
     }
 
     @Test
     void getClientByEmail() {
+        Assertions.assertNotNull(iClient.getClientByEmail("blackbeard@email.op"), "LE Test getClientByEmail a echoué");
     }
 
     @Test
