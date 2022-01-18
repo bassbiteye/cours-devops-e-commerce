@@ -109,7 +109,7 @@
       <recent name="sn.isi.ecommerce.controllers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IClientTest.updateClient">
+  <component name="RunManager" selected="JUnit.IClientTest.deleteClient">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tests.Main" />
       <module name="projet-e-commerce" />
@@ -304,19 +304,16 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.IClientTest.deleteClient" />
+      <item itemvalue="JUnit.IClientTest.updateClient" />
       <item itemvalue="JUnit.IClientTest.getAllCommandesOfClientId" />
       <item itemvalue="JUnit.IClientTest.addClient" />
       <item itemvalue="Maven.gestion-ecommerce [tomcat7:run]" />
-<<<<<<< HEAD
-      <item itemvalue="JUnit.IClientTest.updateClient" />
-      <item itemvalue="JUnit.IClientTest.deleteClient" />
-=======
->>>>>>> bf5a1821f58391c95a2b03fe275c594863dd1699
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.IClientTest.updateClient" />
         <item itemvalue="JUnit.IClientTest.deleteClient" />
+        <item itemvalue="JUnit.IClientTest.updateClient" />
         <item itemvalue="JUnit.IClientTest.addClient" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.IClientTest.getAllCommandesOfClientId" />

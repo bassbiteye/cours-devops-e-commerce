@@ -41,15 +41,15 @@ class IClientTest {
     void updateClient() {
 
         Client client = new Client();
-
-        client.setNom("Saliou");
-        client.setPrenom("beug ");
-        Assertions.assertNotNull( iClient.updateClient(8, client), "La methode updateClient a echoué");
+        client.setId(9);
+        client.setNom("Macky");
+        client.setPrenom("Sa ");
+        Assertions.assertNotNull( iClient.updateClient(9, client), "La methode updateClient a echoué");
     }
 
     @Test
     void deleteClient() {
-        Assertions.assertEquals( true, iClient.deleteClient(4), "La methode deleteClient a echoué");
+        Assertions.assertEquals( true, iClient.deleteClient(9), "La methode deleteClient a echoué");
     }
 
     @Test
