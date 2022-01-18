@@ -9,6 +9,6 @@ public class Livraison implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
-    @OneToOne()
+    @OneToOne(mappedBy="livraison")
     private Commande commande;
 }

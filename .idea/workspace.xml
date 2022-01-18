@@ -5,161 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98d302df-2a9f-4bda-8c78-26a1f1e6a444" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/gestionClients/client.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/gestionCommandes/commande.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/gestionFacturations/facturation.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/gestionFournisseurs/fournisseur.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/gestionLivraisons/livraison.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/gestionProduits/produit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/gestionStocks/stock.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/gestionUsers/user.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/css/maps/style.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/fonts/Roboto/Roboto-Black.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/fonts/Roboto/Roboto-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/fonts/Roboto/Roboto-Black.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/fonts/Roboto/Roboto-Black.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/fonts/Roboto/Roboto-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/fonts/Roboto/Roboto-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/fonts/Roboto/Roboto-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/fonts/Roboto/Roboto-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/fonts/Roboto/Roboto-Light.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/fonts/Roboto/Roboto-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/fonts/Roboto/Roboto-Light.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/fonts/Roboto/Roboto-Light.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/fonts/Roboto/Roboto-Medium.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/fonts/Roboto/Roboto-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/fonts/Roboto/Roboto-Medium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/fonts/Roboto/Roboto-Medium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/fonts/Roboto/Roboto-Regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/fonts/Roboto/Roboto-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/fonts/Roboto/Roboto-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/fonts/Roboto/Roboto-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/images/LOGO_E-COMMERCE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/images/LOGO_E-COMMERCE.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/images/auth/e-commerce.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/images/auth/lockscreen-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/images/auth/login-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/images/auth/register-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/images/faces/face1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/images/faces/face10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/images/faces/face11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/images/faces/face12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/images/faces/face13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/images/faces/face14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/images/faces/face15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/images/faces/face16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/images/faces/face17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/images/faces/face18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/images/faces/face19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/images/faces/face2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/images/faces/face20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/images/faces/face21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/images/faces/face22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/images/faces/face23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/images/faces/face24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/images/faces/face25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/images/faces/face26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/images/faces/face27.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/images/faces/face3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/images/faces/face4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/images/faces/face5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/images/faces/face6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/images/faces/face7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/images/faces/face8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/images/faces/face9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/images/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/images/logo-mini.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/images/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/js/Chart.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/js/chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/js/dashboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/js/data-table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/js/dataTables.bootstrap4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/js/documentation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/js/file-upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/js/hoverable-collapse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/js/jquery.dataTables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/js/off-canvas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/js/tabs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/js/template.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/scss/_background.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/scss/_demo.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/scss/_fonts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/scss/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/scss/_functions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/scss/_layouts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/scss/_misc.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/scss/_navbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/scss/_reset.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/scss/_sidebar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/scss/_typography.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/scss/_utilities.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/scss/_vertical-wrapper.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/scss/components/_badges.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/scss/components/_bootstrap-progress.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/scss/components/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/scss/components/_cards.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/scss/components/_checkbox-radio.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/scss/components/_dropdown.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/scss/components/_forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/scss/components/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/scss/components/_lists.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/scss/components/_tables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/scss/components/plugin-overrides/_data-tables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/scss/landing-screens/_auth.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/scss/mixins/_animation.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/scss/mixins/_badges.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/scss/mixins/_blockqoute.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/scss/mixins/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/scss/mixins/_cards.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/scss/mixins/_misc.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/scss/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/vendors/base/vendor.bundle.base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/vendors/base/vendor.bundle.base.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/vendors/chart.js/Chart.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/vendors/datatables.net-bs4/dataTables.bootstrap4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/vendors/datatables.net-bs4/dataTables.bootstrap4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/vendors/datatables.net/jquery.dataTables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/vendors/mdi/css/materialdesignicons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/vendors/mdi/fonts/materialdesignicons-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/vendors/mdi/fonts/materialdesignicons-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/vendors/mdi/fonts/materialdesignicons-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/vendors/mdi/fonts/materialdesignicons-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/admin-template/vendors/mdi/fonts/materialdesignicons-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/footer1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/header1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/controllers/FournisseurServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/dao/FournisseurImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/dao/IFournisseur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fournisseur/fournisseur.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/controllers/AccueilServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/controllers/AccueilServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/controllers/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/controllers/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/entities/Commande.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/entities/Commande.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/entities/Livraison.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/entities/Livraison.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/load.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/web.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,6 +48,7 @@
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -195,8 +58,17 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="22poKWjHLvJEjfAlsHace1nscTT" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -228,6 +100,9 @@
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="dao" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="sn.isi.ecommerce.dao" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -310,7 +185,9 @@
       <workItem from="1642026901010" duration="7578000" />
       <workItem from="1642089613233" duration="1079000" />
       <workItem from="1642200461111" duration="5092000" />
-      <workItem from="1642383143762" duration="2177000" />
+      <workItem from="1642383143762" duration="2922000" />
+      <workItem from="1642498872640" duration="4473000" />
+      <workItem from="1642505687677" duration="1406000" />
     </task>
     <servers />
   </component>
@@ -335,25 +212,29 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="175" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1642383261616" />
-    <state width="1274" height="65" key="GridCell.Tab.0.bottom" timestamp="1642385337515">
+    <state x="444" y="0" key="#com.intellij.ide.util.MemberChooser" timestamp="1642500287098">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1274" height="65" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1642385337515" />
-    <state width="1274" height="65" key="GridCell.Tab.0.center" timestamp="1642385337515">
+    <state x="444" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1642500287098" />
+    <state width="1274" height="146" key="GridCell.Tab.0.bottom" timestamp="1642530998521">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1274" height="65" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1642385337515" />
-    <state width="1274" height="65" key="GridCell.Tab.0.left" timestamp="1642385337515">
+    <state width="1274" height="146" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1642530998521" />
+    <state width="1274" height="146" key="GridCell.Tab.0.center" timestamp="1642530998521">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1274" height="65" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1642385337515" />
-    <state width="1274" height="65" key="GridCell.Tab.0.right" timestamp="1642385337515">
+    <state width="1274" height="146" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1642530998521" />
+    <state width="1274" height="146" key="GridCell.Tab.0.left" timestamp="1642530998520">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1274" height="65" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1642385337515" />
-    <state x="294" y="136" key="com.intellij.ide.util.TipDialog" timestamp="1642383142653">
+    <state width="1274" height="146" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1642530998520" />
+    <state width="1274" height="146" key="GridCell.Tab.0.right" timestamp="1642530998521">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="294" y="136" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1642383142653" />
+    <state width="1274" height="146" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1642530998521" />
+    <state x="294" y="136" key="com.intellij.ide.util.TipDialog" timestamp="1642505755022">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="294" y="136" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1642505755022" />
   </component>
 </project>

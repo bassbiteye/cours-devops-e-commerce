@@ -16,6 +16,6 @@ public class Commande implements Serializable {
     private List<Detail> details = new ArrayList<Detail>();
     @OneToOne()
     private Facturation facturation;
-    @OneToOne()
+    @OneToOne(mappedBy="commande")
     private Livraison livraison;
 }
