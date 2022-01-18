@@ -11,6 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="98d302df-2a9f-4bda-8c78-26a1f1e6a444" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,20 +116,7 @@
       <recent name="sn.isi.ecommerce.controllers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IClientTest.addClient (1)">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tests.Main" />
-      <module name="projet-e-commerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.IClientTest.getAllClients">
     <configuration name="IClientTest.addClient (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="eCormmerce" />
       <extension name="coverage">
@@ -173,6 +161,22 @@
       <option name="PACKAGE_NAME" value="sn.isi.ecommerce.dao" />
       <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.IClientTest" />
       <option name="METHOD_NAME" value="deleteClient" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IClientTest.getAllClients" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="projet-e-commerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sn.isi.ecommerce.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sn.isi.ecommerce.dao" />
+      <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.IClientTest" />
+      <option name="METHOD_NAME" value="getAllClients" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -307,21 +311,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.IClientTest.deleteClient" />
       <item itemvalue="JUnit.IClientTest.updateClient" />
       <item itemvalue="JUnit.IClientTest.addClient" />
       <item itemvalue="JUnit.IClientTest.addClient (1)" />
       <item itemvalue="Maven.gestion-ecommerce [tomcat7:run]" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.35" />
+      <item itemvalue="JUnit.IClientTest.getAllClients" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IClientTest.getAllClients" />
         <item itemvalue="JUnit.IClientTest.addClient (1)" />
         <item itemvalue="JUnit.IClientTest.deleteClient" />
         <item itemvalue="JUnit.IClientTest.updateClient" />
         <item itemvalue="JUnit.IClientTest.addClient" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
