@@ -42,8 +42,8 @@ class IClientTest {
 
         Client client = new Client();
         client.setId(9);
-        client.setNom("Macky");
-        client.setPrenom("Sa ");
+        client.setNom("Moustapha");
+        client.setPrenom("Diallo");
         Assertions.assertNotNull( iClient.updateClient(9, client), "La methode updateClient a echoué");
     }
 
