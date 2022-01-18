@@ -11,6 +11,9 @@
   <component name="ChangeListManager">
     <list default="true" id="98d302df-2a9f-4bda-8c78-26a1f1e6a444" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sn/isi/ecommerce/dao/IClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sn/isi/ecommerce/dao/IClientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +106,7 @@
       <recent name="sn.isi.ecommerce.controllers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IClientTest">
+  <component name="RunManager" selected="JUnit.IClientTest.addClient">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tests.Main" />
       <module name="projet-e-commerce" />
@@ -117,21 +120,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IClientTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="projet-e-commerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sn.isi.ecommerce.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sn.isi.ecommerce.dao" />
-      <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.IClientTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="IClientTest.addClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="projet-e-commerce" />
       <extension name="coverage">
@@ -140,25 +128,11 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="13" />
       <option name="PACKAGE_NAME" value="sn.isi.ecommerce.dao" />
       <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.IClientTest" />
       <option name="METHOD_NAME" value="addClient" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IClientTest.getAllClients" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="projet-e-commerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sn.isi.ecommerce.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sn.isi.ecommerce.dao" />
-      <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.IClientTest" />
-      <option name="METHOD_NAME" value="getAllClients" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -172,6 +146,8 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="PACKAGE_NAME" value="sn.isi.ecommerce.dao" />
       <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.IClientTest" />
       <option name="METHOD_NAME" value="getAllCommandesOfClientId" />
@@ -294,20 +270,16 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.IClientTest" />
-      <item itemvalue="JUnit.IClientTest.getAllClients" />
-      <item itemvalue="JUnit.IClientTest.addClient" />
       <item itemvalue="JUnit.IClientTest.getAllCommandesOfClientId" />
       <item itemvalue="Maven.gestion-ecommerce [tomcat7:run]" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.35" />
+      <item itemvalue="JUnit.IClientTest.addClient" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.IClientTest.getAllClients" />
-        <item itemvalue="JUnit.IClientTest.getAllCommandesOfClientId" />
         <item itemvalue="JUnit.IClientTest.addClient" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.IClientTest" />
+        <item itemvalue="JUnit.IClientTest.getAllCommandesOfClientId" />
       </list>
     </recent_temporary>
   </component>
@@ -340,7 +312,7 @@
       <workItem from="1642200461111" duration="5092000" />
       <workItem from="1642283859263" duration="6237000" />
       <workItem from="1642337160210" duration="11590000" />
-      <workItem from="1642465994261" duration="1505000" />
+      <workItem from="1642465994261" duration="2800000" />
     </task>
     <servers />
   </component>
