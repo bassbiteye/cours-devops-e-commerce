@@ -41,10 +41,10 @@ class IClientTest {
     void updateClient() {
 
         Client client = new Client();
-        client.setId(2);
-        client.setNom("Isssa");
-        client.setPrenom("Compliqué");
-        Assertions.assertNotNull( iClient.updateClient(7, client), "La methode updateClient a echoué");
+
+        client.setNom("Saliou");
+        client.setPrenom("beug ");
+        Assertions.assertNotNull( iClient.updateClient(8, client), "La methode updateClient a echoué");
     }
 
     @Test

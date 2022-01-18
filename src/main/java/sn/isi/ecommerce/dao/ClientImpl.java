@@ -59,10 +59,10 @@ public class ClientImpl implements IClient {
     @Override
     public Client updateClient(int id, Client client) {
         try {
-            /*if (this.getClientById(id) == null){
+            if (this.getClientById(id) == null){
                 return null;
             }
-             */
+
             entityManager.getTransaction().begin();
             entityManager.merge(client);
             entityManager.getTransaction().commit();
@@ -78,9 +78,9 @@ public class ClientImpl implements IClient {
     public boolean deleteClient(int id) {
         try {
             Client client = entityManager.find(Client.class, id);
-            /* if (this.getClientById(id) == null){
+            if (this.getClientById(id) == null){
                 return false;
-            }*/
+            }
 
             entityManager.getTransaction().begin();
             entityManager.remove(client);
