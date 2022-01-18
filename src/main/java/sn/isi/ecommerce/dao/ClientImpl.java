@@ -47,12 +47,39 @@ public class ClientImpl implements IClient {
 
     @Override
     public Client updateClient(int id, Client client) {
-        return null;
+        try {
+            /*if (this.getClientById(id) == null){
+                return null;
+            }
+             */
+            entityManager.getTransaction().begin();
+            entityManager.merge(client);
+            entityManager.getTransaction().commit();
+            return client;
+        } catch (Exception e) {
+            entityManager.getTransaction().rollback();
+            e.printStackTrace();
+            return null;
+        }
     }
 
     @Override
     public boolean deleteClient(int id) {
-        return false;
+        try {
+            Client client = entityManager.find(Client.class, id);
+            /* if (this.getClientById(id) == null){
+                return false;
+            }*/
+
+            entityManager.getTransaction().begin();
+            entityManager.remove(client);
+            entityManager.getTransaction().commit();
+            return true;
+        } catch (Exception e) {
+            entityManager.getTransaction().rollback();
+            e.printStackTrace();
+            return false;
+        }
     }
 
     @Override
