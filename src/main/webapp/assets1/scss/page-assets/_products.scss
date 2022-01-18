@@ -1,0 +1,2026 @@
+
+/*------------------------------------------------------------------
+23. Mt Product1 / .mt-product1
+-------------------------------------------------------------------*/
+.mt-product1{
+	@include alignment(inline-block, top);
+	&.gray{background: #f8f8f8;}
+	&.style-1{
+		.box:after{
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			content: '';
+			background: rgba(231, 198, 126, 0.68);
+			@include transition(all, ease, 0.5s);
+			opacity: 0;
+			visibility: hidden;
+		}
+		.links{
+			background: none;
+			border: 0;
+			li + li{border-color: #fff;}
+			a{
+				color: #fff;
+				font-size: 24px;
+			}
+		}
+	}
+	&.large{
+		.title{font-size: 18px;}
+		.price{
+			font-size: 23px;
+			.fa{font-size: 17px;}
+		}
+		.caption{
+			.best-price{font-size: 17px;}
+			.off{font-size: 17px;}
+			.new{font-size: 17px;}
+		}
+	}
+	&.same-height .box{min-height: 255px;}
+	&:hover{
+		.links,
+		.box :after{
+			opacity: 1;
+			visibility: visible;
+		}
+	}
+	.box{
+		margin: 0 0 11px;
+		overflow: hidden;
+		position: relative;
+	}
+	.b1{
+		width: 100%;
+		height: 235px;
+		display: table;
+	}
+	.b2{@include alignment(table-cell, bottom);}
+	.caption{
+		top: 44px;
+		left: 0; 
+		text-align: left;
+		position: absolute;
+		.off{
+			color: #fff;
+			display: block;
+			padding: 3px 6px;
+			margin-bottom: 1px;
+			background: #b2cc29;
+			font: 700 14px/16px $font-family-base-1;
+		}
+		.new{
+			color: #fff;
+			padding: 3px 6px;
+			background: #000;
+			text-transform: uppercase;
+			font:700 13px/16px $font-family-base-1;
+		}
+		.best-price{
+			color: #fff;
+			padding: 3px 6px;
+			background: #fed062;
+			font: 700 14px/16px $font-family-base-1;
+		}
+	}
+	.txt{overflow: hidden;}
+	.title{
+		display: block;
+		margin: 0 0 5px;
+		color: $color16;
+		text-transform: capitalize;
+		font: 600 14px/20px $source-sans-pro;
+		a{
+			color: $color16;
+			@include transition (all, 0.4s, linear);
+			&:hover{color: $color1;}
+		}
+	}
+	.price{
+		display: block;
+		color: #010101;
+		font: 600 17px/20px $source-sans-pro;
+		.fa{
+			font-size: 13px;
+			margin: 0 4px 0 0;
+		}
+	}
+	del{
+		display: block;
+		color: #b3b3b3;
+		font: 600 17px/20px $source-sans-pro;
+		.fa{
+			font-size: 13px;
+			margin: 0 4px 0 0;
+		}
+	}
+	.links{
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 1;
+		opacity: 0;
+		width: 100%;
+		display: table;
+		font-size: 17px;
+		background: #fff;
+		@extend %listreset;
+		visibility: hidden;
+		position: absolute;
+		text-align: center;
+		border: 1px solid #eee;
+		@include transition(all, ease, 0.5s);
+		.icomoon{vertical-align: middle;}
+		.icon-heart{top: 4px; position: relative;}
+		&.add{
+			box-shadow: 0 0 9px rgba(172,172,172,.35);
+			padding: 10px 0;
+			width: 79%;
+			bottom: 30px;
+			margin: 0 auto;
+			max-width: 180px;
+			.icon-handbag{font-size: 17px;}
+			li{
+				display: inline-block;
+				border-color: #ccc6c6;
+			}
+			a{padding: 0 13px;}
+		}
+		li{
+			@include alignment(table-cell, middle);
+			+ li{border-left: 1px solid #eee;}
+		}
+		a{
+			color: #8a8a8a;
+			display: block;
+			padding: 12px 9px;
+			text-decoration: none;
+			@include transition (all, 0.4s, linear);
+			.icon-handbag,
+			span{
+				font-size: 15px;
+				@include alignment(inline-block, middle);
+			}
+			span{
+				font-size: 14px;
+				margin: 0 -2px 0 10px;
+			}
+			&:hover{color: $color1;}
+		}
+		.icon-heart,
+		.icon-heart-empty{
+			top: 3px;
+			position: relative;
+		}
+	}
+	.mt-stars{
+		left: 0;
+		margin: 0;
+		padding: 0;
+		right: 8px;
+		bottom: -1px;
+		line-height: 1;
+		font-size: 12px;
+		list-style: none;
+		position: absolute;
+		li{
+			margin: 0 1px 0 0;
+			@include alignment(inline-block, middle);
+		}
+		.fa{color: #c8a760;}
+		.fa-star-o{color: #d6d6d6;}
+	}
+}
+/*------------------------------------------------------------------
+24. Mt Product2 / .mt-product2
+-------------------------------------------------------------------*/
+.mt-product2{
+	width: 213px;
+	margin: 0 10px;
+	@include alignment(inline-block, top);
+	&:hover{
+		.links{
+			opacity: 1;
+			visibility: visible;
+			li{
+				transform: translateY(0);
+				-webkit-transform: translateY(0);
+				&:nth-child(even){
+					transform: translateY(0);
+					-webkit-transform: translateY(0);
+				}
+			}
+		}
+		img{opacity: 0.7;}
+		&.style-2:after{
+			opacity: 1;
+			visibility: visible;
+		}
+	}
+	img{@include transition (all, 0.4s, linear);}
+	.box{
+		position: relative;
+		margin: 0 0 14px;
+	}
+	.links{
+		@extend %listreset;
+		@extend %clearfix;
+		text-align: center;
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 50%;
+		margin: -24px 0 0;
+		@include transition(all, ease, 0.5s);
+		opacity: 0;
+		visibility: hidden;
+		li{
+			margin: 0 5px;
+			position: relative;
+			transform: translateY(-40px);
+			transition: all 0.2s ease 0.3s;
+			-webkit-transform: translateY(-40px);
+			-webkit-transition: all 0.2s ease 0.3s;
+			@include alignment(inline-block, middle);
+			&:nth-child(even){
+				transform: translateY(40px);
+				-webkit-transform: translateY(40px);
+			}
+		}
+		a{
+			display: block;
+			color: #6b6b6b;
+			background: #fff;
+			border-radius: 100%;
+			text-decoration: none;
+			@include size(41px, 41px);
+			@include font-size(16px, 38px);
+			&:hover{color: $color1;}
+		}
+	}
+	.txt{
+		overflow: hidden;
+		padding: 0 10px 15px;
+	}
+	.title{
+		display: block;
+		color: #747474;
+		font: 600 14px/20px $source-sans-pro;
+	}
+	.price{
+		display: block;
+		.fa,
+		span{
+			@include alignment(inline-block, middle);
+			color: #000;
+			font-size: 14px;
+		}
+		span{font: 600 17px/20px $source-sans-pro;}
+	}
+	.caption{
+		left: 0; 
+		top: 36px;
+		text-align: left;
+		position: absolute;
+		.off{
+			color: #fff;
+			display: block;
+			padding: 5px 8px;
+			margin-bottom: 1px;
+			background: #b2cc29;
+			font: 700 17px/20px $font-family-base-1;
+		}
+		.new{
+			color: #fff;
+			padding: 5px 8px;
+			background: #000;
+			text-transform: uppercase;
+			font:700 17px/20px $font-family-base-1;
+		}
+		.best-price{
+			color: #fff;
+			padding: 5px 8px;
+			background: #fed062;
+			font: 700 17px/20px $font-family-base-1;
+		}
+	}
+	.mt-stars{
+		margin: 0;
+		left: 20px;
+		padding: 0;
+		right: 8px;
+		bottom: -1px;
+		line-height: 1;
+		font-size: 12px;
+		list-style: none;
+		position: absolute;
+		li{
+			margin: 0 1px 0 0;
+			@include alignment(inline-block, middle);
+		}
+		.fa{color: #c8a760;}
+		.fa-star-o{color: #d6d6d6;}
+	}
+	del{
+		display: block;
+		color: #b3b3b3;
+		font: 600 17px/20px $source-sans-pro;
+		.fa{
+			font-size: 13px;
+			margin: 0 4px 0 0;
+		}
+	}
+	&.style-2{
+		position: relative;
+		&:after{
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			content: '';
+			background: rgba(205, 255, 127, 0.73);
+			@include transition(all, ease, 0.5s);
+			opacity: 0;
+			visibility: hidden;
+		}
+		.links{
+			text-align: right;
+			margin: 0;
+			top: 10px;
+			right: 10px;
+			z-index: 1;
+			li{
+				display: block;
+				margin: 0 0 8px;
+			}
+			a{
+				border-radius: 0;
+				text-align: center;
+				@include alignment(inline-block, middle);
+			}
+		}
+	}
+	&.large{
+		width: 276px;
+		margin: 0 19px 35px 10px;
+		.box{margin: 0 0 9px;}
+		.txt{
+			padding: 0 10px 25px 19px;
+			.title{
+				margin: 0 0 9px;
+				font-size: 18px;
+				line-height: 20px;
+			}
+			.price .fa,
+			.price span{font-size: 23px;}
+		}
+	}
+	&.bg-grey{background: #f5f5f5;}
+}
+/*------------------------------------------------------------------
+25. product-3 / .product-3
+-------------------------------------------------------------------*/
+.product-3{
+	margin: 0 10px;
+	text-align: center;
+	@include alignment(inline-block, top);
+	&:hover .links{box-shadow: 0 0 9px rgba(172,172,172,.35);}
+	&.hover2:hover .links{box-shadow: none; background: #f6f6f6;}
+	.img{
+		overflow: hidden;
+		margin: 0 0 15px;
+		img{
+			display: block;
+			margin: 0 auto;
+		}
+	}
+	.txt{
+		overflow: hidden;
+		min-height: 77px;
+	}
+	.title{
+		display: block;
+		color: #535353;
+		margin: 0 0 12px;
+		text-transform: uppercase;
+		font: 18px/20px $font-family-base-1;
+	}
+	.price{
+		color: #a6a6a6;
+		display: block;
+		font: 700 20px/20px $font-family-base-1;
+		.fa{font-size: 14px;}
+	}
+	.color-box{
+		@extend %listreset;
+		margin: 0 0 25px;
+		li{
+			@include alignment(inline-block, middle);
+			&.active a{
+				background: #fff;
+				border: 1px solid transparent;
+				&.red{border-color: #bb4527;}
+				&.blue{border-color: #40455c;}
+				&.green{border-color: #7e8347;}
+				&.yellow{border-color: #e3d158;}
+				&.gray{border-color: #868c98;}
+			}
+		}
+		a{
+			width: 24px;
+			height: 24px;
+			display: block;
+			position: relative;
+			border-radius: 100%;
+			&:after{
+				top: 2px;
+				left: 2px;
+				right: 2px;
+				bottom: 2px;
+				content: '';
+				position: absolute;
+				border-radius: 100%;
+			}
+			&:hover{
+				background: #fff;
+				border: 1px solid transparent;
+			}
+			&.red{
+				border-color: #bb4527;
+				&:after{background: #bb4527;}
+			}
+			&.blue{
+				border-color: #40455c;
+				&:after{background: #40455c;}
+			}
+			&.green{
+				border-color: #7e8347;
+				&:after{background: #7e8347;}
+			}
+			&.yellow{
+				border-color: #e3d158;
+				&:after{background: #e3d158;}
+			}
+			&.gray{
+				border-color: #868c98;
+				&:after{background: #868c98;}	
+			}
+		}
+	}
+	p{
+		color: #a8a8a8;
+		font-size: 14px;
+		line-height: 21px;
+		font-weight: 300;
+		margin: 0 0 49px;
+	}
+	.links{
+		padding: 10px;
+		max-width: 165px;
+		background: #fff;
+		@extend %listreset;
+		margin: 0 auto 20px;
+		@include transition (all, 0.4s, linear);
+		li{
+			@include alignment(inline-block, middle);
+			margin: 0 12px 0 12px;
+			position: relative;
+			+ li:after{
+				top: 0;
+				bottom: 0;
+				width: 1px;
+				left: -10px;
+				content: '';
+				position: absolute;
+				background: #ccc6c6;
+			}
+		}
+		a{
+			color: #8a8a8a;
+			font-size: 16px;
+			line-height: 18px;
+			text-decoration: none;
+		}
+	}
+}
+/*------------------------------------------------------------------
+26. Mt product4 / .mt-product4
+-------------------------------------------------------------------*/
+.mt-product4{
+	overflow: hidden;
+	.img{
+		float: left;
+		width: 80px;
+		margin: 0 9px 0 0;
+		img{
+			display: block;
+			width: 100%;
+			height: auto;
+		}
+	}
+	.mt-stars{
+		margin: 0;
+		padding: 0;
+		line-height: 1;
+		font-size: 12px;
+		list-style: none;
+		li{@include alignment(inline-block, middle);}
+		.fa{color: #c8a760;}
+		.fa-star-o{color: #d6d6d6;}
+	}
+	.text{
+		overflow: hidden;
+		padding: 13px 0 0;
+		.frame{
+			min-height: 33px;
+			strong{
+				display: block;
+				color: #959596;
+				margin: 0 0 5px;
+				font: 14px/16px $font-family-base-1;
+				a{
+					color: #959596;
+					@include transition (all, 0.4s, linear);
+					&:hover{color: $color1;}
+				}
+			}
+		}
+		.off{
+			opacity: 0.6;
+			color: #252528;
+			margin: 0 13px 0 0;
+			position: relative;
+			font: 14px/18px $font-family-base-1;
+			@include alignment(inline-block, middle);
+		}
+		.price{
+			color: #252528;
+			font: 18px/18px $font-family-base-1;
+			@include alignment(inline-block, middle);
+		}
+	}
+}
+/*------------------------------------------------------------------
+27. Product Area / .product-area
+-------------------------------------------------------------------*/
+.product-area{
+	padding: 23px 0 46px;
+	.mt-heading{margin-bottom: 48px;}
+	img{
+		width: auto;
+		max-width: 100%;
+	}
+	.bordertop{border-top: 1px solid $clr-4;}
+	.borderright{border-right: 1px solid $clr-4;}
+	.borderbottom{border-bottom: 1px solid $clr-4;}
+	.mt-box{
+		float: left;
+		padding: 0 0 40px;
+		&.half{width: 50%;}
+		&.twothird .img{min-height: 155px;}
+	}
+	.mt-holder{
+		width: 50%;
+		float: left;
+	}
+	.mt-frame{
+		overflow: hidden;
+		.mt-product1{
+			.txt{padding: 0 0 0 14.6%;}
+			.mt-stars{left: 14.6%;}
+			.mt-block .txt{
+				min-height: 138px;
+				padding: 0 0 0 9.5%;
+			}
+		}
+	}
+	.img-box{
+		width: 44%;
+		vertical-align: top;
+		display: inline-block;
+		padding: 13px 0 9px 3.2%;
+	}
+	.mt-block{
+		width: 54.5%;
+		padding: 46px 0 0;
+		vertical-align: top;
+		display: inline-block;
+	}
+	.mt-tabs{
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		list-style: none;
+		li{
+			float: left;
+			width: 24.1%;
+			padding: 0 5px 0 0;
+		}
+	}
+	.mt-product1{
+		display: block;
+		.txt{
+			padding: 0 0 0 8.6%;
+			.mt-stars{
+				position: static;
+				margin: -5px 0 15px;
+			}
+		}
+		.title{margin: 0 0 12px;}
+		.mt-stars{left: 8.6%;}
+		del,
+		.price{
+			display: inline-block;
+			vertical-align: middle;
+		}
+		.b1{height: auto;}
+	}
+}
+/*------------------------------------------------------------------
+28. Mt Producttabs / .mt-producttabs
+-------------------------------------------------------------------*/
+.mt-producttabs{
+	padding: 64px 0 42px;
+	position: relative;
+	&:after{
+		right: 0;
+		top: 56px;
+		width: 75px;
+		content: "";
+		height: 37px;
+		position: absolute;
+		border-radius: 19px;
+		background: $clr-29;
+	}
+	.producttabs{
+		padding: 0;
+		margin: 0 0 5px;
+		overflow: hidden;
+		list-style: none;
+		text-transform: uppercase;
+		font: 700 18px/20px $font-family-base-1;
+		li{
+			float: left;
+			margin: 0 28px 0 0;
+			padding: 0 0 0 30px;
+			border-left: 1px solid #d8d8d8;
+			&:first-child{
+				border: 0;
+				padding: 0;
+			}
+		}
+		a{
+			color: $clr-6;
+			@include transition (all, 0.4s, linear);
+			&.active,
+			&:hover{
+				color: #3a3a3a;
+				text-decoration: none;
+			}
+		}
+	}
+	.slick-prev,
+	.slick-next{
+		z-index: 3;
+		right: 6px;
+		top: -15px;
+		left: auto;
+		width: 29px;
+		height: 29px;
+		color: $clr-8;
+		background: $white;
+		border-radius: 50%;
+		@include transition (all, 0.4s, linear);
+		&:focus,
+		&:hover{
+			color: $white;
+			background: $color1;
+			&:before{color: $white;}
+		}
+	}
+	.slick-next:before{
+		top: 5px;
+		opacity: 1;
+		right: 11px;
+		color: $clr-8;
+		font-size: 18px;
+		content:"\f105";
+		position: absolute;
+		font-family:'FontAwesome';
+		@include transition (all, 0.4s, linear);
+	}
+	.slick-prev{
+		right: 39px;
+		&:before{
+			top: 5px;
+			opacity: 1;
+			right: 13px;
+			color: $clr-8;
+			content:"\f104";
+			font-size: 18px;
+			position: absolute;
+			font-family:'FontAwesome';
+			@include transition (all, 0.4s, linear);
+		}
+	}
+	.heading{
+		color: #3a3a3a;
+		margin: 0 0 7px;
+		text-transform: uppercase;
+		font: 700 26px/30px $font-family-base-1;
+	}
+	.mt-productrow{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		>li{
+			width: 20%;
+			margin: 0 -4px;
+			vertical-align: top;
+			display: inline-block;
+		}
+	}
+	&.style2{
+		padding: 39px 0 53px;
+		&:after{top: 30px;}
+		.producttabs{margin: 0 0 28px;}
+		.slick-prev,
+		.slick-next{top: -38px;}
+		.mt-product1{
+			.txt{padding: 0 0 0 20px;}
+			.box{margin: 0 0 6px;}
+			.title{margin: 0 0 11px;}
+			.mt-stars{
+				left: 20px;
+				bottom: 1px;
+			}
+			.links{
+				left: 8%;
+				right: 8%;
+				width: 84%;
+			}
+		}
+	}
+	&.style3{
+		padding: 68px 0 87px;
+		&:after{top: 65px;}
+		.slick-prev,
+		.slick-next{top: -21px;}
+		.mt-product1 .txt{padding: 0 0 0 22px;}
+		.mt-product1 .mt-stars{
+			left: 23px;
+			bottom: 17px;
+		}
+	}
+	&.style4{
+		padding: 99px 0 58px;
+		&:after{display: none;}
+		.producttabs{
+			text-align: center;
+			li{
+				float: none;
+				vertical-align: top;
+				display: inline-block;
+				a.active:after{
+					width: 50px;
+					margin: 0 0 0 -25px;
+				}
+				a{
+					padding: 0 0 6px;
+					position: relative;
+					vertical-align: top;
+					display: inline-block;
+					&:after{
+						width: 0;
+						bottom: 0;
+						left: 50%;
+						height: 2px;
+						content: "";
+						position: absolute;
+						background: #3a3a3a;
+						@include transition (all, 0.4s, linear);
+					}
+				}
+			}
+		}
+	}
+	&.style5{
+		padding: 57px 0 0;
+		&:after{top: 49px;}
+		.producttabs{margin: 0 0 28px;}
+		.slick-prev,
+		.slick-next{top: -38px;}
+		.slick-prev{right: 54px;}
+		.slick-next{right: 21px;}
+		.mt-product2.large{
+			width: auto;
+			margin: 0 15px 35px;
+		}
+	}
+	&.style6{
+		padding: 0 0 43px;
+		&:after{top: 25px;}
+		.slick-prev,
+		.slick-next{top: -21px;}
+		.slick-prev{right: 54px;}
+		.slick-next{right: 21px;}
+		.mt-product1{
+			width: auto;
+			margin: 0 15px;
+			.txt{padding: 0 0 0 22px;}
+			.mt-stars{
+				left: 23px;
+				bottom: 17px;
+			}
+		}
+	}
+}
+/*------------------------------------------------------------------
+29. Mt Bestseller / .mt-bestseller
+-------------------------------------------------------------------*/
+.mt-bestseller{
+	padding: 69px 0 100px;
+	.slick-prev,
+	.slick-next{
+		z-index: 3;
+		right: -88px;
+		width: 45px;
+		height: 45px;
+		color: #bfbfbf;
+		background: none;
+		border-radius: 50%;
+		border: 2px solid #bfbfbf;
+		@include transition (all, 0.4s, linear);
+		&:focus,
+		&:hover{
+			color: $color1;
+			border-color: $color1;
+			&:before{color: $color1;}
+		}
+	}
+	.slick-next:before{
+		top: 8px;
+		opacity: 1;
+		right: 16px;
+		color: #bfbfbf;
+		font-size: 26px;
+		content:"\f105";
+		position: absolute;
+		font-family:'FontAwesome';
+		@include transition (all, 0.4s, linear);
+	}
+	.slick-prev{
+		right: auto;
+		left: -97px;
+		&:before{
+			top: 8px;
+			opacity: 1;
+			right: 17px;
+			color: #bfbfbf;
+			content:"\f104";
+			font-size: 26px;
+			position: absolute;
+			font-family:'FontAwesome';
+			@include transition (all, 0.4s, linear);
+		}
+	}
+}
+/*------------------------------------------------------------------
+30. Mt Smallproducts / .mt-smallproducts
+-------------------------------------------------------------------*/
+.mt-smallproducts{
+	padding: 70px 0 65px;
+	.heading{
+		color: #3a3a3a;
+		margin: 0 0 21px;
+		font: 700 20px/25px $font-family-base-1;
+	}
+}
+/*------------------------------------------------------------------
+31. Mt Productsc / .mt-productsc
+-------------------------------------------------------------------*/
+.mt-productsc{
+	padding: 40px 0 54px;
+	.mt-heading{margin-bottom: 40px;}
+	&.style2{
+		padding: 40px 0 44px;
+		.mt-heading{margin-bottom: 20px;}
+	}
+	&.style3{
+		padding: 70px 0 44px;
+		.mt-heading{margin-bottom: 20px;}
+	}
+	.mt-product1{
+		white-space: normal;
+		&.large{
+			margin: 0 18px 64px 10px;
+			.box{margin: 0 0 7px;}
+			.title{margin: 0 0 10px;}
+			.txt{padding: 0 0 0 18px;}
+			.mt-stars{left: 20px;}
+		}
+	}
+	.product-2{white-space: normal;}
+	.product-3{
+		max-width: 280px;
+		white-space: normal;
+		margin: 0 10px 35px;
+	}
+}
+/*------------------------------------------------------------------
+32. Mt Productscrollbar / .mt-productscrollbar
+-------------------------------------------------------------------*/
+#mt-productscrollbar{
+	overflow: hidden;
+	white-space: nowrap;
+	.mCSB_draggerContainer{
+		background: #f5f5f5;
+		border-radius: 10px;
+		position: relative;
+		max-width: 656px;
+		margin: 0 auto;
+		height: 12px;
+		.mCSB_dragger{
+			// width: 218px;
+			height: 6px;
+			margin-top: 3px;
+			border-radius: 5px;
+			background: #cdcdcd;
+		}
+	}
+}
+/*------------------------------------------------------------------
+33. js tab hidden / .js-tab-hidden
+-------------------------------------------------------------------*/
+.js-tab-hidden{
+	height: 0;
+	overflow-y: hidden;
+}
+/*------------------------------------------------------------------
+7. Mt Product Detial / .mt-product-detail
+-------------------------------------------------------------------*/
+.mt-product-detial{
+	overflow: hidden;
+	padding: 0 0 25px;
+	background: $clr-7;
+	.slider{
+		float: left;
+		width: 55.5%;
+		padding: 0 4.65% 0 0;
+	}
+	.comment-list{
+		margin: 0;
+		color: $clr-23;
+		font-weight: 400;
+		overflow: hidden;
+		padding: 53px 0 0;
+		font:16px/20px $font-family-base-1;
+		li{
+			float: left;
+			margin: 0 17px 0 0;
+		}
+		.fa-heart,
+		.fa-comments,
+		.fa-share-alt{
+			@include font(17px, 19px);
+			margin: 0 4px 0 0;
+		}
+		a{
+			transition: all 0.25s linear;
+			color: $clr-23;
+			&:hover{ color: $clr-20;}
+		}
+	}
+	.product-slider{margin: 0 0 30px;}
+	.pagg-slider{
+		margin: 0 auto;
+		padding: 0 15px;
+		max-width: 510px;
+		position: relative;
+		li .img{
+			float: left;
+			margin: 0 7px;
+			cursor: pointer;
+			background: $white;
+			border: 1px solid #ededed;
+			border-top: 0;
+		}
+		.slick-arrow{
+			bottom: 0;
+			z-index: 1;
+			left: -18px;
+			width: 24px;
+			border: none;
+			height: 100px;
+			outline: none;
+			border-radius: 3px;
+			background: $white;
+			position: absolute;
+			text-indent: -9999px;
+			&:before{
+				opacity: 1;
+				text-indent: 0;
+				color: #dedede;
+				@include font(20px, 22px);
+				font-family: "FontAwesome";
+				transform: translateY(-50%);
+				@include element(50%, auto, auto, 4px);
+				content: "\f053";
+			}
+		}
+		.slick-next{
+			left: auto;
+			right: -18px;
+			&:before{content: "\f054";}
+		}
+	}
+	.detial-holder{
+		width: 40%;
+		float: left;
+		padding: 50px 0;
+		position: relative;
+	}
+	h2{
+		@include font(44px, 46px);
+		font-weight: 300;
+		letter-spacing: 5px;
+		word-spacing: -4px;
+		margin: 0 0 15px;
+		color: $black;
+	}
+	.breadcrumbs{
+		overflow: hidden;
+		margin: 0 0 8px;
+		@include font(15px, 17px);
+		color: $clr-22;
+		li{
+			float: left;
+			margin: 0 10px 0 0;
+		}
+		.fa-angle-right{margin: 0 0 0 11px;}
+		a{
+			transition: all 0.25s linear;
+			color: $clr-22;
+			&:hover{ color: $clr-20;}
+		}
+	}
+	.rank-rating{
+		overflow: hidden;
+		padding: 3px 0 0;
+		margin: 0 0 30px;
+		.rating-list{
+			float: left;
+			margin: 0 5px 0 -1px;
+			overflow: hidden;
+			@include font(14px, 16px);
+			li{
+				float: left;
+				margin: 0 1px 0 0;
+			}
+			.fa-star{ color: $clr-24; }
+		}
+		.total-price{
+			@include font(14px, 16px);
+			float: left;
+			font-family: $font-family-base-1;
+			font-weight: 400;
+			padding: 0 6px 0 0;
+			color: $clr-23;
+		}
+	}
+	.list{
+		@include font(13px, 16px);
+		font-family: $font-family-base-1;
+		font-weight: 400;
+		padding: 2px 0 34px;
+		overflow: hidden;
+		margin: 0 0 23px;
+		border-width: 0 0 1px;
+		border-style: solid;
+		color: $clr-23;
+		border-color: $clr-25;
+		li{
+			float: left;
+			margin: 0 28px 0 0;
+		}
+		.fa-share-alt,
+		.fa-exchange,
+		.fa-heart{
+			@include font(16px, 18px);
+			margin: 0 10px 0 0;
+		}
+	}
+	.txt-wrap{
+		width: 490px;
+		margin: 0 0 22px;
+		@include font(16px, 21px);
+		border-width: 0 0 1px;
+		border-style: solid;
+		color: $clr-23;
+		border-color: $clr-25;
+		p{margin: 0 0 41px;}
+	}
+	.text-holder{
+		overflow: hidden;
+		margin: 0 0 35px;
+		.price{
+			display: block;
+			@include font(30px, 32px);
+			font-family: $font-family-base-1;
+			font-weight: 400;
+			letter-spacing: -1px;
+			color: $black;
+			del{
+				@include font(18px, 20px);
+				padding: 0 0 0 9px;
+				letter-spacing: 1px;
+				color: $clr-26;
+			}
+		}
+	}
+	.product-form{
+		overflow: hidden;
+		.row-val{
+			float: left;
+			margin: 0 10px 0 0;
+		}
+		label{
+			@include font(14px, 16px);
+			float: left;
+			text-transform: uppercase;
+			font-family: $font-family-base-1;
+			font-weight: 400;
+			margin: 0 32px 0 0;
+			padding: 11px 0 0;
+			color: $clr-22;
+		}
+		select,
+		input{
+			@include font(18px, 20px);
+			font-family: $font-family-base-1;
+			font-weight: 700;
+			padding: 0 0 0 20px;
+			border-radius: 25px;
+			outline: none;
+			border: none;
+			width: 72px;
+			height: 42px;
+			color: $clr-22;
+			background: $white;
+		}
+		button{
+			width: 173px;
+			padding: 12px 10px 10px;
+			text-align: center;
+			text-transform: uppercase;
+			display: block;
+			@include font(14px, 20px);
+			font-family: $font-family-base-1;
+			font-weight: 700;
+			border: none;
+			outline: none;
+			border-radius: 25px;
+			transition: all 0.25s linear;
+			background: $clr-20;
+			color: $white;
+			&:hover{background: $black;}
+		}
+	}
+}
+.lightbox{
+	.mt-product-detial{
+		padding: 0;
+		.slider{
+			z-index: 2;
+			width: 49.6%;
+			padding: 0 0 0 2%;
+			position: relative;
+			background: $white;
+			margin: 0 4.25% 0 -15px;
+			&:after{
+				top: 0;
+				left: 0;
+				right: 0;
+				z-index: -1;
+				content: " ";
+				bottom: -9999px;
+				background: $white;
+				position: absolute;
+			}
+		}
+		img{
+			width: auto;
+			max-width: 100%;
+			margin: 0 auto;
+		}
+		.pagg-slider{margin: 0 auto 74px;}
+		.detial-holder{padding: 70px 0 20px;}
+		.comment-list{padding: 73px 0 3px 5%;}
+		.pagg-slider .slick-arrow{background: #f7f7f7;}
+	}
+}
+/*------------------------------------------------------------------
+34. Mt Detail Section / .mt-detail-sec
+-------------------------------------------------------------------*/
+.mt-detail-sec{
+	padding: 40px 0 164px;
+	&.style1 h2{ padding: 0 0 0 20px;}
+	h2{
+		@include font(18px, 20px);
+		text-transform: uppercase;
+		font-family: $font-family-base-1;
+		font-weight: 400;
+		margin: 0 0 25px;
+		color: $black;
+	}
+	.bill-detail{
+		overflow: hidden;
+		width: 549px;
+		.form-group{
+			margin-bottom: 17px;
+			overflow: hidden;
+			@include placeholder {color: $clr-37;}
+		}
+		.form-control{
+			@include font(14px, 16px);
+			background: none;
+			outline: none;
+			box-shadow: none;
+			border-style: solid;
+			border-width: 1px;
+			border-radius: 10px;
+			padding: 10px 18px;
+			width: 100%;
+			height: 55px;
+			color: $clr-37;
+			border-color: $clr-38;
+		}
+		textarea{
+			min-height: 99px;
+			width: 100%;
+			resize: none;
+		}
+		input[type='checkbox']{
+			margin: 0 5px 0 0;
+			padding: 0;
+		}
+		.check-box{
+			@include font(16px, 18px);
+			font-weight: 200;
+			color: $clr-1;
+		}
+		.col{
+			width: 47%;
+			float: left;
+			margin: 0 0 0 32px;
+			&:first-child{margin: 0;}
+		}
+		.update-btn{
+			font-family: $font-family-base-1;
+			@include font(18px, 20px);
+			font-weight: 700;
+			border-style: solid;
+			border-width: 1px;
+			outline: none;
+			box-shadow: none;
+			width: 214px;
+			display: block;
+			padding: 14px 10px 12px;
+			transition: all 0.25s linear;
+			background: $clr-7;
+			color: #c6c6c6;
+			border-color: $clr-38;
+			&:hover{
+				background: $clr-40;
+				color: $white;
+			}
+		}
+	}
+	.holder{
+		overflow: hidden;
+		background: $clr-7;
+		margin: 44px 0 0 32px;
+		padding: 51px 60px 43px;
+	}
+	.block{
+		overflow: hidden;
+		padding: 21px 0 0 2px;
+		margin: 0 0 67px;
+		&.cart{
+			border-style: solid;
+			border-width: 1px;
+			margin: 0 0 18px;
+			border-color: $clr-38;
+			padding: 51px 45px 34px;
+			.txt{
+				span{
+					@include font(24px, 18px);
+					margin: -3px 8px 0 0;
+					.fa{font-size: 18px;}
+				}
+				strong{
+					@include font(14px, 16px);
+					padding: 0 9px 0 0;
+					font-weight: 400;
+					display: block;
+					color: #010101;
+				}
+			}
+		}
+		li{
+			margin: 0 0 10px;
+			padding: 0 0 9px;
+			@extend %clearfix;
+			border-style: solid;
+			border-width: 0 0 1px;
+			border-color: $clr-39;
+		}
+		.title{
+			@include font(16px, 18px);
+			display: block;
+			margin: 0 0 11px;
+			text-transform: uppercase;
+			color: $clr-1;
+			&.sub-title{ margin: 0;}
+		}
+		span{
+			@include font(14px, 16px);
+			display: block;
+			font-weight: 700;
+			margin: 0 0 3px;
+			color: $clr-1;
+		}
+		.txt{
+			.title{ margin: 0 0 9px;}
+			span{
+				@include font(16px, 18px);
+				display: block;
+				color: $clr-30;
+			}
+		}
+	}
+	.panel-group{
+		padding: 0 10px 0 2px;
+		margin: -2px 0 0;
+		overflow: hidden;
+		.panel-heading{padding: 14px 0;}
+		.panel-title{
+			@include font(16px, 18px);
+			display: block;
+			margin: 0;
+			text-transform: uppercase;
+			font-weight: 700;
+			color: $clr-1;
+			a{display: block;}
+			.check{
+				float: right;
+				width: 17px;
+				height: 17px;
+				margin: 3px 0 0;
+				border-style: solid;
+				border-width: 1px;
+				display: block;
+				background: $white;
+				border-color: $clr-30;
+				.fa-check{
+					@include font(14px, 16px);
+					opacity: 1;
+					visibility: visible;
+					display: block;
+					margin: 1px 0 2px 1px;
+					color: $clr-30;
+				}
+			}
+			.collapsed{
+				.fa-check{
+					opacity: 0;
+					visibility: hidden;
+				}
+			}
+		}
+		.panel-body{
+			@include font(12px, 16px);
+			font-weight: 200;
+			overflow: hidden;
+			color: $clr-1;
+		}
+		.panel{
+			padding: 0 0 4px;
+			overflow: hidden;
+			border-style: solid;
+			border-width: 1px 0 0;
+			border-color: $clr-39;
+			&:first-child{ border-top: none;}
+		}
+	}
+	.block-holder{
+		color: $clr-1;
+		overflow: hidden;
+		@include font(16px, 18px);
+		padding: 35px 63px 56px 93px;
+		a{
+			transition: all 0.25s linear;
+			color: $black;
+			&:hover{ color: $clr-1;}
+		}
+		input[type='checkbox']{float: right;}
+	}
+	.process-btn{
+		@include font(18px, 20px);
+		text-transform: uppercase;
+		width: 307px;
+		padding: 14px 10px;
+		display: block;
+		text-align: center;
+		float: right;
+		font-weight: 700;
+		letter-spacing: 2px;
+		word-spacing: 1px;
+		transition: all 0.25s linear;
+		color: $white;
+		background: $clr-40;
+		.fa-check{margin: 0 0 0 1px;}
+		&:hover{
+			background: $clr-7;
+			color: $clr-30;
+		}
+	}
+}
+/*------------------------------------------------------------------
+35. Mt Product Table / .mt-product-table
+-------------------------------------------------------------------*/
+.mt-product-table{
+	padding: 40px 0;
+	@extend %clearfix;
+	.border{
+		border-style: solid;
+		border-width: 0 0 1px;
+		border-color: $clr-38;
+	}
+	.title{
+		@include font(16px, 18px);
+		text-transform: uppercase;
+		display: block;
+		padding: 0 0 18px;
+		color: $clr-1;
+	}
+	.img-holder{
+		width: 106px;
+		overflow: hidden;
+		padding: 25px 0 22px;
+	}
+	.product-name{
+		@include font(18px, 20px);
+		display: block;
+		padding: 69px 0 0;
+		color: $clr-17;
+	}
+	.price{
+		@include font(18px, 20px);
+		float: left;
+		padding: 81px 0 0;
+		color: $clr-30;
+	}
+	.qyt-form{
+		padding: 69px 0 0;
+		select{
+			@include font(18px, 20px);
+			font-weight: 700;
+			padding: 7px 10px;
+			border: none;
+			outline: none;
+			background: $clr-29;
+			color: $clr-30;
+		}
+	}
+	.fa-close{
+		@include font(18px, 20px);
+		float: right;
+		margin: 81px 0 0;
+		color: $color1;
+		@include transition (all, 0.4s, linear);
+		&:hover{color: $clr-30;}
+	}
+	.coupon-form{
+		overflow: hidden;
+		padding: 40px 0 52px;
+		border-bottom: 1px solid #dcdcdc;
+		.form-control{
+			border-style: solid;
+			border-width: 1px;
+			background: none;
+			outline: none;
+			@include font(14px, 16px);
+			width: 258px;
+			float: left;
+			margin: 0 6px 0 0;
+			height: 48px;
+			border-radius: 0;
+			box-shadow: none;
+			border-color: $clr-38;
+			color: $clr-37;
+			padding: 10px 30px;
+		}
+		button{
+			@include font(18px, 20px);
+			text-transform: uppercase;
+			font-weight: 700;
+			font-family: $font-family-base-1;
+			border: none;
+			outline: none;
+			border-radius: 0;
+			display: block;
+			text-align: center;
+			padding: 16px 10px 13px 7px;
+			width: 111px;
+			float: left;
+			transition: all 0.25s linear;
+			background: $clr-42;
+			color: $white;
+			&:hover{ background: $clr-41;}
+		}
+		.mt-holder{
+			width: 389px;
+			margin: 0 auto;
+		}
+	}
+}
+/*------------------------------------------------------------------
+36. product detail ab / .product-detail-tab
+-------------------------------------------------------------------*/
+.product-detail-tab{
+	color: #aaaaaa;
+	overflow: hidden;
+	padding: 74px 0 85px;
+	font: 300 16px/21px $source-sans-pro;
+	.mt-tabs{
+		padding: 0;
+		margin: 0 0 50px;
+		list-style: none;
+		border-bottom: 1px solid #c8c8c8;
+		font: 700 16px/20px $font-family-base-1;
+		li{
+			padding: 0 27px;
+			vertical-align: top;
+			display: inline-block;
+		}
+		a{
+			color: #9b9b9b;
+			display: block;
+			margin: 0 0 -1px;
+			padding: 0 0 12px;
+			border-bottom: 1px solid transparent;
+			&:hover,
+			&.active{
+				color: $black;
+				border-bottom-color: $black;
+			}
+		}
+	}
+	p{margin: 0 0 20px;}
+}
+/*------------------------------------------------------------------
+37. product comment / .product-comment
+-------------------------------------------------------------------*/
+.product-comment{
+	overflow: hidden;
+	.mt-box{
+		margin: 0 0 47px;
+		overflow: hidden;
+		padding: 0 0 26px;
+		border-bottom: 1px solid #f0f0f0;
+		font: 300 16px/21px $source-sans-pro;
+	}
+	.mt-hold{
+		margin: 0 0 11px;
+		overflow: hidden;
+	}
+	.mt-star{
+		padding: 0;
+		color: #e6c376;
+		font-size: 14px;
+		overflow: hidden;
+		list-style: none;
+		margin: 0 17px 0 0;
+		display: inline-block;
+		vertical-align:middle;
+		li{
+			float: left;
+			margin: 0 2px 0 0;
+		}
+		.fa-star-o{color: #d6d6d6;}
+	}
+	.name{
+		color: #aaa;
+		margin: 0 24px 0 0;
+		display: inline-block;
+		vertical-align:middle;
+		font: 700 16px/20px $source-sans-pro;
+	}
+	time{
+		display: inline-block;
+		vertical-align:middle;
+		font: italic 300 14px/20px $source-sans-pro;
+	}
+	p{
+		margin: 0;
+		letter-spacing: 0.6px;
+	}
+	.mt-row{
+		margin: 0 0 14px;
+		overflow: hidden;
+	}
+	.p-commentform{
+		margin: 0 0 10px;
+		overflow: hidden;
+		padding: 3px 0 104px 6px;
+		border-bottom: 1px solid $clr-25;
+	}
+	h2{
+		color: #949494;
+		margin: 0 0 41px;
+		font: 600 16px/20px $source-sans-pro;
+	}
+	label{
+		float: left;
+		color: #aaa;
+		width: 80px;
+		font: 700 16px/20px $source-sans-pro;
+	}
+	.form-control{
+		margin: 0;
+		float: left;
+		height: 32px;
+		width: 93.3%;
+		outline: none;
+		color: $black;
+		font-weight: 200;
+		box-shadow: none;
+		background: none;
+		overflow: hidden;
+		padding: 6px 15px;
+		border-radius: 20px;
+		border: 1px solid #d1d1d1;
+		@include font(14px, 20px);
+		@include placeholder{ color: $black; }
+	}
+	textarea{
+		resize: none;
+		min-height: 122px;
+	}
+	.btn-type4{
+		margin: 0 0 0 80px;
+	}
+}
+/*------------------------------------------------------------------
+38. related products / .related-products
+-------------------------------------------------------------------*/
+.related-products{
+	padding: 0 0 130px;
+	h2{
+		color: #3a3a3a;
+		margin: 0 0 13px;
+		font: 700 26px/30px $font-family-base-1;
+	}
+	img{
+		width: inherit;
+		max-width: 100%;
+	}
+	.mt-product1{
+		width: 19.8%;
+		padding-right: 2%;
+		.txt{padding: 0 0 0 20px;}
+		.mt-stars{left: 20px;}
+	}
+}
+/*------------------------------------------------------------------
+39. mt shoplist header / .mt-shoplist-header
+-------------------------------------------------------------------*/
+.mt-shoplist-header{
+	z-index: 1;
+	@extend %clearfix;
+	position: relative;
+	padding: 21px 0 19px;
+	.btn-box{
+		float: right;
+		> ul{
+			margin: 0;
+			float: left;
+			> li{
+				padding: 0 0 0 3px;
+				position: relative;
+				vertical-align: top;
+				a{
+					@include transition(all, ease, 0.5s);
+					&:hover{text-decoration: none;}
+				}
+				&:hover .drop{
+					top: 100%;
+					opacity: 1;
+					visibility: visible;
+				}
+				&:hover .drop-link{
+					color: $color1;
+					border-color: $color1;
+				}
+			}
+		}
+		.drop-link {
+			display: block;
+			color: #a5a5a5;
+			margin: 0 4px 0 0;
+			padding: 12px 20px;
+			border-radius: 20px;
+			border: 1px solid #d8d8d8;
+			font: 14px/1 $source-sans-pro;
+			&:hover{
+				color: $color1;
+				border-color: $color1;
+			}
+		}
+		.mt-viewswitcher{
+			padding: 11px;
+			display: block;
+			color: #a5a5a5;
+			line-height: 1;
+			font-size: 16px;
+			border-radius: 50%;
+			border: 1px solid #d8d8d8;
+			&:hover{
+				color: $color1;
+				border-color: $color1;
+			}
+		}
+		.drop{
+			left: 0;
+			right: 0;
+			top: 140%;
+			opacity: 0;
+			background: $white;
+			visibility: hidden;
+			position: absolute;
+			border: 1px solid #d8d8d8;
+			@include transition(all, ease, 0.5s);
+			a{
+				display: block;
+				padding: 10px 15px;
+				&:hover{color: $color1;}
+			}
+			li{border-bottom: 1px solid #d8d8d8;}
+		}
+	}
+	.mt-textbox{
+		color: #a5a5a5;
+		padding: 2px 0 0;
+		font-weight: 300;
+		overflow: hidden;
+		p{margin: 0;}
+		a{
+			color: #a5a5a5;
+			&:hover{
+				color: $color1;
+				text-decoration: none;
+			}
+		}
+	}
+}
+/*------------------------------------------------------------------
+40. Mt productlisthold / .mt-productlisthold
+-------------------------------------------------------------------*/
+.mt-productlisthold{
+	margin: 0;
+	width: 103%;
+	> li{
+		width: 33%;
+		padding: 0 0 62px;
+		vertical-align: top;
+	}
+	.mt-product1{
+		.txt{padding: 0 0 0 20px;}
+		.mt-stars{left: 20px;}
+	}
+}
+/*------------------------------------------------------------------
+41. Mt pagination / .mt-pagination
+-------------------------------------------------------------------*/
+.mt-pagination{
+	padding: 42px 0 100px;
+	font: 700 16px/20px $font-family-base-1;
+	ul{
+		margin: 0;
+		text-align: center;
+		li{
+			padding: 0 3px;
+			vertical-align: top;
+		}
+		a{
+			color: $clr-34;
+			display: block;
+			padding: 5px 10px;
+			background: $clr-7;
+			@include transition(all, ease, 0.5s);
+			&:hover{
+				color: $white;
+				background: $color1;
+				text-decoration: none;
+			}
+		}
+	}
+}
+/*------------------------------------------------------------------
+42. product post / .product-post
+-------------------------------------------------------------------*/
+.product-post{
+	padding: 0 0 8px;
+	overflow: hidden;
+	border-bottom: 1px solid #ededed;
+	.img-holder{
+		width: 30.9%;
+		padding: 22px 0 0;
+		vertical-align: top;
+		display: inline-block;
+		img{
+			width: auto;
+			height: auto;
+			margin: 0 auto;
+			max-width: 100%;
+		}
+	}
+	.txt-holder{
+		width: 67%;
+		vertical-align: top;
+		display: inline-block;
+		padding: 46px 0 0 2.3%;
+		.align-left{
+			float: left;
+			width: 60.2%;
+			padding: 0 30px 0 0;
+			border-right: 1px solid #ededed;
+		}
+		.align-right{
+			float: right;
+			width: 37.9%;
+			text-align: right;
+			padding: 4px 2.6% 0 0;
+		}
+	}
+	.title{
+		display: block;
+		color: $color16;
+		font-weight: 700;
+		margin: 0 0 15px;
+		@include font(18px, 20px);
+		a{
+			color: $clr-17;
+			transition: all 0.25s linear;
+			&:hover{ color: $clr-20; }
+		}
+	}
+	.price{
+		display: block;
+		@include font(22px, 23px);
+		color: $black;
+		font-weight: 600;
+		margin: 0 0 19px;
+		.fa{
+			font-size: 17px;
+			padding: 0 6px 0 0;
+		}
+	}
+	.rating-list{
+		@include font(14px, 16px);
+		font-family: $font-family-base-1;
+		font-weight: 400;
+		color: $clr-23;
+		overflow: hidden;
+		margin: 0 0 21px;
+		padding: 0 14px 0 0;
+		li{
+			margin: 0 -2px 0 1px;
+			display: inline-block;
+			vertical-align: middle;
+			letter-spacing: -0.5px;
+			&.active a{color: #e6c376;}
+		}
+		a{
+			color: $clr-23;
+			&:hover{
+				color: $color1;
+				text-decoration: none;
+			}
+		}
+	}
+	.btn-cart{
+		@include font(14px, 16px);
+		color: $clr-23;
+		background: $clr-35;
+		font-family: $font-family-base-1;
+		font-weight: 700;
+		width: 173px;
+		border-radius: 25px;
+		padding: 15px 17px 12px 10px;
+		word-spacing: 2px;
+		float: right;
+		margin: 0 0 20px;
+		text-transform: uppercase;
+		text-align: center;
+		display: block;
+		transition: all 0.25s linear;
+		&:hover{
+			background: $clr-20;
+			color: $white;
+		}
+	}
+	.nav{
+		@include font(11px, 13px);
+		font-family: $font-family-base-1;
+		font-weight: 400;
+		color: $clr-23;
+		display: block;
+		overflow: hidden;
+		margin: 0 0 21px;
+		width: 100%;
+		padding: 0 8px 0 0;
+		text-transform: uppercase;
+		li{
+			display: block;
+			overflow: hidden;
+			margin: 0 0 16px;
+		}
+		a{
+			color: $clr-23;
+			transition: all 0.25s linear;
+			&:hover{ color: $clr-20; }
+		}
+	}
+}
+/*------------------------------------------------------------------
+43. product masonry / #product-masonry
+-------------------------------------------------------------------*/
+#product-masonry{
+	overflow: hidden;
+	margin: 0 0 150px;
+	#product-filter{
+		padding: 0;
+		font-size: 16px;
+		font-weight: 700;
+		margin: 0 0 60px;
+		overflow: hidden;
+		list-style: none;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		li{
+			float: left;
+			&.left{float: right;}
+			&:before{
+				content: "/";
+				display: inline-block;
+				font-size: 0.8em;
+				font-weight: 900;
+				margin: -4px 0 0;
+				padding: 0 20px;
+				vertical-align: middle;
+			}
+			&:last-child:before,
+			&:first-child:before{display: none;}
+			&.left a,
+			&.active a{color: #000;}
+		}
+		a{
+			@include transition(all, ease, 0.5s);
+			&:hover{color: #000;}
+		}
+	}
+	.masonry-list{
+		padding: 0;
+		margin: 0 0 -1px;
+		overflow: hidden;
+		list-style: none;
+		position: relative;
+		&:after{
+			top: 0;
+			right: 0;
+			bottom: 0;
+			width: 1px;
+			content: "";
+			background: #fff;
+			position: absolute;
+		}
+		> li{
+			width: 25%;
+			float: left;
+			padding: 0 10px 30px;
+			text-align: center;
+			border-bottom: 1px solid #d7d7d7;
+			border-right: 1px solid #d7d7d7;
+		}
+		.mt-product1{
+			text-align: left;
+			max-width: 250px;
+		}
+	}
+}

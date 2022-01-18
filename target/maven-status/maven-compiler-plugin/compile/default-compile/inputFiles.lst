@@ -1,16 +1,24 @@
-/Users/macbookpro/Documents/GitHub/cours-devops-e-commerce/src/main/java/sn/isi/ecommerce/controllers/AccueilServlet.java
-/Users/macbookpro/Documents/GitHub/cours-devops-e-commerce/src/main/java/sn/isi/ecommerce/dao/CategorieImpl.java
-/Users/macbookpro/Documents/GitHub/cours-devops-e-commerce/src/main/java/Tests/CategorieDaoTest.java
-/Users/macbookpro/Documents/GitHub/cours-devops-e-commerce/src/main/java/sn/isi/ecommerce/dao/RolesImpl.java
-/Users/macbookpro/Documents/GitHub/cours-devops-e-commerce/src/main/java/sn/isi/ecommerce/entities/Fournisseur.java
-/Users/macbookpro/Documents/GitHub/cours-devops-e-commerce/src/main/java/sn/isi/ecommerce/entities/Users.java
-/Users/macbookpro/Documents/GitHub/cours-devops-e-commerce/src/main/java/sn/isi/ecommerce/entities/Produit.java
-/Users/macbookpro/Documents/GitHub/cours-devops-e-commerce/src/main/java/sn/isi/ecommerce/dao/ICategorie.java
-/Users/macbookpro/Documents/GitHub/cours-devops-e-commerce/src/main/java/sn/isi/ecommerce/dao/IRoles.java
-/Users/macbookpro/Documents/GitHub/cours-devops-e-commerce/src/main/java/sn/isi/ecommerce/dao/IUsers.java
-/Users/macbookpro/Documents/GitHub/cours-devops-e-commerce/src/main/java/sn/isi/ecommerce/dao/IProduit.java
-/Users/macbookpro/Documents/GitHub/cours-devops-e-commerce/src/main/java/sn/isi/ecommerce/entities/Roles.java
-/Users/macbookpro/Documents/GitHub/cours-devops-e-commerce/src/main/java/sn/isi/ecommerce/dao/UsersImpl.java
-/Users/macbookpro/Documents/GitHub/cours-devops-e-commerce/src/main/java/sn/isi/ecommerce/dao/ProduitImpl.java
-/Users/macbookpro/Documents/GitHub/cours-devops-e-commerce/src/main/java/sn/isi/ecommerce/entities/Categorie.java
-/Users/macbookpro/Documents/GitHub/cours-devops-e-commerce/src/main/java/sn/isi/ecommerce/controllers/CategorieServlet.java
+C:\Users\user\Documents\M2 ISI\devops\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\dao\UsersImpl.java
+C:\Users\user\Documents\M2 ISI\devops\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\entities\Categorie.java
+C:\Users\user\Documents\M2 ISI\devops\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\entities\Detail.java
+C:\Users\user\Documents\M2 ISI\devops\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\entities\User.java
+C:\Users\user\Documents\M2 ISI\devops\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\dao\IUsers.java
+C:\Users\user\Documents\M2 ISI\devops\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\dao\ICategorie.java
+C:\Users\user\Documents\M2 ISI\devops\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\entities\Roles.java
+C:\Users\user\Documents\M2 ISI\devops\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\entities\Commande.java
+C:\Users\user\Documents\M2 ISI\devops\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\controllers\AccueilServlet.java
+C:\Users\user\Documents\M2 ISI\devops\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\entities\Produit.java
+C:\Users\user\Documents\M2 ISI\devops\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\dao\IClient.java
+C:\Users\user\Documents\M2 ISI\devops\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\entities\Facturation.java
+C:\Users\user\Documents\M2 ISI\devops\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\dao\CategorieImpl.java
+C:\Users\user\Documents\M2 ISI\devops\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\entities\Livraison.java
+C:\Users\user\Documents\M2 ISI\devops\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\controllers\LoginServlet.java
+C:\Users\user\Documents\M2 ISI\devops\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\entities\Stock.java
+C:\Users\user\Documents\M2 ISI\devops\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\entities\Users.java
+C:\Users\user\Documents\M2 ISI\devops\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\controllers\CategorieServlet.java
+C:\Users\user\Documents\M2 ISI\devops\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\dao\IRoles.java
+C:\Users\user\Documents\M2 ISI\devops\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\entities\Fournisseur.java
+C:\Users\user\Documents\M2 ISI\devops\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\dao\RolesImpl.java
+C:\Users\user\Documents\M2 ISI\devops\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\dao\ProduitImpl.java
+C:\Users\user\Documents\M2 ISI\devops\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\dao\IProduit.java
+C:\Users\user\Documents\M2 ISI\devops\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\entities\Client.java

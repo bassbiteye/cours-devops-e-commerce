@@ -1,0 +1,147 @@
+
+/*------------------------------------------------------------------
+84. Coming Soon
+-------------------------------------------------------------------*/
+.countdown-center{
+	left: 0;
+	top: 50%;
+	position: absolute;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	&.full{
+		left: 0;
+		right: 0;
+	}
+}
+.count-style1{
+	color: $white;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1.5;
+	text-align: right;
+	text-shadow: 0 0 0 #000;
+	.time{
+		display: block;
+		line-height: 1;
+		font-size: 90px;
+	}
+	p{
+		margin: 0 10px 20px 0;
+	}
+	.hold{
+		width: 200px;
+		padding-top: 10px;
+		border-bottom: 2px solid $white;
+		&:last-child{border-bottom: 0;}
+	}
+}
+.count-style2{
+	color: $white;
+	font-size: 26px;
+	font-weight: 500;
+	line-height: 1.5;
+	text-align: center;
+	text-shadow: 0 0 0 #000;
+	.time{
+		display: block;
+		line-height: 1;
+		font-size: 70px;
+		font-weight: 400;
+	}
+	p{margin: 0 0 10px;	}
+	.hold{
+		width: 160px;
+		vertical-align: top;
+		display: inline-block;
+	}
+}
+.coming-soon{
+	color: $white;
+	height: 100vh;
+	min-height: 700px;
+	text-align: center;
+	background-repeat: none;
+	background-position: center;
+	background-size: cover;
+	.mt-logo{
+		width: 140px;
+		margin: 0 auto 60px;
+	}
+	.title {
+		font-size: 28px;
+		margin: 0 0 19px;
+		font-weight: 400;
+		line-height: 36px;
+		letter-spacing: 6px;
+	}
+	.text {
+		padding: 0 0 19px;
+		a:hover {text-decoration: none;}
+		a:hover {color: $color1;}
+	}
+	.text2{
+		font-size: 20px;
+		overflow: hidden;
+		margin: 0 0 44px;
+		line-height: 28px;
+		letter-spacing: 4px;
+		p{margin: 0 0 10px;}
+	}
+	.footer-social{
+		li{
+			padding: 0;
+			margin: 0 17px;
+		}
+		a{
+			width: auto;
+			height: auto;
+			color: $white;
+			font-size: 20px;
+			background: none;
+			transition:all 0.3s ease;
+			&:hover{background: transparent !important;}
+			&:hover{opacity: 0.2;}
+		}
+	}
+	.error-form{
+		width: 360px;
+		display: block;
+		text-align: left;
+		margin: 0 auto  30px;
+		border:1px solid $white;
+		.form-control{
+			border: 0;
+			padding: 6px 10px 6px 21px;
+			float: left;
+			width: 70%;
+			border-radius: 0;
+			font-size: 12px;
+			line-height: 18px;
+			height: 36px;
+			color: $white;
+			background: none;
+			@include placeholder{color: $white;}
+			&:focus{box-shadow: box-shadow;}
+		}
+		 @include placeholder{color: $white;}
+		.btn{
+			float: right;
+			width: 29.5%;
+			height: 36px;
+			color: $black;
+			font-size: 12px;
+			font-weight: 700;
+			border-radius: 0;
+			line-height: 18px;
+			background:$white;
+		}
+	}
+	.canvas-over{
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 2;
+		position: absolute;
+	}
+}

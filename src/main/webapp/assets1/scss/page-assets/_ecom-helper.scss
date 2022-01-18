@@ -1,0 +1,873 @@
+
+/*------------------------------------------------------------------
+6. Mt Newsletter Popup / .mt-newsletter-popup
+-------------------------------------------------------------------*/
+.mt-newsletter-popup{
+	@extend %clearfix;
+	width: 792px;
+	margin: 0 auto;
+	padding: 44px 20px 20px 42px;
+	position: relative;
+	.title{
+		@include font(90px, 100px);
+		display: block;
+		color: $clr-7;
+		text-transform: uppercase;
+		margin: 0;
+		font-family: $font-family-base-1;
+		font-weight: 700;
+		position: relative;
+	}
+	.txt-holder{
+		width: 413px;
+		overflow: hidden;
+		float: left;
+		position: relative;
+		z-index: 2;
+		top: -59px;
+		padding: 0 0 0 40px;
+	}
+	.holder{@extend %clearfix;}
+	h1{
+		@include font(30px, 33px);
+		text-transform: uppercase;
+		margin: 0 0 18px;
+		font-family: $font-family-base-1;
+		font-weight: 700;
+		color: $black;
+	}
+	.txt{
+		display: block;
+		@include font(18px, 21px);
+		margin: 0 0 47px;
+		color: $clr-17;
+		b{ color: $clr-18; }
+	}
+	.newsletter-form{
+		width: 100%;
+		margin: 0 0 40px;
+		overflow: hidden;
+		.form-control{
+			width: 100%;
+			height: 47px;
+			border: none;
+			outline: none;
+			box-shadow: none;
+			border-radius: 25px;
+			@include font(14px, 16px);
+			padding: 11px 10px 10px 22px;
+			margin: 0 0 8px;
+			background: $clr-19;
+			color: $clr-17;
+		}
+		button{
+			width: 122px;
+			padding: 10px 10px 6px 10px;
+			text-align: center;
+			text-transform: uppercase;
+			@include font(14px, 20px);
+			font-family: $font-family-base-1;
+			font-weight: 700;
+			border: none;
+			outline: none;
+			border-radius: 25px;
+			transition: all 0.25s linear;
+			background: $clr-20;
+			color: $white;
+			&:hover{
+				background: $clr-19;
+				color: $clr-17;
+			}
+		}
+	}
+	.img-holder{
+		float: right;
+		position: relative;
+		top: -40px;
+		right: 47px;
+	}
+	.popup-form{
+		bottom: 45px;
+		overflow: hidden;
+		position: absolute;
+		font-family: $font-family-base-2;
+		@include font(11px, 13px);
+		padding: 0 0 0 40px;
+		color: $clr-21;
+		.form-control{
+			width: 16px;
+			height: 16px;
+			margin: 0 7px 0 0;
+			display: inline-block;
+			vertical-align: middle;
+			background: $clr-21;
+		}
+	}
+}
+/*------------------------------------------------------------------
+7. Popup Holder / .popup-holder
+-------------------------------------------------------------------*/
+.popup-holder {
+	position: relative;
+	overflow: hidden;
+	height: 0;
+	.lightbox {
+		padding: 5px;
+		width: 100%;
+	}
+}
+/*------------------------------------------------------------------
+8. Fancybox Skin / .fancybox-skin
+-------------------------------------------------------------------*/
+.fancybox-skin{padding: 0 !important;}
+/*------------------------------------------------------------------
+9. Mt Map Holder / .mt-map-holder
+-------------------------------------------------------------------*/
+.mt-map-holder{
+	overflow: hidden;
+	width: 100%;
+	position: relative;
+	height: 571px;
+	.map-logo{
+		width: 111px;
+		position: absolute;
+		right: 45%;
+		bottom: 43%;
+		a{display: block;}
+	}
+}
+/*------------------------------------------------------------------
+10. Mt Map Descrp / .mt-map-descrp
+-------------------------------------------------------------------*/
+.mt-map-descrp{
+	@include font(16px, 23px);
+	font-weight: 300;
+	padding: 53px 0;
+	@extend %clearfix;
+	color: $clr-28;
+	h1{
+		@include font(30px, 33px);
+		font-weight: 600;
+		margin: 0 0 28px;
+		color: $clr-28;
+	}
+	p{margin: 0 0 23px;}
+}
+/*------------------------------------------------------------------
+11. Mt Contact Detial / .mt-contact-detial
+-------------------------------------------------------------------*/
+.mt-contact-detail{
+	padding: 75px 0 65px;
+	font-weight: 300;
+	@include font(18px, 22px);
+	position: relative;
+	background: $clr-7;
+	color: $clr-28;
+	&.content-info{
+		margin: 0 auto;
+		background: none;
+		max-width: 1059px;
+	}
+	.icon{
+		display: block;
+		margin: 0 0 25px;
+		color: $clr-28;
+		@include font(48px, 50px);
+	}
+	.title{
+		text-transform: uppercase;
+		display: block;
+		margin: 0 0 18px;
+		font-family: $font-family-base-1;
+		letter-spacing: 1px;
+	}
+	a{ color: $clr-28; }
+	address{
+		font-style: normal;
+		margin: 0;
+	}
+	.txt-wrap{
+		@include font(16px, 23px);
+		font-weight: 300;
+		@extend %clearfix;
+		overflow: hidden;
+		margin: 0 0 50px;
+		color: $clr-28;
+		h2{
+			@include font(30px, 33px);
+			font-weight: 600;
+			margin: 0 0 28px;
+			color: $clr-28;
+		}
+		p{margin: 0 0 23px;}
+	}
+	.contact-txt{
+		@include font(14px, 16px);
+		font-weight: 200;
+		overflow: hidden;
+	li{
+		float: left;
+		margin: 0 40px 20px 0;
+	}
+	strong{
+		font-weight: 600;
+		@include font(16px, 20px);
+		text-transform: capitalize;
+		display: block;
+		margin: 0 0 11px;
+	}
+	}
+	h2{
+		font-weight: 600;
+		@include font(16px, 20px);
+		display: block;
+		margin: 0 0 11px;
+	}
+	.contact-form{
+		width: 100%;
+		overflow: hidden;
+		.form-control{
+			border-width: 1px;
+			border-style: solid;
+			border-radius: 20px;
+			box-shadow: none;
+			outline: none;
+			background: none;
+			width: 100%;
+			height: 40px;
+			margin: 0 0 8px;
+			@include font(14px, 16px);
+			font-weight: 200;
+			padding: 10px 33px;
+			border-color: $clr-28;
+			color: $black;
+			@include placeholder{ color: $black; }
+		}
+		textarea{
+			min-height: 89px;
+			resize: none;
+		}
+	}
+}
+/*------------------------------------------------------------------
+12. Mt Form Section / .mt-form-sec
+-------------------------------------------------------------------*/
+.mt-form-sec{
+	padding: 87px 0 98px;
+	.header{
+		@include font(14px, 23px);
+		font-weight: 300;
+		margin: 0 0 36px;
+		color: $clr-28;
+		h2{
+			@include font(16px, 18px);
+			margin: 0 0 20px;
+			font-weight: 600;
+			color: $clr-28;
+		}
+	}
+	.contact-form{
+		width: 924px;
+		margin: 0 auto;
+		.form-control{
+			border-width: 1px;
+			border-style: solid;
+			border-radius: 20px;
+			box-shadow: none;
+			outline: none;
+			background: none;
+			width: 100%;
+			height: 40px;
+			margin: 0 0 8px;
+			@include font(14px, 16px);
+			font-weight: 200;
+			padding: 10px 33px;
+			border-color: $clr-28;
+			color: $black;
+			@include placeholder{ color: $black; }
+		}
+		textarea{
+			min-height: 89px;
+			resize: none;
+		}
+	}
+}
+/*------------------------------------------------------------------
+13. Mt Contact Banner / .mt-contact-banner
+-------------------------------------------------------------------*/
+.mt-contact-banner{
+	min-height: 207px;
+	padding: 82px 0 40px;
+	background-size: cover;
+	text-transform: capitalize;
+	background-position: 50% 50%;
+	&.style4{
+		padding: 65px 0 14px;
+		margin: 0 0 4px;
+		.breadcrumbs{ margin: 0 0 20px; }
+	}
+	&.mt-banner-22{
+		min-height: 326px;
+		position: relative;
+		padding: 218px 0 20px;
+		h1{
+			color: $white;
+			margin: 0 0 16px;
+		}
+		.breadcrumbs ul{
+			color: $white;
+			opacity: 0.5;
+			a{ color: $white; }
+		}
+	}
+	h1{
+		@include font(44px, 46px);
+		font-weight: 700;
+		font-family: $font-family-base-1;
+		margin: 0 0 15px;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		color: $clr-28;
+	}
+	.breadcrumbs{
+		@include font(14px, 16px);
+		font-weight: 200;
+		overflow: hidden;
+		color: $clr-28;
+		ul{
+			overflow: hidden;
+			li{
+				margin: 0 10px 0 0;
+				display: inline-block;
+				vertical-align: middle;
+			}
+			a{
+				transition: all 0.25s linear;
+				color: $clr-28;
+				&:hover{ color: $color1;}
+			}
+			.fa-angle-right{margin: 0 0 0 5px;}
+		}
+	}
+	.search{
+		display: inline-block;
+		vertical-align: top;
+		.fa-search{margin: 0 0 0 5px;}
+	}
+}
+/*------------------------------------------------------------------
+14. Mt About Section / .mt-about-sec
+-------------------------------------------------------------------*/
+.mt-about-sec{
+	@extend %clearfix;
+	padding: 86px 0 106px;
+	.txt{
+		overflow: hidden;
+		@include font(18px, 31px);
+		font-weight: 300;
+		margin: 0 0 22px;
+		color: $clr-30;
+		p{margin: 0 0 37px;}
+		strong{
+			display: block;
+			@include font(24px, 26px);
+			font-weight: 600;
+		}
+	}
+	h2{
+		@include font(30px, 33px);
+		font-weight: bold;
+		margin: 0 0 50px;
+		font-family: $font-family-base-1;
+		text-transform: uppercase;
+		color: $clr-30;
+	}
+	.social-network{
+		&.social-icon{ @include font(18px, 20px); }
+		li{
+			display: inline-block;
+			vertical-align: middle;
+			margin: 0 12px 0 0;
+			@include font(18px, 20px);
+		}
+	}
+	.mt-follow-holder .title{
+		display: block;
+		@include font(13px, 18px);
+		font-family: $font-family-base-1;
+		margin: 0 0 15px;
+		font-weight: 700;
+		color: $clr-2;
+	}
+}
+/*------------------------------------------------------------------
+15. Mt Team Section / .mt-team-sec
+-------------------------------------------------------------------*/
+.mt-team-sec{
+	padding: 0 0 87px;
+	h3{
+		@include font(30px, 33px);
+		font-weight: bold;
+		margin: 0 0 36px;
+		font-family: $font-family-base-1;
+		text-transform: uppercase;
+		color: $clr-30;
+	}
+	.holder{overflow: hidden;}
+	.col{
+		width: 23.6%;
+		float: left;
+		margin: 0 0 0 22px;
+		position: relative;
+		&:first-child{ margin: 0;}
+		.mt-txt{
+			padding: 0 0 0 6px;
+			border-left: 6px solid $clr-29;
+		}
+	}
+	.img-holder{
+		margin: 0 0 15px;
+		overflow: hidden;
+		a{
+			display: block;
+			position: relative;
+			.social-icon{
+				@include font(20px, 22px);
+				opacity: 0;
+				visibility: visible;
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				color: $white;
+				transform: translate(-50%, -50%);
+				li{
+					float: left;
+					margin: 0 4px 0 0;
+					width: 40px;
+					height: 40px;
+					border-radius: 100%;
+					text-align: center;
+					padding: 8px;
+					transition: all 0.25s linear;
+					background: $clr-30;
+					&:hover{ color: $clr-18; }
+				}
+			}
+			&:before{
+				@include element(0, 0, 0, 0);
+				background: rgba(255, 255, 255, 0.7);
+				opacity: 0;
+				visibility: hidden;
+				transition: all 0.25s linear;
+				z-index: 0;
+			}
+			&:hover{
+			&:before{
+				opacity: 1;
+				visibility: visible;
+			}
+			.social-icon{
+				opacity: 1;
+				visibility: visible;
+			}
+		}
+	}
+	}
+	h4{
+		@include font(20px, 22px);
+		font-family: $font-family-base-1;
+		font-weight: bold;
+		margin: 0;
+		text-transform: uppercase;
+		color: $clr-30;
+		a{
+			transition: all 0.25s linear;
+			color: $clr-30;
+			&:hover{ color: $clr-18;}
+		}
+	}
+	.sub-title{
+		@include font(12px, 14px);
+		display: block;
+		letter-spacing: 4px;
+		text-transform: uppercase;
+		padding: 0 0 0 3px;
+		color: $clr-10;
+	}
+}
+/*------------------------------------------------------------------
+16. Mt Workspace Section / .mt-workspace-sec
+-------------------------------------------------------------------*/
+.mt-workspace-sec{
+	padding: 40px 0 100px;
+	h2{
+		@include font(30px, 33px);
+		font-weight: bold;
+		margin: 0 0 36px;
+		font-family: $font-family-base-1;
+		text-transform: uppercase;
+		color: $clr-30;
+	}
+	.work-slider{
+		position: relative;
+		li{
+			float: left;
+			overflow: hidden;
+			margin: 0 0 0 15px;
+			position: relative;
+			&:before{
+				@include element(0, 0, 0, 0);
+				background: rgba(255, 255, 255, 0.7);
+				transition: all 0.25s linear;
+				z-index: 0;
+			}
+		}
+		.slick-active:before{ opacity: 0; visibility: hidden;}
+		.img-holder{
+			width: 53.4%;
+			float: left;
+			margin: 0 0 0 15px;
+			&:first-child{
+				margin: 0;
+				width: 45.3%;
+			}
+			.coll1{
+				float: left;
+				width: 37.8%;
+				margin: 0 0 14px;
+			}
+			.coll2{
+				width: 59.8%;
+				float: left;
+				margin: 0 0 14px 15px;
+			}
+			.coll3{width: 100%;}
+		}
+		.slick-prev.slick-arrow{
+			background: none;
+			text-indent: -9999px;
+			border: none;
+			outline: none;
+			box-shadow: none;
+			position: absolute;
+			left: 50px;
+			top: 50%;
+			transform: translateY(-50%);
+			z-index: 1;
+			&:before{
+				position: absolute;
+				content: "\f053";
+				font-family: "FontAwesome";
+				@include font(20px, 22px);
+				text-indent: 0;
+				left: 0;
+				top: 0;
+				color: $clr-30;
+			}
+		}
+		.slick-next.slick-arrow{
+			background: none;
+			text-indent: -9999px;
+			border: none;
+			outline: none;
+			box-shadow: none;
+			position: absolute;
+			right: 50px;
+			top: 50%;
+			transform: translateY(-50%);
+			z-index: 1;
+			&:before{
+				position: absolute;
+				content: "\f054";
+				font-family: "FontAwesome";
+				@include font(20px, 22px);
+				text-indent: 0;
+				left: 0;
+				top: 0;
+				color: $clr-30;
+			}
+		}
+		.slick-dots{
+			margin: 40px auto 0;
+			width: 400px;
+			overflow: hidden;
+			position: relative;
+			bottom: auto;
+			li{
+				@include size(91px, 3px);
+				border: none;
+				outline: none;
+				box-shadow: none;
+				text-indent: -9999px;
+				padding: 0;
+				margin: 0 10px 0 0;
+				background: $clr-43;
+				transition: all 0.25s linear;
+				&.slick-active{ background: $clr-23;}
+				&:hover{ background: $clr-23;}
+			}
+		}
+	}
+}
+/*------------------------------------------------------------------
+17. Mt Process Section / .mt-process-sec
+-------------------------------------------------------------------*/
+.mt-process-sec{
+	padding: 76px 0;
+	.process-list{
+		margin: 0 0 22px;
+		@include font(16px, 18px);
+		font-weight: 700;
+		overflow: hidden;
+		color: $clr-36;
+		text-align: center;
+		li{
+			min-width: 163px;
+			display: inline-block;
+			vertical-align: top;
+			text-align: center;
+			margin: 0 0 10px 60px;
+			position: relative;
+			z-index: 1;
+			&:before{
+				@include element(50%, auto, auto, -87px);
+				width: 107px;
+				height: 1px;
+				margin: -19px 0 0;
+				background: $clr-29;
+			}
+			&:first-child{
+				margin: 0;
+				&:before{ display: none;}
+			}
+		}
+		.counter{
+			display: block;
+			width: 86px;
+			height: 86px;
+			@include font(30px, 33px);
+			padding: 24px 0 0;
+			margin: 0 auto 18px;
+			border-radius: 100%;
+			text-align: center;
+			border-width: 1px;
+			border-style: solid;
+			color: $clr-36;
+			border-color: $clr-29;
+		}
+		.title{display: block;}
+		.active{
+			.title{color: $black;}
+			.counter{
+				color: $black;
+				border-color: $black;
+			}
+		}
+	}
+}
+/*------------------------------------------------------------------
+18. Mt seller Section / .mt-seller-sec
+-------------------------------------------------------------------*/
+.mt-seller-sec{
+	@extend %clearfix;
+	padding: 40px 0;
+	.header{
+		overflow: hidden;
+		margin: 0 0 44px;
+		.title{
+			@include font(14px, 16px);
+			font-weight: 600;
+			font-family: $source-sans-pro;
+			display: block;
+			letter-spacing: 4px;
+			word-spacing: 1px;
+			text-transform: uppercase;
+			color: $color16;
+		}
+	}
+	h1{
+		@include font(26px, 28px);
+		font-weight: 700;
+		font-family: $font-family-base-1;
+		margin: 0 0 3px;
+		letter-spacing: -1px;
+		text-transform: uppercase;
+		color: $color16;
+	}
+}
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------------
+19. Mt Heading / .mt-heading
+-------------------------------------------------------------------*/
+
+.mt-heading{
+	color: $clr-10;
+	margin: 0 0 12px;
+	letter-spacing: 4px;
+	font: 700 14px/20px $source-sans-pro;
+	.heading{
+		color: #3a3a3a;
+		margin: 0 0 2px;
+		letter-spacing: 0;
+		font: 700 26px/30px $font-family-base-1;
+	}
+	p{margin: 0;}
+}
+/*------------------------------------------------------------------
+20. Mt Heading2 / .mt-heading2
+-------------------------------------------------------------------*/
+.mt-heading2{
+	color: $clr-10;
+	margin: 0 0 12px;
+	letter-spacing: 4px;
+	padding: 0 0 0 12px;
+	border-left: 9px solid $clr-29;
+	font: 700 14px/20px $source-sans-pro;
+	.head{
+		color: #3a3a3a;
+		margin: 0 0 2px;
+		letter-spacing: 0;
+		font: 700 26px/30px $font-family-base-1;
+	}
+	p{margin: 0;}
+}
+/*------------------------------------------------------------------
+21. Mt Patners / .mt-patners
+-------------------------------------------------------------------*/
+.mt-patners{
+	padding: 0 0 36px;
+	.heading{
+		color: #3a3a3a;
+		margin: 0 0 7px;
+		text-transform: uppercase;
+		font: 700 26px/30px $font-family-base-1;
+		span{
+			color: $clr-10;
+			padding: 0 0 0 2px;
+			letter-spacing: 3px;
+			font: 600 14px/20px $source-sans-pro;
+			@include alignment(inline-block, bottom);
+		}
+	}
+	.box1{
+		width: 100%;
+		height: 110px;
+		display: table;
+		text-align: center;
+	}
+	.box2{@include alignment(table-cell, middle);}
+	img{
+		width: auto;
+		display: inline-block;
+	}
+	.slick-prev,
+	.slick-next{display: none !important;}
+}
+
+
+
+.bg-grey{background-color: $color20;}
+.paddingzero{padding: 0 !important;}
+.paddingtop-md{padding-top: 60px;}
+.paddingbootom-md{padding-bottom: 60px;}
+.mt-paddingbottom20{padding-bottom: 20px;}
+.toppadding-zero{padding-top: 0 !important;}
+.faq-section{
+	overflow: hidden;
+	.panel-collapse{
+		overflow: hidden;
+		-webkit-transition: all 0.3s ease;
+				transition: all 0.3s ease;
+	}
+	.panel-collapse{height: 0;}
+	.panel-collapse.in{height: auto;}
+	.panel-body{padding:  5%;}
+	.panel-title{
+		cursor: pointer;
+		margin: 0;
+		font-size: 24px;
+		font-weight: 600;
+		line-height: 26px;
+		position: relative;
+		width: 100%;
+		color: #fff;
+		border-radius: 3px;
+		-webkit-transition: all 0.3s ease;
+				transition: all 0.3s ease;
+		a{
+			color: inherit;
+			display: block;
+			padding: 20px 4%;
+			position: relative;
+			background: #ff6060;
+			border-radius: 3px;
+			-webkit-transition: all 0.3s ease;
+					transition: all 0.3s ease;
+		}
+		a.collapsed:hover{
+			color:#fff;
+			padding: 20px 4%;
+			background: #ff6060;
+		}
+		a.collapsed{
+			padding: 20px 3%;
+			color: #444549;
+			background: #f8f8f8;
+		}
+		a.collapsed:after{color: #444549;}
+		a.collapsed:hover:after{color: #fff;}
+		a:after{
+			top:0;
+			right: 3%;
+			content:'\f105';
+			display:block;
+			font-size:24px;
+			line-height:60px;
+			color:#fff;
+			font-family:'FontAwesome';
+			position:absolute;
+			-webkit-transition: all 0.3s ease;
+			transition: all 0.3s ease;
+		}
+		a.collapsed:hover:after,
+		&.active a:after{content:'\f107';}
+	}
+	.panel.panel-default{margin: 0 0 10px;}
+}
+.mt-socialicons {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	display: table;
+	font-size: 20px;
+	list-style: none;
+	overflow: hidden;
+	line-height: 20px;
+	text-align: center;
+	table-layout: fixed;
+	li {
+		display: table-cell;
+		vertical-align: middle;
+		&.mt-facebook a{background:#3b5998;}
+		&.mt-instagram a{background:#375989;}
+		&.mt-twitter a{background:#55acee;}
+		&.mt-linkedin a{background:#007bb5;}
+		&.mt-dribbble a{background:#dd4b39;}
+		&.mt-pinterest a{background:#cb2027;}
+		&.mt-youtube a{background:#bb0000;}
+		&.mt-vimeo a{background:#f7b42c;}
+	}
+	a {
+		color: #fff;
+		height: 62px;
+		display: block;
+		line-height: 62px;
+	}
+}
