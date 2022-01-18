@@ -18,17 +18,33 @@ public class ClientImpl implements IClient {
 
     @Override
     public List<Client> getAllClients() {
-        return null;
+        try {
+            return entityManager.createQuery("SELECT c FROM Client c").getResultList();
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
     }
 
-    @Override
     public Client getClientById(int id) {
-        return null;
+        try{
+            return entityManager.find(Client.class, id);
+        }catch (Exception exencep){
+            exencep.printStackTrace();
+            return null;
+        }
     }
 
     @Override
     public Client getClientByEmail(String email) {
-        return null;
+        try{
+            Client client = (Client) entityManager.createQuery("SELECT c FROM Client c WHERE c.email = :email")
+                    .setParameter("email", email).getSingleResult();
+            return client;
+        }catch (Exception exencep){
+            exencep.printStackTrace();
+            return null;
+        }
     }
 
     @Override
@@ -47,12 +63,39 @@ public class ClientImpl implements IClient {
 
     @Override
     public Client updateClient(int id, Client client) {
-        return null;
+        try {
+            if (this.getClientById(id) == null){
+                return null;
+            }
+
+            entityManager.getTransaction().begin();
+            entityManager.merge(client);
+            entityManager.getTransaction().commit();
+            return client;
+        } catch (Exception e) {
+            entityManager.getTransaction().rollback();
+            e.printStackTrace();
+            return null;
+        }
     }
 
     @Override
     public boolean deleteClient(int id) {
-        return false;
+        try {
+            Client client = entityManager.find(Client.class, id);
+            if (this.getClientById(id) == null){
+                return false;
+            }
+
+            entityManager.getTransaction().begin();
+            entityManager.remove(client);
+            entityManager.getTransaction().commit();
+            return true;
+        } catch (Exception e) {
+            entityManager.getTransaction().rollback();
+            e.printStackTrace();
+            return false;
+        }
     }
 
     @Override
