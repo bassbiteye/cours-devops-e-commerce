@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98d302df-2a9f-4bda-8c78-26a1f1e6a444" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/controllers/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/filter/FilterSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3604ec8f-e016-4c46-9ccd-511f4cf3aeba.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3604ec8f-e016-4c46-9ccd-511f4cf3aeba.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6ad965c3-6616-4ddf-b8a6-86dc680ccec8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6ad965c3-6616-4ddf-b8a6-86dc680ccec8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/RolesImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/RolesImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,13 +35,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="22poKWjHLvJEjfAlsHace1nscTT" />
   <component name="ProjectLevelVcsManager">
@@ -70,7 +77,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4045977" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -91,7 +98,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RolesImplTest.update">
+  <component name="RunManager" selected="JUnit.RolesImplTest.add">
     <configuration name="RolesImplTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cours-devops-e-commerce" />
       <extension name="coverage">
@@ -199,10 +206,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RolesImplTest.add" />
+        <item itemvalue="JUnit.RolesImplTest.getAll" />
         <item itemvalue="JUnit.RolesImplTest.update" />
         <item itemvalue="JUnit.UsersImplTest.login" />
-        <item itemvalue="JUnit.RolesImplTest.getAll" />
-        <item itemvalue="JUnit.RolesImplTest.add" />
         <item itemvalue="JUnit.UsersImplTest.getAll" />
       </list>
     </recent_temporary>
@@ -235,7 +242,11 @@
       <workItem from="1642086120765" duration="6945000" />
       <workItem from="1642110837435" duration="1508000" />
       <workItem from="1642114759913" duration="1641000" />
-      <workItem from="1642181842978" duration="5344000" />
+      <workItem from="1642181842978" duration="7310000" />
+      <workItem from="1642450859719" duration="744000" />
+      <workItem from="1642451648991" duration="1325000" />
+      <workItem from="1642534236082" duration="1640000" />
+      <workItem from="1642542241564" duration="640000" />
     </task>
     <servers />
   </component>
