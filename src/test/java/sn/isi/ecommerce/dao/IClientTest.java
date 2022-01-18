@@ -17,7 +17,7 @@ class IClientTest {
 
     @Test
     void getAllClients() {
-        Assertions.assertNotNull(iClient.getAllClients(), "Test getAllClient a echoué");
+
     }
 
     @Test
