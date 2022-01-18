@@ -17,6 +17,7 @@ class IClientTest {
 
     @Test
     void getAllClients() {
+        Assertions.assertNotNull( iClient.getAllClients(), "La methode getAllClients a echoué");
     }
 
     @Test
@@ -34,7 +35,7 @@ class IClientTest {
         Client client = new Client();
         client.setNom("Diallo");
         client.setPrenom("saliou");
-        Assertions.assertEquals(2, iClient.addClient(client).getId(), "La methode addClient a echoué");
+        Assertions.assertEquals(3, iClient.addClient(client).getId(), "La methode addClient a echoué");
     }
 
     @Test

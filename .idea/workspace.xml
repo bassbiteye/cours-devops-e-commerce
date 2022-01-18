@@ -9,7 +9,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98d302df-2a9f-4bda-8c78-26a1f1e6a444" name="Default Changelist" comment="" />
+    <list default="true" id="98d302df-2a9f-4bda-8c78-26a1f1e6a444" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/dao/ClientImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/dao/ClientImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sn/isi/ecommerce/dao/IClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sn/isi/ecommerce/dao/IClientTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +49,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -71,6 +88,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -100,7 +118,7 @@
       <recent name="sn.isi.ecommerce.controllers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IClientTest.deleteClient">
+  <component name="RunManager" selected="JUnit.IClientTest.addClient (1)">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tests.Main" />
       <module name="projet-e-commerce" />
@@ -110,6 +128,22 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IClientTest.addClient (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="eCormmerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sn.isi.ecommerce.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sn.isi.ecommerce.dao" />
+      <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.IClientTest" />
+      <option name="METHOD_NAME" value="addClient" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,24 +176,6 @@
       <option name="PACKAGE_NAME" value="sn.isi.ecommerce.dao" />
       <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.IClientTest" />
       <option name="METHOD_NAME" value="deleteClient" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IClientTest.getAllCommandesOfClientId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="projet-e-commerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sn.isi.ecommerce.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="PACKAGE_NAME" value="sn.isi.ecommerce.dao" />
-      <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.IClientTest" />
-      <option name="METHOD_NAME" value="getAllCommandesOfClientId" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -297,17 +313,17 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.IClientTest.deleteClient" />
       <item itemvalue="JUnit.IClientTest.updateClient" />
-      <item itemvalue="JUnit.IClientTest.getAllCommandesOfClientId" />
       <item itemvalue="JUnit.IClientTest.addClient" />
       <item itemvalue="Maven.gestion-ecommerce [tomcat7:run]" />
+      <item itemvalue="JUnit.IClientTest.addClient (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IClientTest.addClient (1)" />
         <item itemvalue="JUnit.IClientTest.deleteClient" />
         <item itemvalue="JUnit.IClientTest.updateClient" />
         <item itemvalue="JUnit.IClientTest.addClient" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.IClientTest.getAllCommandesOfClientId" />
       </list>
     </recent_temporary>
   </component>
@@ -358,6 +374,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
