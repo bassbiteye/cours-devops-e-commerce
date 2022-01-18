@@ -21,14 +21,25 @@ public class ClientImpl implements IClient {
         return null;
     }
 
-    @Override
     public Client getClientById(int id) {
-        return null;
+        try{
+            return entityManager.find(Client.class, id);
+        }catch (Exception exencep){
+            exencep.printStackTrace();
+            return null;
+        }
     }
 
     @Override
     public Client getClientByEmail(String email) {
-        return null;
+        try{
+            Client client = (Client) entityManager.createQuery("SELECT c FROM Client c WHERE c.email = :email")
+                    .setParameter("email", email).getSingleResult();
+            return client;
+        }catch (Exception exencep){
+            exencep.printStackTrace();
+            return null;
+        }
     }
 
     @Override
