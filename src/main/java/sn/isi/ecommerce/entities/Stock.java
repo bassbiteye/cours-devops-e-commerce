@@ -10,6 +10,6 @@ public class Stock  implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    @OneToMany(mappedBy = "stock", fetch = FetchType.EAGER)
+    @OneToMany(mappedBy = "stock")
     private List<Produit> produits = new ArrayList<Produit>();
 }
