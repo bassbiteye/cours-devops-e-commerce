@@ -31,19 +31,11 @@ public class FournisseurImpl implements IFournisseur {
 		}
 	}
 
-	@Override
-<<<<<<< HEAD
-	public int update(Fournisseur categorie) {
 
-		try {
-			em.getTransaction().begin();
-			em.merge(categorie);
-=======
 	public int update(Fournisseur fournisseur) {
 		try {
 			em.getTransaction().begin();
 			em.merge(fournisseur);
->>>>>>> 3d2dd3a83b058b5ce611e3e6daa9b91d0cd26c25
 			em.getTransaction().commit();
 			return 1;
 		} catch (Exception e) {
