@@ -7,9 +7,7 @@
       <root url="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/mysql-connector-java-8.0.25.jar!/" />
       <root url="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/org.eclipse.persistence.jpa.jpql_2.5.2.v20140319-9ad6abd.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/javax.persistence-2.1.0-doc.zip!/docs" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES />
   </library>
 </component>

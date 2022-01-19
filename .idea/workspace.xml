@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
       <artifact name="projet-e-commerce:war" />
     </artifacts-to-build>
   </component>
+=======
+>>>>>>> c43248903cb8efbc49c93cde38c966469e206aa8
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98d302df-2a9f-4bda-8c78-26a1f1e6a444" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/src/main/java/filter/FilterSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3604ec8f-e016-4c46-9ccd-511f4cf3aeba.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3604ec8f-e016-4c46-9ccd-511f4cf3aeba.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6ad965c3-6616-4ddf-b8a6-86dc680ccec8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6ad965c3-6616-4ddf-b8a6-86dc680ccec8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/RolesImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/RolesImplTest.java" afterDir="false" />
+>>>>>>> c43248903cb8efbc49c93cde38c966469e206aa8
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +51,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+<<<<<<< HEAD
+=======
+        <option value="JUnit5 Test Class" />
+>>>>>>> c43248903cb8efbc49c93cde38c966469e206aa8
         <option value="Class" />
         <option value="JUnit5 Test Class" />
       </list>
@@ -47,6 +63,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
@@ -58,6 +75,10 @@
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
+=======
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+>>>>>>> c43248903cb8efbc49c93cde38c966469e206aa8
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -73,12 +94,27 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="22poKWjHLvJEjfAlsHace1nscTT" />
+<<<<<<< HEAD
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+=======
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+>>>>>>> c43248903cb8efbc49c93cde38c966469e206aa8
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
+=======
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="JPA.DatabaseSchemaImportDialog" value="3604ec8f-e016-4c46-9ccd-511f4cf3aeba" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+>>>>>>> c43248903cb8efbc49c93cde38c966469e206aa8
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -86,8 +122,13 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+<<<<<<< HEAD
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main" />
+=======
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+>>>>>>> c43248903cb8efbc49c93cde38c966469e206aa8
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -95,9 +136,16 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+<<<<<<< HEAD
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+=======
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.4045977" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+>>>>>>> c43248903cb8efbc49c93cde38c966469e206aa8
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -107,6 +155,7 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+<<<<<<< HEAD
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="dao" />
     </key>
@@ -128,11 +177,34 @@
       <option name="PACKAGE_NAME" value="sn.isi.ecommerce.dao" />
       <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.IClientTest" />
       <option name="METHOD_NAME" value="addClient" />
+=======
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Tests" />
+      <recent name="sn.isi.ecommerce.dao" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.RolesImplTest.add">
+    <configuration name="RolesImplTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cours-devops-e-commerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.RolesImplTest" />
+      <option name="METHOD_NAME" value="add" />
+>>>>>>> c43248903cb8efbc49c93cde38c966469e206aa8
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="IClientTest.addClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage">
         <pattern>
@@ -145,11 +217,25 @@
       <option name="PACKAGE_NAME" value="sn.isi.ecommerce.dao" />
       <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.IClientTest" />
       <option name="METHOD_NAME" value="addClient" />
+=======
+    <configuration name="RolesImplTest.getAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cours-devops-e-commerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.RolesImplTest" />
+      <option name="METHOD_NAME" value="getAll" />
+>>>>>>> c43248903cb8efbc49c93cde38c966469e206aa8
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="IClientTest.deleteClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gestion-ecommerce" />
       <extension name="coverage">
@@ -161,11 +247,25 @@
       <option name="PACKAGE_NAME" value="sn.isi.ecommerce.dao" />
       <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.IClientTest" />
       <option name="METHOD_NAME" value="deleteClient" />
+=======
+    <configuration name="RolesImplTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cours-devops-e-commerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.RolesImplTest" />
+      <option name="METHOD_NAME" value="update" />
+>>>>>>> c43248903cb8efbc49c93cde38c966469e206aa8
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="IClientTest.getAllClients" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="projet-e-commerce" />
       <extension name="coverage">
@@ -177,11 +277,25 @@
       <option name="PACKAGE_NAME" value="sn.isi.ecommerce.dao" />
       <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.IClientTest" />
       <option name="METHOD_NAME" value="getAllClients" />
+=======
+    <configuration name="UsersImplTest.getAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cours-devops-e-commerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.UsersImplTest" />
+      <option name="METHOD_NAME" value="getAll" />
+>>>>>>> c43248903cb8efbc49c93cde38c966469e206aa8
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="IClientTest.updateClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gestion-ecommerce" />
       <extension name="coverage">
@@ -193,6 +307,19 @@
       <option name="PACKAGE_NAME" value="sn.isi.ecommerce.dao" />
       <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.IClientTest" />
       <option name="METHOD_NAME" value="updateClient" />
+=======
+    <configuration name="UsersImplTest.login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cours-devops-e-commerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.UsersImplTest" />
+      <option name="METHOD_NAME" value="login" />
+>>>>>>> c43248903cb8efbc49c93cde38c966469e206aa8
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -223,6 +350,7 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="Tomcat 9.0.35" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.35" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -326,6 +454,15 @@
         <item itemvalue="JUnit.IClientTest.deleteClient" />
         <item itemvalue="JUnit.IClientTest.updateClient" />
         <item itemvalue="JUnit.IClientTest.addClient" />
+=======
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RolesImplTest.add" />
+        <item itemvalue="JUnit.RolesImplTest.getAll" />
+        <item itemvalue="JUnit.RolesImplTest.update" />
+        <item itemvalue="JUnit.UsersImplTest.login" />
+        <item itemvalue="JUnit.UsersImplTest.getAll" />
+>>>>>>> c43248903cb8efbc49c93cde38c966469e206aa8
       </list>
     </recent_temporary>
   </component>
@@ -353,6 +490,7 @@
       <option name="presentableId" value="Default" />
       <updated>1640543825935</updated>
       <workItem from="1640543833704" duration="3316000" />
+<<<<<<< HEAD
       <workItem from="1642026901010" duration="7578000" />
       <workItem from="1642089613233" duration="1079000" />
       <workItem from="1642200461111" duration="5092000" />
@@ -361,11 +499,23 @@
       <workItem from="1642465994261" duration="2939000" />
       <workItem from="1642469180692" duration="141000" />
       <workItem from="1642538708629" duration="421000" />
+=======
+      <workItem from="1642005267898" duration="636000" />
+      <workItem from="1642086120765" duration="6945000" />
+      <workItem from="1642110837435" duration="1508000" />
+      <workItem from="1642114759913" duration="1641000" />
+      <workItem from="1642181842978" duration="7310000" />
+      <workItem from="1642450859719" duration="744000" />
+      <workItem from="1642451648991" duration="1325000" />
+      <workItem from="1642534236082" duration="1640000" />
+      <workItem from="1642542241564" duration="640000" />
+>>>>>>> c43248903cb8efbc49c93cde38c966469e206aa8
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+<<<<<<< HEAD
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -377,5 +527,7 @@
         </entry>
       </map>
     </option>
+=======
+>>>>>>> c43248903cb8efbc49c93cde38c966469e206aa8
   </component>
 </project>
