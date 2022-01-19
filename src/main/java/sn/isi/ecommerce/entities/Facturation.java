@@ -8,8 +8,7 @@ public class Facturation implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-
-    @OneToOne()
+	@OneToOne(optional=false, mappedBy="facturation")
     private Commande commande;
 
 }

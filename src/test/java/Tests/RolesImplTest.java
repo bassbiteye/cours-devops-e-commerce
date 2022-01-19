@@ -1,7 +1,5 @@
 package Tests;
 
-import org.junit.After;
-import org.junit.Before;
 import org.junit.jupiter.api.Test;
 import sn.isi.ecommerce.dao.IRoles;
 import sn.isi.ecommerce.dao.IUsers;
@@ -22,7 +20,7 @@ class RolesImplTest {
         IRoles roledoa = new RolesImpl();
 
         Roles roles = new Roles();
-        roles.setNom("ROLE_SUPADMIN");
+        roles.setNom("ROLE_GESTIONNAIRE");
 
         int result = roledoa.add(roles);
         System.out.println(result);

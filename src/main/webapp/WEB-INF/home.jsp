@@ -156,6 +156,9 @@ String option = (String) request.getAttribute("option");
 					<div class="collapse" id="user">
 						<ul class="nav flex-column sub-menu">
 							<li class="nav-item"><a class="nav-link"
+								href="/gestion-ecommerce/AccueilServlet?option=gestionRoles">
+									Role </a></li>
+							<li class="nav-item"><a class="nav-link"
 								href="/gestion-ecommerce/AccueilServlet?option=gestionUsers">
 									User </a></li>
 						</ul>
@@ -169,7 +172,7 @@ String option = (String) request.getAttribute("option");
 					<div class="collapse" id="produit">
 						<ul class="nav flex-column sub-menu">
 							<li class="nav-item"><a class="nav-link"
-								href="/gestion-ecommerce/AccueilServlet?option=gestionProduits">
+								href="/gestion-ecommerce/CategorieServlet?option=gestionCategories">
 									Catégorie </a></li>
 							<li class="nav-item"><a class="nav-link"
 								href="/gestion-ecommerce/AccueilServlet?option=gestionsProduits">Produit </a></li>
@@ -253,9 +256,23 @@ String option = (String) request.getAttribute("option");
 			<div class="content-wrapper">
 				<!-- main body -->
 				<%
+				if (option != null && option.equals("gestionCategories")) {
+				%>
+				<%@include file="views/gestionProduits/categorie.jsp"%>
+				<%
+				}
+				%>
+				<%
 				if (option != null && option.equals("gestionProduits")) {
 				%>
 				<%@include file="views/gestionProduits/produit.jsp"%>
+				<%
+				}
+				%>
+				<%
+				if (option != null && option.equals("gestionRoles")) {
+				%>
+				<%@include file="views/gestionUsers/role.jsp"%>
 				<%
 				}
 				%>
