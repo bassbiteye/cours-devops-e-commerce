@@ -12,6 +12,5 @@ public interface IClient {
     Client addClient(Client client);
     Client updateClient(int id, Client client);
     boolean deleteClient(int id);
-    boolean checkIfClientIdExists(int id);
     List<Commande> getAllCommandesOfClientId(int id);
 }
