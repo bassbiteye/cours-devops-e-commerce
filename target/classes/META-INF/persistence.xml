@@ -4,7 +4,7 @@
 	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
 	version="2.1">
 	<persistence-unit name="ecommercePU" transaction-type="RESOURCE_LOCAL">
-		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+<!--		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>-->
 		<class>sn.isi.ecommerce.entities.Users</class>
 		<class>sn.isi.ecommerce.entities.Roles</class>
 		<class>sn.isi.ecommerce.entities.Fournisseur</class>
