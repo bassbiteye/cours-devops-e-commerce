@@ -1,7 +1,5 @@
 package Tests;
 
-import org.junit.After;
-import org.junit.Before;
 import org.junit.jupiter.api.Test;
 import sn.isi.ecommerce.dao.IRoles;
 import sn.isi.ecommerce.dao.IUsers;
