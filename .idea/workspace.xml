@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <list default="true" id="98d302df-2a9f-4bda-8c78-26a1f1e6a444" name="Default Changelist" comment="" />
 =======
     <list default="true" id="98d302df-2a9f-4bda-8c78-26a1f1e6a444" name="Default Changelist" comment="">
@@ -174,6 +175,12 @@
 >>>>>>> 1a89cbc96f8409a7ed45f6bac45c4ab8c51ebf8f
     </list>
 >>>>>>> f288bec8b7c46393d57d4dd6c01dfdf4aa6541be
+=======
+    <list default="true" id="98d302df-2a9f-4bda-8c78-26a1f1e6a444" name="Default Changelist" comment="&quot;implementation du test pour produit&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/ProduitImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/ProduitImplTest.java" afterDir="false" />
+    </list>
+>>>>>>> 56f635eddd577514bf91f8c04804b2c2ccfb94d7
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -238,7 +245,7 @@
     </option>
     <option name="myId2Visible">
       <map>
-        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
   </component>
@@ -541,6 +548,14 @@
       <workItem from="1642542241564" duration="640000" />
 >>>>>>> 1a89cbc96f8409a7ed45f6bac45c4ab8c51ebf8f
     </task>
+    <task id="LOCAL-00001" summary="&quot;implementation du test pour produit&quot;">
+      <created>1642518973516</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1642518973517</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -590,5 +605,9 @@
     <option name="version" value="3" />
 >>>>>>> 1a89cbc96f8409a7ed45f6bac45c4ab8c51ebf8f
 >>>>>>> f288bec8b7c46393d57d4dd6c01dfdf4aa6541be
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;implementation du test pour produit&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;implementation du test pour produit&quot;" />
   </component>
 </project>
