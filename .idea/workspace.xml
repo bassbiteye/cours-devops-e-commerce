@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98d302df-2a9f-4bda-8c78-26a1f1e6a444" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/filter/FilterSession.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3604ec8f-e016-4c46-9ccd-511f4cf3aeba.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3604ec8f-e016-4c46-9ccd-511f4cf3aeba.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6ad965c3-6616-4ddf-b8a6-86dc680ccec8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6ad965c3-6616-4ddf-b8a6-86dc680ccec8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/RolesImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/RolesImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,7 +241,8 @@
       <workItem from="1642450859719" duration="744000" />
       <workItem from="1642451648991" duration="1325000" />
       <workItem from="1642534236082" duration="1640000" />
-      <workItem from="1642542241564" duration="640000" />
+      <workItem from="1642542241564" duration="1360000" />
+      <workItem from="1642618654990" duration="84000" />
     </task>
     <servers />
   </component>
