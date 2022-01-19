@@ -22,17 +22,16 @@
     <div class="col-md-12 stretch-card">
         <div class="card">
             <div class="card-body">
-                <p class="card-title">Recent Purchases</p>
+                <p class="card-title">Fournisseur: 8</p>
                 <div class="table-responsive">
                     <table id="recent-purchases-listing" class="table">
                         <thead>
                         <tr>
-                            <th>Name</th>
-                            <th>Status report</th>
-                            <th>Office</th>
-                            <th>Price</th>
-                            <th>Date</th>
-                            <th>Gross amount</th>
+                            <th>Prenom</th>
+                            <th>Nom</th>
+                            <th>Telephone</th>
+                            <th>Ville</th>
+                            <th>adresse</th>
                         </tr>
                         </thead>
                         <tbody>

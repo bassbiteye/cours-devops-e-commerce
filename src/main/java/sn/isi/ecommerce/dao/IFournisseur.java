@@ -11,4 +11,5 @@ public interface IFournisseur {
 	public int delete(int id);
 	public Fournisseur get(int id);
 	public List<Fournisseur> getAll();
+	public int number(int id);
 }

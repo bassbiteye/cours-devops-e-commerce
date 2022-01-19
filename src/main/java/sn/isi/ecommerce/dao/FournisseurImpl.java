@@ -46,4 +46,9 @@ public class FournisseurImpl implements IFournisseur {
 			return null;
 		}
 	}
+
+	@Override
+	public int number(int id) {
+		return 0;
+	}
 }
