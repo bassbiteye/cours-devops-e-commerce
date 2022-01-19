@@ -4,20 +4,24 @@
 	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
 	version="2.1">
 	<persistence-unit name="ecommercePU" transaction-type="RESOURCE_LOCAL">
-		<!--<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
 		<class>sn.isi.ecommerce.entities.Users</class>
-		<class>sn.isi.ecommerce.entities.Roles</class>-->
-		<class>sn.isi.ecommerce.entities.Fournisseur</class><!--
+		<class>sn.isi.ecommerce.entities.Roles</class>
+		<class>sn.isi.ecommerce.entities.Fournisseur</class>
 		<class>sn.isi.ecommerce.entities.Categorie</class>
 		<class>sn.isi.ecommerce.entities.Produit</class>
 		<class>sn.isi.ecommerce.entities.Client</class>
-		<class>sn.isi.ecommerce.entities.Commande</class>-->
+		<class>sn.isi.ecommerce.entities.Commande</class>
+		<class>sn.isi.ecommerce.entities.Facturation</class>
+		<class>sn.isi.ecommerce.entities.Livraison</class>
+			<class>sn.isi.ecommerce.entities.Detail</class>
+			<class>sn.isi.ecommerce.entities.Stock</class>
 
 		<properties>
 			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
 			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/bdEcommerce" />
 			<property name="javax.persistence.jdbc.user" value="root" />
-			<property name="javax.persistence.jdbc.password" value="root" />
+			<property name="javax.persistence.jdbc.password" value="" />
 
 			<property name="hibernate.show_sql" value="true" />
 			<property name="hibernate.format_sql" value="true" />

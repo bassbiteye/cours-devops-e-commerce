@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98d302df-2a9f-4bda-8c78-26a1f1e6a444" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/sn/isi/ecommerce/controllers/FournisseurServletTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sn/isi/ecommerce/dao/FournisseurImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/dao/FournisseurImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/dao/FournisseurImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/dao/IFournisseur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/dao/IFournisseur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/entities/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/entities/Stock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/controllers/FournisseurServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/controllers/FournisseurServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/entities/Commande.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/entities/Commande.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/entities/Livraison.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/entities/Livraison.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fournisseur/fournisseur.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fournisseur/fournisseur.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -198,7 +195,7 @@
       <workItem from="1642200461111" duration="5092000" />
       <workItem from="1642383143762" duration="2922000" />
       <workItem from="1642498872640" duration="4473000" />
-      <workItem from="1642505687677" duration="6730000" />
+      <workItem from="1642505687677" duration="8444000" />
     </task>
     <servers />
   </component>
@@ -227,22 +224,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="444" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1642534769334" />
-    <state width="1274" height="52" key="GridCell.Tab.0.bottom" timestamp="1642538401113">
+    <state width="1274" height="45" key="GridCell.Tab.0.bottom" timestamp="1642552053614">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1274" height="52" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1642538401113" />
-    <state width="1274" height="52" key="GridCell.Tab.0.center" timestamp="1642538401112">
+    <state width="1274" height="45" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1642552053614" />
+    <state width="1274" height="45" key="GridCell.Tab.0.center" timestamp="1642552053613">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1274" height="52" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1642538401112" />
-    <state width="1274" height="52" key="GridCell.Tab.0.left" timestamp="1642538401112">
+    <state width="1274" height="45" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1642552053613" />
+    <state width="1274" height="45" key="GridCell.Tab.0.left" timestamp="1642552053613">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1274" height="52" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1642538401112" />
-    <state width="1274" height="52" key="GridCell.Tab.0.right" timestamp="1642538401113">
+    <state width="1274" height="45" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1642552053613" />
+    <state width="1274" height="45" key="GridCell.Tab.0.right" timestamp="1642552053613">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1274" height="52" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1642538401113" />
+    <state width="1274" height="45" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1642552053613" />
     <state x="294" y="136" key="com.intellij.ide.util.TipDialog" timestamp="1642505755022">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
