@@ -19,8 +19,16 @@ public class FournisseurImpl implements IFournisseur {
 
 
 	@Override
-	public int add(Fournisseur categorie) {
-		return 0;
+	public int add(Fournisseur fournisseur) {
+		try {
+			em.getTransaction().begin();
+			em.persist(fournisseur);
+			em.getTransaction().commit();
+			return 1;
+		}catch(Exception e) {
+			e.printStackTrace();
+			return 0;
+		}
 	}
 
 	@Override

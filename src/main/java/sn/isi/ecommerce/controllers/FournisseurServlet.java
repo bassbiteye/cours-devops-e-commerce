@@ -37,7 +37,7 @@ public class FournisseurServlet extends HttpServlet {
 
         IFournisseur iFournisseur = new FournisseurImpl();
         List<Fournisseur> fournisseurs = iFournisseur.getAll();
-        request.setAttribute("fournisseurs", fournisseurs); // set la liste des catégories
+        request.setAttribute("fournisseurs", fournisseurs); // set la liste des fournisseurs
 
         request.getRequestDispatcher("WEB-INF/views/fournisseur/fournisseur.jsp").forward(request, response);
     }
