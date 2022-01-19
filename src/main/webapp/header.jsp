@@ -1,11 +1,23 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<meta charset="ISO-8859-1">
-	<link href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css" rel="stylesheet" media="screen">
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	<title>E-COMMERCE</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>E-commerce</title>
+  <!-- plugins:css -->
+  <link rel="stylesheet" href="assets/admin-template/vendors/mdi/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="assets/admin-template/vendors/base/vendor.bundle.base.css">
+  <!-- endinject -->
+  <!-- plugin css for this page -->
+  <link rel="stylesheet" href="assets/admin-template/vendors/datatables.net-bs4/dataTables.bootstrap4.css">
+  <!-- End plugin css for this page -->
+  <!-- inject:css -->
+  <link rel="stylesheet" href="assets/admin-template/css/style.css">
+  <!-- endinject -->
+  <link rel="shortcut icon" href="assets/admin-template/images/favicon.png" />
+  <link rel="stylesheet" href="assets/admin-template/vendors/mdi/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="assets/admin-template/vendors/base/vendor.bundle.base.css">
 </head>
 <body>

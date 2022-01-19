@@ -37,37 +37,42 @@ public class CategorieServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		// TODO Auto-generated method stub
-
 		ICategorie icategorie = new CategorieImpl();
 		List<Categorie> categories = icategorie.getAll();
 		request.setAttribute("categories", categories); // set la liste des catégories
 		request.setAttribute("isModification", "false");
+		request.setAttribute("ancienLibelle", "");
 		String action = (request.getParameter("action") != null) ? request.getParameter("action") : "null";
-		switch (action) {
-		case "edit":
+		int id = ((request.getParameter("id") != null) ? Integer.parseInt(request.getParameter("id")) : 0);
+
+		if (action.equals("edit")) {
 			editCategorie(request, response);
-		case "delete":
-			deleteCategorie(request, response);
-			break;
 		}
-		request.getRequestDispatcher("WEB-INF/views/categorie/crudCategorie.jsp").forward(request, response);
-	}
-	
-	private void editCategorie(HttpServletRequest request, HttpServletResponse response)
-	{
-		int id = Integer.parseInt(request.getParameter("id"));
-		request.setAttribute("isModification", "true"); // set la liste des catégories
-		request.setAttribute("idCategorie", id); // set la liste des catégories
+		else if (action.equals("delete")) {
+			deleteCategorie(request, response);
+		}else {
+			request.setAttribute("option", "gestionCategories");
+			request.getRequestDispatcher("WEB-INF/home.jsp").forward(request, response);
+		}
+
 
 	}
+
+	private void editCategorie(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		int id = Integer.parseInt(request.getParameter("id"));
+		ICategorie icategorie = new CategorieImpl();
+		Categorie categorie = icategorie.get(id);
+		request.setAttribute("categorie", categorie);
+		request.setAttribute("option", "gestionCategories");
+		request.getRequestDispatcher("WEB-INF/home.jsp").forward(request, response);
+	}
 	
-	private void deleteCategorie(HttpServletRequest request, HttpServletResponse response)throws ServletException, IOException 
-	{
+
+	private void deleteCategorie(HttpServletRequest request, HttpServletResponse response) throws IOException {
 		int id = Integer.parseInt(request.getParameter("id"));
 		ICategorie icategorie = new CategorieImpl();
 		icategorie.delete(id);
-		List<Categorie> categories = icategorie.getAll();
-		request.getRequestDispatcher("WEB-INF/views/categorie/crudCategorie.jsp").forward(request, response);
+		response.sendRedirect("http://localhost:8080/gestion-ecommerce/CategorieServlet");
 	}
 
 	/**
@@ -85,7 +90,8 @@ public class CategorieServlet extends HttpServlet {
 		icategorie.add(categorie);
 		List<Categorie> categories = icategorie.getAll();
 		request.setAttribute("categories", categories);
-		request.getRequestDispatcher("WEB-INF/views/categorie/crudCategorie.jsp").forward(request, response);
+		request.setAttribute("option", "gestionCategories");
+		request.getRequestDispatcher("WEB-INF/home.jsp").forward(request, response);
 	}
 
 }

@@ -27,7 +27,10 @@ public class AccueilServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath());
+
+		String option= request.getParameter("option");
+		request.setAttribute("option", option);
+		request.getRequestDispatcher("WEB-INF/home.jsp").forward(request, response);
 	}
 
 	/**
