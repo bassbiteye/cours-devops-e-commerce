@@ -18,8 +18,8 @@ class ProduitImplTest {
         IProduit produitDao = new ProduitImpl();
         ICategorie categorieDao = new CategorieImpl();
         Produit produit = new Produit();
-        produit.setLibelle("HP");
-        produit.setDescription("Ordinateur HP");
+        produit.setLibelle("HP5");
+        produit.setDescription("Ordinateur HP5");
         produit.setCategorie(categorieDao.get(1));
         produit.setQuantite(100);
         produit.setDateDePeremption(null);
@@ -37,8 +37,8 @@ class ProduitImplTest {
         ICategorie categorieDao = new CategorieImpl();
         Produit produit =produitDao.get(1);
 
-        produit.setLibelle("HPmodifier");
-        produit.setDescription("Ordinateur HPmodifier");
+        produit.setLibelle("HP5modifier");
+        produit.setDescription("Ordinateur HP5modifier");
         produit.setCategorie(categorieDao.get(1));
         produit.setQuantite(100);
         produit.setDateDePeremption(null);
@@ -69,7 +69,7 @@ class ProduitImplTest {
         else
             System.out.println("Test failed");
     }
-//
+
     @Test
     void getAll() {
         IProduit produitdao = new ProduitImpl();
