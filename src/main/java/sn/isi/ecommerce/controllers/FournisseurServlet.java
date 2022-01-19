@@ -1,10 +1,8 @@
 package sn.isi.ecommerce.controllers;
 
-import sn.isi.ecommerce.dao.CategorieImpl;
+
 import sn.isi.ecommerce.dao.FournisseurImpl;
-import sn.isi.ecommerce.dao.ICategorie;
 import sn.isi.ecommerce.dao.IFournisseur;
-import sn.isi.ecommerce.entities.Categorie;
 import sn.isi.ecommerce.entities.Fournisseur;
 
 import javax.servlet.ServletException;
@@ -26,6 +24,22 @@ public class FournisseurServlet extends HttpServlet {
         super();
         // TODO Auto-generated constructor stub
     }
+    private void editFournisseur(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        int id = Integer.parseInt(request.getParameter("id"));
+        IFournisseur ifournisseur = new FournisseurImpl();
+        Fournisseur fournisseur = ifournisseur.get(id);
+        request.setAttribute("fournisseur", fournisseur);
+
+        request.getRequestDispatcher("WEB-INF/views/fournisseur/fournisseur.jsp").forward(request, response);
+    }
+
+
+    private void deleteFournisseur(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        int id = Integer.parseInt(request.getParameter("id"));
+        IFournisseur ifournisseur = new FournisseurImpl();
+        ifournisseur.delete(id);
+        response.sendRedirect("http://localhost:8080/gestion-ecommerce/FournisseurServlet");
+    }
 
     /**
      * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse
@@ -37,7 +51,7 @@ public class FournisseurServlet extends HttpServlet {
 
         IFournisseur iFournisseur = new FournisseurImpl();
         List<Fournisseur> fournisseurs = iFournisseur.getAll();
-        request.setAttribute("fournisseurs", fournisseurs); // set la liste des catégories
+        request.setAttribute("fournisseurs", fournisseurs); // set la liste des fournisseurs
 
         request.getRequestDispatcher("WEB-INF/views/fournisseur/fournisseur.jsp").forward(request, response);
     }

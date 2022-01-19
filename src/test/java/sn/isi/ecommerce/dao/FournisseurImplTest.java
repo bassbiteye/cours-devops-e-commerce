@@ -1,6 +1,8 @@
 package sn.isi.ecommerce.dao;
 
+import org.junit.Assert;
 import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import sn.isi.ecommerce.entities.Fournisseur;
@@ -9,9 +11,9 @@ import sn.isi.ecommerce.entities.Users;
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.*;
 
 class FournisseurImplTest {
+    private static IFournisseur iFournisseur;
 
     @BeforeEach
     void setUp() {
@@ -22,7 +24,22 @@ class FournisseurImplTest {
     }
 
     @Test
-    void add() {
+    void addFournisseurWhenSuccess() {
+
+        //initialisation
+        Fournisseur fournisseur = new Fournisseur();
+        fournisseur.setNom("Nom");
+        fournisseur.setPrenom("Prenom");
+        fournisseur.setTelephone(778083808);
+        fournisseur.setVille("Ville");
+        fournisseur.setAdresse("Adresse");
+
+        //save
+        IFournisseur iFournisseur = new FournisseurImpl();
+        int ok = iFournisseur.add(fournisseur);
+        Assert.assertEquals(1,ok);
+
+        return;
     }
 
     @Test
@@ -31,6 +48,7 @@ class FournisseurImplTest {
 
     @Test
     void delete() {
+        Assertions.assertEquals( true, iFournisseur.delete(9), "La methode delete a echoué");
     }
 
     @Test
