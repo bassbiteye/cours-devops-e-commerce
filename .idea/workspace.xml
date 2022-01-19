@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98d302df-2a9f-4bda-8c78-26a1f1e6a444" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="98d302df-2a9f-4bda-8c78-26a1f1e6a444" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -190,7 +188,7 @@
       <workItem from="1642200461111" duration="5092000" />
       <workItem from="1642383143762" duration="2922000" />
       <workItem from="1642498872640" duration="4473000" />
-      <workItem from="1642505687677" duration="9746000" />
+      <workItem from="1642505687677" duration="10100000" />
     </task>
     <servers />
   </component>
@@ -223,10 +221,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="444" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1642534769334" />
-    <state x="129" y="45" key="DiffContextDialog" timestamp="1642607332136">
+    <state x="129" y="45" key="DiffContextDialog" timestamp="1642607399079">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="129" y="45" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1642607332136" />
+    <state x="129" y="45" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1642607399079" />
     <state width="1274" height="183" key="GridCell.Tab.0.bottom" timestamp="1642606760964">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -255,9 +253,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="325" y="101" key="git4idea.merge.GitMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1642607232211" />
-    <state x="274" y="101" key="git4idea.merge.GitPullDialog" timestamp="1642607252063">
+    <state x="274" y="101" key="git4idea.merge.GitPullDialog" timestamp="1642607424859">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="274" y="101" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1642607252063" />
+    <state x="274" y="101" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1642607424859" />
   </component>
 </project>
