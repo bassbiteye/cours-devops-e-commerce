@@ -169,7 +169,7 @@ String option = (String) request.getAttribute("option");
 					<div class="collapse" id="produit">
 						<ul class="nav flex-column sub-menu">
 							<li class="nav-item"><a class="nav-link"
-								href="/gestion-ecommerce/AccueilServlet?option=gestionProduits">
+								href="/gestion-ecommerce/CategorieServlet?option=gestionCategories">
 									Catégorie </a></li>
 							<li class="nav-item"><a class="nav-link"
 								href="/gestion-ecommerce/AccueilServlet?option=gestionsProduits">Produit </a></li>
@@ -252,6 +252,13 @@ String option = (String) request.getAttribute("option");
 		<div class="main-panel">
 			<div class="content-wrapper">
 				<!-- main body -->
+				<%
+				if (option != null && option.equals("gestionCategories")) {
+				%>
+				<%@include file="views/gestionProduits/categorie.jsp"%>
+				<%
+				}
+				%>
 				<%
 				if (option != null && option.equals("gestionProduits")) {
 				%>
