@@ -69,7 +69,7 @@ class ProduitImplTest {
         else
             System.out.println("Test failed");
     }
-
+//
     @Test
     void getAll() {
         IProduit produitdao = new ProduitImpl();
