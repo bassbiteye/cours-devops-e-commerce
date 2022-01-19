@@ -25,7 +25,16 @@ public class FournisseurImpl implements IFournisseur {
 
 	@Override
 	public int update(Fournisseur categorie) {
-		return 0;
+
+		try {
+			em.getTransaction().begin();
+			em.merge(categorie);
+			em.getTransaction().commit();
+			return 1;
+		} catch (Exception e) {
+			e.printStackTrace();
+			return 0;
+		}
 	}
 
 	@Override
