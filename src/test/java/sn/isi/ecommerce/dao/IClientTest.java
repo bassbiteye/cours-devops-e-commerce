@@ -33,7 +33,8 @@ class IClientTest {
         Client client = new Client();
         client.setNom("Diallo");
         client.setPrenom("saliou");
-        Assertions.assertEquals(44, iClient.addClient(client).getId(), "La methode addClient a echoué");
+        int id = iClient.util() + 1;
+        Assertions.assertEquals(47, iClient.addClient(client).getId(), "La methode addClient a echoué");
     }
 
     @Test
