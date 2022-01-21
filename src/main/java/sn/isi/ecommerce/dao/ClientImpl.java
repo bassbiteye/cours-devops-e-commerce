@@ -16,6 +16,10 @@ public class ClientImpl implements IClient {
                 .createEntityManager();
     }
 
+    public EntityManager getEntityManager() {
+        return  this.entityManager;
+    }
+
     @Override
     public List<Client> getAllClients() {
         try {
@@ -109,5 +113,12 @@ public class ClientImpl implements IClient {
             e.printStackTrace();
             return null;
         }
+    }
+
+    @Override
+    public int util() {
+       int id = (int) entityManager.createNativeQuery("SELECT id FROM client ORDER BY id DESC LIMIT 0,1")
+               .getSingleResult();
+       return id;
     }
 }
