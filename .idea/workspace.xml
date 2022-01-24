@@ -5,7 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98d302df-2a9f-4bda-8c78-26a1f1e6a444" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/cours_devops_e_commerce_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/cours_devops_e_commerce_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/cours-devops-e-commerce.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_11_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_6_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_2_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,19 +113,12 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4045977" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\user\Documents\M2 ISI\devops\gestion-ecommerce\src\main" />
-      <recent name="C:\Users\user\Documents\M2 ISI\devops\gestion-ecommerce\src\main\resources" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="Tests" />
       <recent name="sn.isi.ecommerce.dao" />
@@ -92,8 +126,15 @@
     <key name="ImportMappingsDialog.RecentPackages">
       <recent name="" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Documents\M2 ISI\devops\gestion-ecommerce\src\main" />
+      <recent name="C:\Users\user\Documents\M2 ISI\devops\gestion-ecommerce\src\main\resources" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.RolesImplTest.add">
+  <component name="RunManager" selected="Maven.gestion-ecommerce [tomcat7:run]">
     <configuration name="RolesImplTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cours-devops-e-commerce" />
       <extension name="coverage">
@@ -199,6 +240,14 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="JUnit.RolesImplTest.add" />
+      <item itemvalue="JUnit.RolesImplTest.getAll" />
+      <item itemvalue="JUnit.RolesImplTest.update" />
+      <item itemvalue="JUnit.UsersImplTest.getAll" />
+      <item itemvalue="JUnit.UsersImplTest.login" />
+      <item itemvalue="Maven.gestion-ecommerce [tomcat7:run]" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RolesImplTest.add" />
@@ -221,7 +270,7 @@
       </list>
     </option>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -243,10 +292,49 @@
       <workItem from="1642534236082" duration="1640000" />
       <workItem from="1642542241564" duration="1360000" />
       <workItem from="1642618654990" duration="84000" />
+      <workItem from="1642854000261" duration="3818000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="175" y="0" key="#Project_Structure" timestamp="1642854268808">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="175" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1642854268808" />
+    <state x="137" y="4" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1642615284192">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="4" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1642615284192" />
+    <state x="444" y="0" key="#com.intellij.ide.util.MemberChooser" timestamp="1642859970646">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="444" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1642859970646" />
+    <state width="1274" height="488" key="GridCell.Tab.0.bottom" timestamp="1642864069804">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1274" height="488" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1642864069804" />
+    <state width="1274" height="488" key="GridCell.Tab.0.center" timestamp="1642864069803">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1274" height="488" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1642864069803" />
+    <state width="1274" height="488" key="GridCell.Tab.0.left" timestamp="1642864069803">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1274" height="488" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1642864069803" />
+    <state width="1274" height="488" key="GridCell.Tab.0.right" timestamp="1642864069804">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1274" height="488" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1642864069804" />
+    <state x="35" y="0" key="SettingsEditor" timestamp="1642618587913">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="35" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1642618587913" />
+    <state x="294" y="136" key="com.intellij.ide.util.TipDialog" timestamp="1642854027197">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="294" y="136" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1642854027197" />
   </component>
 </project>
