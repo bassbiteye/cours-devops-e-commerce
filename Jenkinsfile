@@ -16,7 +16,7 @@ node {
         }
     }
 
-    dir("cours-devops-e-commerce"){
+    dir(""){
         stage('clean') {
             sh "chmod +x mvn"
             sh "mvn clean"
