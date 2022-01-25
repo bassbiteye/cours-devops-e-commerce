@@ -145,7 +145,7 @@ String option = (String) request.getAttribute("option");
 		<nav class="sidebar sidebar-offcanvas" id="sidebar">
 			<ul class="nav">
 				<li class="nav-item"><a class="nav-link"
-					href="/gestion-ecommerce/AccueilServlet?option=accueil"> <i
+					href="AccueilServlet?option=accueil"> <i
 						class="mdi mdi-home menu-icon"></i> <span class="menu-title">Accueil</span>
 				</a><a></a></li>
 				<li class="nav-item"><a class="nav-link" data-toggle="collapse"
@@ -156,10 +156,10 @@ String option = (String) request.getAttribute("option");
 					<div class="collapse" id="user">
 						<ul class="nav flex-column sub-menu">
 							<li class="nav-item"><a class="nav-link"
-								href="/gestion-ecommerce/AccueilServlet?option=gestionRoles">
+								href="/AccueilServlet?option=gestionRoles">
 									Role </a></li>
 							<li class="nav-item"><a class="nav-link"
-								href="/gestion-ecommerce/AccueilServlet?option=gestionUsers">
+								href="/AccueilServlet?option=gestionUsers">
 									User </a></li>
 						</ul>
 					</div></li>
@@ -172,10 +172,10 @@ String option = (String) request.getAttribute("option");
 					<div class="collapse" id="produit">
 						<ul class="nav flex-column sub-menu">
 							<li class="nav-item"><a class="nav-link"
-								href="/gestion-ecommerce/CategorieServlet?option=gestionCategories">
-									Catégorie </a></li>
+								href="CategorieServlet?option=gestionCategories">
+									Catï¿½gorie </a></li>
 							<li class="nav-item"><a class="nav-link"
-								href="/gestion-ecommerce/AccueilServlet?option=gestionsProduits">Produit </a></li>
+								href="/ProduitsServlet?option=gestionsProduits">Produit </a></li>
 						</ul>
 					</div></li>
 				<li class="nav-item"><a class="nav-link" data-toggle="collapse"
@@ -187,7 +187,7 @@ String option = (String) request.getAttribute("option");
 					<div class="collapse" id="client">
 						<ul class="nav flex-column sub-menu">
 							<li class="nav-item"><a class="nav-link"
-								href="/gestion-ecommerce/AccueilServlet?option=gestionClients">
+								href="/AccueilServlet?option=gestionClients">
 									Client </a></li>
 						</ul>
 					</div></li>
@@ -199,7 +199,7 @@ String option = (String) request.getAttribute("option");
 					<div class="collapse" id="livraison">
 						<ul class="nav flex-column sub-menu">
 							<li class="nav-item"><a class="nav-link"
-								href="/gestion-ecommerce/AccueilServlet?option=gestionLivraisons">Livraison</a></li>
+								href="/AccueilServlet?option=gestionLivraisons">Livraison</a></li>
 						</ul>
 					</div></li>
 				<li class="nav-item"><a class="nav-link" data-toggle="collapse"
@@ -212,7 +212,7 @@ String option = (String) request.getAttribute("option");
 					<div class="collapse" id="fournisseur">
 						<ul class="nav flex-column sub-menu">
 							<li class="nav-item"><a class="nav-link"
-								href="/gestion-ecommerce/AccueilServlet?option=gestionFournisseurs">Fournisseurs</a></li>
+								href="/AccueilServlet?option=gestionFournisseurs">Fournisseurs</a></li>
 						</ul>
 					</div></li>
 				<li class="nav-item"><a class="nav-link" data-toggle="collapse"
@@ -223,7 +223,7 @@ String option = (String) request.getAttribute("option");
 					<div class="collapse" id="commande">
 						<ul class="nav flex-column sub-menu">
 							<li class="nav-item"><a class="nav-link"
-								href="/gestion-ecommerce/AccueilServlet?option=gestionCommandes">Commandes</a></li>
+								href="/AccueilServlet?option=gestionCommandes">Commandes</a></li>
 						</ul>
 					</div></li>
 				<li class="nav-item"><a class="nav-link" data-toggle="collapse"
@@ -235,7 +235,7 @@ String option = (String) request.getAttribute("option");
 					<div class="collapse" id="facturation">
 						<ul class="nav flex-column sub-menu">
 							<li class="nav-item"><a class="nav-link"
-								href="/gestion-ecommerce/AccueilServlet?option=gestionFacturations">Facturation</a></li>
+								href="/AccueilServlet?option=gestionFacturations">Facturation</a></li>
 						</ul>
 					</div></li>
 				<li class="nav-item"><a class="nav-link" data-toggle="collapse"
@@ -246,7 +246,7 @@ String option = (String) request.getAttribute("option");
 					<div class="collapse" id="stocks">
 						<ul class="nav flex-column sub-menu">
 							<li class="nav-item"><a class="nav-link"
-								href="/gestion-ecommerce/AccueilServlet?option=gestionStocks">Stocks</a></li>
+								href="/AccueilServlet?option=gestionStocks">Stocks</a></li>
 						</ul>
 					</div></li>
 			</ul>

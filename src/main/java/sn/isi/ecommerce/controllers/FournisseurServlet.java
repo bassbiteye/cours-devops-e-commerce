@@ -29,16 +29,20 @@ public class FournisseurServlet extends HttpServlet {
         IFournisseur ifournisseur = new FournisseurImpl();
         Fournisseur fournisseur = ifournisseur.get(id);
         request.setAttribute("fournisseur", fournisseur);
+        request.setAttribute("option", "gestionFournisseurs");
 
-        request.getRequestDispatcher("WEB-INF/views/fournisseur/fournisseur.jsp").forward(request, response);
+        request.getRequestDispatcher("WEB-INF/home.jsp").forward(request, response);
     }
 
 
-    private void deleteFournisseur(HttpServletRequest request, HttpServletResponse response) throws IOException {
+    private void deleteFournisseur(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         int id = Integer.parseInt(request.getParameter("id"));
         IFournisseur ifournisseur = new FournisseurImpl();
         ifournisseur.delete(id);
-        response.sendRedirect("http://localhost:8080/gestion-ecommerce/FournisseurServlet");
+        request.setAttribute("option", "gestionFournisseurs");
+       // response.sendRedirect("http://localhost:8080/gestion-ecommerce/FournisseurServlet");
+        request.getRequestDispatcher("WEB-INF/home.jsp").forward(request, response);
+
     }
 
     /**
@@ -52,8 +56,8 @@ public class FournisseurServlet extends HttpServlet {
         IFournisseur iFournisseur = new FournisseurImpl();
         List<Fournisseur> fournisseurs = iFournisseur.getAll();
         request.setAttribute("fournisseurs", fournisseurs); // set la liste des fournisseurs
-
-        request.getRequestDispatcher("WEB-INF/views/fournisseur/fournisseur.jsp").forward(request, response);
+        request.setAttribute("option", "gestionFournisseurs");
+        request.getRequestDispatcher("WEB-INF/home.jsp").forward(request, response);
     }
 
 }
