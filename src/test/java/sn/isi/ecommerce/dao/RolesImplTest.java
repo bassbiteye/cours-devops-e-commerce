@@ -1,4 +1,4 @@
-package Tests;
+package sn.isi.ecommerce.dao;
 
 import org.junit.jupiter.api.Test;
 import sn.isi.ecommerce.dao.IRoles;

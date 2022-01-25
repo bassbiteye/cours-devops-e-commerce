@@ -1,4 +1,4 @@
-package Tests;
+package sn.isi.ecommerce.dao;
 
 import static org.junit.jupiter.api.Assertions.*;
 
