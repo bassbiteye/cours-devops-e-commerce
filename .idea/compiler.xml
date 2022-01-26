@@ -6,20 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="gestion-ecommerce" />
-        <module name="projet-e-commerce" />
-<<<<<<< HEAD
         <module name="cours-devops-e-commerce" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="cours-devops-e-commerce" target="1.8" />
-=======
-      </profile>
-    </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="projet-e-commerce" target="1.8" />
->>>>>>> 1a89cbc96f8409a7ed45f6bac45c4ab8c51ebf8f
-    </bytecodeTargetLevel>
   </component>
 </project>
