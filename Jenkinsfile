@@ -18,7 +18,8 @@ node {
 
     dir(""){
         stage('clean') {
-            sh "chmod +x mvn"
+            sh "chmod +x ."
+            sh "mvn"
             sh "mvn clean"
         }
 
