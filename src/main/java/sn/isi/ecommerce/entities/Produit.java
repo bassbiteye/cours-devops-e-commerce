@@ -26,8 +26,6 @@ public class Produit {
 	private Date dateDePeremption;
 	@ManyToOne
 	private Categorie categorie = new Categorie();
-	@ManyToOne
-	private Stock stock = new Stock();
 
 	public Produit() {
 	}
