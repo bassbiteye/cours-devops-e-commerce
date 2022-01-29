@@ -18,12 +18,12 @@ node {
 
     dir(""){
         stage('clean') {
-            // sh "chmod +x mvn"
-            sh "mvn clean"
+            sh "chmod +x ./mvnw"
+            sh "./mvnw clean"
         }
 
         stage('packaging') {
-            sh "mvn verify -Pprod -DskipTests"
+            sh "./mvnw verify -Pprod -DskipTests"
             archiveArtifacts artifacts: '**/target/*.war', fingerprint: true
         }
 
