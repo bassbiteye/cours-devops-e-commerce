@@ -3,7 +3,7 @@ node {
         checkout scm
     }
 
-    stage('check java') {
+    stage('check java version') {
         sh "java -version"
     }
 
