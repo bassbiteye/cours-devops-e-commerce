@@ -57,8 +57,8 @@
 
 
 
- <div class="container">
-        <div class="row">
+<div class="container">
+    <div class="row">
 
         <%
             if (produits != null) {
@@ -72,7 +72,7 @@
 
         %>
 
-            <div class="col-md-3 ">
+        <div class="col-md-3 ">
             <div class="card card-blog ">
                 <%--<div class="card-img ">
                     <img src="<%=p.getPhoto()%>" alt=" " class="img-fluid ">
@@ -80,7 +80,7 @@
                 <div class="card-body ">
                     <h6 class="category ">Nom produit</h6>
                     <p class="card-description ">
-                    <%=p.getLibelle()%>
+                        <%=p.getLibelle()%>
                     </p>
                     <div class="col-md-12 ">
 
@@ -88,12 +88,12 @@
                         <p> <%=p.getPrixUnitaire()%> Fcfa</p>
                         <h6 class="category ">Date Peremption</h6>
                         <span class="pull-right"><%=p.getDateDePeremption()%></span>
-                        <a href="<%=p.getId()%>" class="btn btn-success ">
+                        <%--<a href="<%=p.getId()%>" class="btn btn-success ">
                             <i class="fas fa-shopping-cart mr-4"></i> Detail produit
                         </a>
                         <a href="<%=p.getId()%>" class="btn btn-primary ">
-                            <i class="fas fa-shopping-cart mr-4"></i> ajouter pannier
-                        </a>
+                            <i class="fas fa-shopping-cart mr-4"></i> faire un commande
+                        </a>--%>
 
 
                     </div>
@@ -101,12 +101,12 @@
 
                 </div>
 
-                </div>
-
-
             </div>
 
 
+        </div>
+
+
 
 
         <%
@@ -118,5 +118,5 @@
 
 
 
-     </div>
- </div>
+    </div>
+</div>
