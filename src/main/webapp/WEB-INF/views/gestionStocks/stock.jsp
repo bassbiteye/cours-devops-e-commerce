@@ -1,1 +1,3 @@
-<h1>Gestion des stocks</h1>
+<%@include file="../header.jsp"%>
+
+<%@include file="../footer.jsp"%>
