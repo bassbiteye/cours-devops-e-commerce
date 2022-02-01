@@ -15,6 +15,6 @@ node {
     }
     stage('Build Prod') {
         //when {branch 'fournisseur'}
-        sh './mvnw clean package -Pprod -DskipTests'
+        sh './mvnw clean package -DskipTests'
     }
 }
