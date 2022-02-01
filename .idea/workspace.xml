@@ -10,24 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98d302df-2a9f-4bda-8c78-26a1f1e6a444" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gestion-ecommerce.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/entities/Commande.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/entities/Commande.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/entities/Detail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/entities/Detail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gestion-ecommerce-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/logging.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/conf/logging.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/tomcat-users.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/conf/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2021-12-26" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sn/isi/ecommerce/dao/CommandeImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sn/isi/ecommerce/dao/CommandeImplTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -158,21 +142,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tests.Main" />
-      <module name="gestion-ecommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IClientTest.addClient (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CommandeImplTest.updateCommande">
+    <configuration name="CommandeImplTest.deleteCommande" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gestion-ecommerce" />
       <extension name="coverage">
         <pattern>
@@ -181,14 +152,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="sn.isi.ecommerce.dao" />
-      <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.IClientTest" />
-      <option name="METHOD_NAME" value="addClient" />
+      <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.CommandeImplTest" />
+      <option name="METHOD_NAME" value="deleteCommande" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IClientTest.deleteClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CommandeImplTest.getAllCommande" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gestion-ecommerce" />
       <extension name="coverage">
         <pattern>
@@ -197,14 +168,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="sn.isi.ecommerce.dao" />
-      <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.IClientTest" />
-      <option name="METHOD_NAME" value="deleteClient" />
+      <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.CommandeImplTest" />
+      <option name="METHOD_NAME" value="getAllCommande" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IClientTest.getClientByEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CommandeImplTest.getCommande" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gestion-ecommerce" />
       <extension name="coverage">
         <pattern>
@@ -213,14 +184,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="sn.isi.ecommerce.dao" />
-      <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.IClientTest" />
-      <option name="METHOD_NAME" value="getClientByEmail" />
+      <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.CommandeImplTest" />
+      <option name="METHOD_NAME" value="getCommande" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IClientTest.updateClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CommandeImplTest.getCommandeByClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gestion-ecommerce" />
       <extension name="coverage">
         <pattern>
@@ -229,8 +200,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="sn.isi.ecommerce.dao" />
-      <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.IClientTest" />
-      <option name="METHOD_NAME" value="updateClient" />
+      <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.CommandeImplTest" />
+      <option name="METHOD_NAME" value="getCommandeByClient" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommandeImplTest.updateCommande" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gestion-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sn.isi.ecommerce.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sn.isi.ecommerce.dao" />
+      <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.CommandeImplTest" />
+      <option name="METHOD_NAME" value="updateCommande" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -349,21 +336,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.IClientTest.deleteClient" />
-      <item itemvalue="JUnit.IClientTest.updateClient" />
-      <item itemvalue="JUnit.IClientTest.getClientByEmail" />
-      <item itemvalue="JUnit.IClientTest.addClient (2)" />
       <item itemvalue="Maven.gestion-ecommerce [tomcat7:run]" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.35" />
-      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.CommandeImplTest.getCommande" />
+      <item itemvalue="JUnit.CommandeImplTest.deleteCommande" />
+      <item itemvalue="JUnit.CommandeImplTest.getAllCommande" />
+      <item itemvalue="JUnit.CommandeImplTest.updateCommande" />
+      <item itemvalue="JUnit.CommandeImplTest.getCommandeByClient" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.IClientTest.addClient (2)" />
-        <item itemvalue="JUnit.IClientTest.deleteClient" />
-        <item itemvalue="JUnit.IClientTest.getClientByEmail" />
-        <item itemvalue="JUnit.IClientTest.updateClient" />
+        <item itemvalue="JUnit.CommandeImplTest.updateCommande" />
+        <item itemvalue="JUnit.CommandeImplTest.getCommandeByClient" />
+        <item itemvalue="JUnit.CommandeImplTest.getAllCommande" />
+        <item itemvalue="JUnit.CommandeImplTest.deleteCommande" />
+        <item itemvalue="JUnit.CommandeImplTest.getCommande" />
       </list>
     </recent_temporary>
   </component>
@@ -390,7 +377,7 @@
       <workItem from="1642682162730" duration="1705000" />
       <workItem from="1642721324898" duration="9033000" />
       <workItem from="1643639081805" duration="12148000" />
-      <workItem from="1643732043637" duration="482000" />
+      <workItem from="1643732043637" duration="8309000" />
     </task>
     <servers />
   </component>
