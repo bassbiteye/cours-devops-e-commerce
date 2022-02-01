@@ -10,14 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98d302df-2a9f-4bda-8c78-26a1f1e6a444" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/dao/DetailImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/dao/DetailImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/dao/IDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/dao/IDetail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/sn/isi/ecommerce/dao/CommandeImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sn/isi/ecommerce/dao/CommandeImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/sn/isi/ecommerce/dao/DetailImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sn/isi/ecommerce/dao/DetailImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +133,7 @@
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DetailImplTest.deleteDetail">
+  <component name="RunManager" selected="JUnit.DetailImplTest.getDetail">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -187,8 +181,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IClientTest.addClient (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="gestion-ecommerce" />
+    <configuration name="DetailImplTest.getAllDetail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cours-devops-e-commerce" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="sn.isi.ecommerce.dao.*" />
@@ -196,15 +190,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="sn.isi.ecommerce.dao" />
-      <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.IClientTest" />
-      <option name="METHOD_NAME" value="addClient" />
+      <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.DetailImplTest" />
+      <option name="METHOD_NAME" value="getAllDetail" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IClientTest.deleteClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="gestion-ecommerce" />
+    <configuration name="DetailImplTest.getDetail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cours-devops-e-commerce" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="sn.isi.ecommerce.dao.*" />
@@ -212,8 +206,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="sn.isi.ecommerce.dao" />
-      <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.IClientTest" />
-      <option name="METHOD_NAME" value="deleteClient" />
+      <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.DetailImplTest" />
+      <option name="METHOD_NAME" value="getDetail" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -333,19 +327,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.IClientTest.deleteClient" />
-      <item itemvalue="JUnit.IClientTest.addClient (2)" />
       <item itemvalue="Maven.gestion-ecommerce [tomcat7:run]" />
       <item itemvalue="JUnit.DetailImplTest.addDetail" />
       <item itemvalue="JUnit.DetailImplTest.deleteDetail" />
+      <item itemvalue="JUnit.DetailImplTest.getAllDetail" />
+      <item itemvalue="JUnit.DetailImplTest.getDetail" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DetailImplTest.getDetail" />
+        <item itemvalue="JUnit.DetailImplTest.getAllDetail" />
         <item itemvalue="JUnit.DetailImplTest.deleteDetail" />
         <item itemvalue="JUnit.DetailImplTest.addDetail" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.IClientTest.addClient (2)" />
-        <item itemvalue="JUnit.IClientTest.deleteClient" />
       </list>
     </recent_temporary>
   </component>
