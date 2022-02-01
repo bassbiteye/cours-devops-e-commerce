@@ -14,22 +14,24 @@
 					    <!-- /head -->
 					    <div class="main">
 					        <div class="form-group">
-					            <label>First and Last Name</label>
+					            <label>Produit</label>
 					            <input class="form-control" placeholder="First and Last Name">
 					        </div>
+					        <div class="form-group">
+                            		<select name="produit" class="form-control" >
+                                      <option value="value1">Option 1</option>
+
+                                    </select>
+                            </div>
+
 					        <div class="row">
 					            <div class="col-md-6">
 					                <div class="form-group">
-					                    <label>Email Address</label>
-					                    <input class="form-control" placeholder="Email Address">
+					                    <label>Qunatite</label>
+					                    <input name="qte" class="form-control" placeholder="Email Address">
 					                </div>
 					            </div>
-					            <div class="col-md-6">
-					                <div class="form-group">
-					                    <label>Phone</label>
-					                    <input class="form-control" placeholder="Phone">
-					                </div>
-					            </div>
+
 					        </div>
 
 
