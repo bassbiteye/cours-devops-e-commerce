@@ -6,8 +6,8 @@ import java.util.List;
 
 public interface IDetail {
 
-    public Detail addDetail(Detail detail);
-    public void deleteDetail(int idDetail);
+    public int addDetail(Detail detail);
+    public int deleteDetail(int idDetail);
     public Detail getDetail(int idDetail);
     public List<Detail> getAllDetail();
 }

@@ -17,14 +17,27 @@ public class DetailImpl implements  IDetail {
     }
 
     @Override
-    public Detail addDetail(Detail detail) {
-        em.persist(detail);
-        return detail;
+    public int addDetail(Detail detail) {
+        try {
+            em.persist(detail);
+            return 1;
+        }
+        catch (Exception ex)
+        {
+            return 0 ;
+        }
     }
 
     @Override
-    public void deleteDetail(int idDetail) {
-       em.remove(em.find(Detail.class,idDetail));
+    public int deleteDetail(int idDetail) {
+        try {
+            em.remove(em.find(Detail.class,idDetail));
+            return 1;
+        }
+        catch (Exception ex)
+        {
+            return 0 ;
+        }
     }
 
     @Override

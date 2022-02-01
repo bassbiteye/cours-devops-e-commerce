@@ -4,6 +4,7 @@
 	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
 	version="2.1">
 	<persistence-unit name="ecommercePU" transaction-type="RESOURCE_LOCAL">
+
 		<class>sn.isi.ecommerce.entities.Fournisseur</class>
 		<class>sn.isi.ecommerce.entities.Categorie</class>
 		<class>sn.isi.ecommerce.entities.Produit</class>
