@@ -18,4 +18,47 @@ public class Commande implements Serializable {
     private Facturation facturation;
     @OneToOne()
     private Livraison livraison;
+
+    public Commande() {
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public Client getClient() {
+        return client;
+    }
+
+    public void setClient(Client client) {
+        this.client = client;
+    }
+
+    public List<Detail> getDetails() {
+        return details;
+    }
+
+    public void setDetails(List<Detail> details) {
+        this.details = details;
+    }
+
+    public Facturation getFacturation() {
+        return facturation;
+    }
+
+    public void setFacturation(Facturation facturation) {
+        this.facturation = facturation;
+    }
+
+    public Livraison getLivraison() {
+        return livraison;
+    }
+
+    public void setLivraison(Livraison livraison) {
+        this.livraison = livraison;
+    }
 }
