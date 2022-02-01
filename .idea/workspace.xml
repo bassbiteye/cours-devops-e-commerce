@@ -11,9 +11,12 @@
   <component name="ChangeListManager">
     <list default="true" id="98d302df-2a9f-4bda-8c78-26a1f1e6a444" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/test/java/sn/isi/ecommerce/dao/CommandeImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sn/isi/ecommerce/dao/CommandeImplTest.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/src/test/java/sn/isi/ecommerce/dao/DetailImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sn/isi/ecommerce/dao/DetailImplTest.java" afterDir="false" />
+>>>>>>> 88a32b5066f2cd3f6dfd6acc7e2dcd8b3f93831f
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,11 +54,15 @@
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
@@ -71,10 +78,10 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
@@ -130,6 +137,7 @@
       <command value="mvn install" />
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -145,6 +153,26 @@
   <component name="RunManager" selected="JUnit.CommandeImplTest.updateCommande">
     <configuration name="CommandeImplTest.deleteCommande" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gestion-ecommerce" />
+=======
+  <component name="RunManager" selected="JUnit.DetailImplTest.getDetail">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Tests.Main" />
+      <module name="cours-devops-e-commerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DetailImplTest.addDetail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cours-devops-e-commerce" />
+>>>>>>> 88a32b5066f2cd3f6dfd6acc7e2dcd8b3f93831f
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="sn.isi.ecommerce.dao.*" />
@@ -152,15 +180,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="sn.isi.ecommerce.dao" />
+<<<<<<< HEAD
       <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.CommandeImplTest" />
       <option name="METHOD_NAME" value="deleteCommande" />
+=======
+      <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.DetailImplTest" />
+      <option name="METHOD_NAME" value="addDetail" />
+>>>>>>> 88a32b5066f2cd3f6dfd6acc7e2dcd8b3f93831f
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="CommandeImplTest.getAllCommande" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gestion-ecommerce" />
+=======
+    <configuration name="DetailImplTest.deleteDetail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cours-devops-e-commerce" />
+>>>>>>> 88a32b5066f2cd3f6dfd6acc7e2dcd8b3f93831f
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="sn.isi.ecommerce.dao.*" />
@@ -168,15 +206,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="sn.isi.ecommerce.dao" />
+<<<<<<< HEAD
       <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.CommandeImplTest" />
       <option name="METHOD_NAME" value="getAllCommande" />
+=======
+      <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.DetailImplTest" />
+      <option name="METHOD_NAME" value="deleteDetail" />
+>>>>>>> 88a32b5066f2cd3f6dfd6acc7e2dcd8b3f93831f
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="CommandeImplTest.getCommande" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gestion-ecommerce" />
+=======
+    <configuration name="DetailImplTest.getAllDetail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cours-devops-e-commerce" />
+>>>>>>> 88a32b5066f2cd3f6dfd6acc7e2dcd8b3f93831f
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="sn.isi.ecommerce.dao.*" />
@@ -184,15 +232,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="sn.isi.ecommerce.dao" />
+<<<<<<< HEAD
       <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.CommandeImplTest" />
       <option name="METHOD_NAME" value="getCommande" />
+=======
+      <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.DetailImplTest" />
+      <option name="METHOD_NAME" value="getAllDetail" />
+>>>>>>> 88a32b5066f2cd3f6dfd6acc7e2dcd8b3f93831f
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="CommandeImplTest.getCommandeByClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gestion-ecommerce" />
+=======
+    <configuration name="DetailImplTest.getDetail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cours-devops-e-commerce" />
+>>>>>>> 88a32b5066f2cd3f6dfd6acc7e2dcd8b3f93831f
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="sn.isi.ecommerce.dao.*" />
@@ -200,6 +258,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="sn.isi.ecommerce.dao" />
+<<<<<<< HEAD
       <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.CommandeImplTest" />
       <option name="METHOD_NAME" value="getCommandeByClient" />
       <option name="TEST_OBJECT" value="method" />
@@ -218,6 +277,10 @@
       <option name="PACKAGE_NAME" value="sn.isi.ecommerce.dao" />
       <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.CommandeImplTest" />
       <option name="METHOD_NAME" value="updateCommande" />
+=======
+      <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.DetailImplTest" />
+      <option name="METHOD_NAME" value="getDetail" />
+>>>>>>> 88a32b5066f2cd3f6dfd6acc7e2dcd8b3f93831f
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -336,6 +399,7 @@
       </method>
     </configuration>
     <list>
+<<<<<<< HEAD
       <item itemvalue="Maven.gestion-ecommerce [tomcat7:run]" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.35" />
       <item itemvalue="JUnit.CommandeImplTest.getCommande" />
@@ -351,10 +415,26 @@
         <item itemvalue="JUnit.CommandeImplTest.getAllCommande" />
         <item itemvalue="JUnit.CommandeImplTest.deleteCommande" />
         <item itemvalue="JUnit.CommandeImplTest.getCommande" />
+=======
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Maven.gestion-ecommerce [tomcat7:run]" />
+      <item itemvalue="JUnit.DetailImplTest.addDetail" />
+      <item itemvalue="JUnit.DetailImplTest.deleteDetail" />
+      <item itemvalue="JUnit.DetailImplTest.getAllDetail" />
+      <item itemvalue="JUnit.DetailImplTest.getDetail" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DetailImplTest.getDetail" />
+        <item itemvalue="JUnit.DetailImplTest.getAllDetail" />
+        <item itemvalue="JUnit.DetailImplTest.deleteDetail" />
+        <item itemvalue="JUnit.DetailImplTest.addDetail" />
+        <item itemvalue="Application.Main" />
+>>>>>>> 88a32b5066f2cd3f6dfd6acc7e2dcd8b3f93831f
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -389,9 +469,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
