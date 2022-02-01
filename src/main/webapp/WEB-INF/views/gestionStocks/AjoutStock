@@ -1,0 +1,98 @@
+<%@include file="../header.jsp"%>
+
+<main class="bg_gray pattern">
+
+		<div class="container margin_60_40">
+		    <div class="row justify-content-center">
+		        <div class="col-xl-6 col-lg-8">
+		        	<div class="box_booking_2 style_2">
+					    <div class="head">
+					        <div class="title">
+					            <h3>Ajout en stock</h3>
+					        </div>
+					    </div>
+					    <!-- /head -->
+					    <div class="main">
+					        <div class="form-group">
+					            <label>First and Last Name</label>
+					            <input class="form-control" placeholder="First and Last Name">
+					        </div>
+					        <div class="row">
+					            <div class="col-md-6">
+					                <div class="form-group">
+					                    <label>Email Address</label>
+					                    <input class="form-control" placeholder="Email Address">
+					                </div>
+					            </div>
+					            <div class="col-md-6">
+					                <div class="form-group">
+					                    <label>Phone</label>
+					                    <input class="form-control" placeholder="Phone">
+					                </div>
+					            </div>
+					        </div>
+
+
+					    </div>
+					</div>
+					<!-- /box_booking -->
+
+		        </div>
+		        <!-- /col -->
+
+		         <div class="box_booking_2 style_2">
+                					<div class="head">
+                					        <div class="title">
+                					            <h3>Tableau Produit </h3>
+                					        </div>
+                					    </div>
+                					    <!-- /head -->
+                					    <div class="main">
+
+                					        <div class="form-group">
+                					            <label>Name on card</label>
+                					            <input type="text" class="form-control" id="name_card_order" name="name_card_order" placeholder="First and last name">
+                					        </div>
+                					        <div class="form-group">
+                					            <label>Card number</label>
+                					            <input type="text" id="card_number" name="card_number" class="form-control" placeholder="Card number">
+                					        </div>
+
+                					        <!--End row -->
+
+
+                					    </div>
+                					</div>
+                					<!-- /box_booking -->
+                		        </div>
+		        <div class="col-xl-4 col-lg-4" id="sidebar_fixed">
+		            <div class="box_booking">
+		                <div class="head">
+		                    <h3>Order Summary</h3>
+		                    <div>Pizzeria da Alfredo</div>
+		                </div>
+		                <!-- /head -->
+		                <div class="main">
+		                	<ul>
+		                		<li>Date<span>Today 23/11/2019</span></li>
+		                		<li>Hour<span>08.30pm</span></li>
+		                		<li>Type<span>Delivery</span></li>
+		                	</ul>
+		                	<hr>
+
+
+		                    <a href="confirm-delivery.html" class="btn_1 full-width mb_5">Order Now</a>
+
+		                </div>
+		            </div>
+		            <!-- /box_booking -->
+		        </div>
+
+		    </div>
+		    <!-- /row -->
+		</div>
+		<!-- /container -->
+
+	</main>
+	<!-- /main -->
+<%@include file="../footer.jsp"%>
