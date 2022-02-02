@@ -8,9 +8,13 @@ node {
     }
 
     dir(""){
-        stage('clean') {
+        stage('build') {
             sh "chmod +x ./mvnw"
-            sh "./mvnw clean"
+            sh "./mvnw clean package"
+        }
+
+         stage('SonarQube Analyse') {
+            sh "./mvnw sonar:sonar"
         }
     }
 }
