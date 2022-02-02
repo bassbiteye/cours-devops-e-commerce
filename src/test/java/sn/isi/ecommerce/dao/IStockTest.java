@@ -1,5 +1,6 @@
 package sn.isi.ecommerce.dao;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import sn.isi.ecommerce.entities.Stock;
 
@@ -19,18 +20,14 @@ class IStockTest {
         s.setProduit(produitdao.get(1));
         int result = stockdao.add(s);
         if(result == 1)
-            System.out.println("Test passed");
+            Assertions.assertEquals(9, stockdao.add(s), "succesfull");
         else
-            System.out.println("Test failed");
+            Assertions.assertEquals(9, stockdao.add(s), "La methode addClient a echoué");
     }
 
     @Test
     void getAll() {
         IStock stockdao = new StockImpl();
-        List<Stock> stocks = stockdao.getAll();
-        if(stocks.size() > 0)
-            System.out.println("List contains " + stocks.size() + " produits");
-        else
-            System.out.println("List empty");
+        Assertions.assertNotNull( stockdao.getAll(), "La methode getAllClients a echoué");
     }
 }
