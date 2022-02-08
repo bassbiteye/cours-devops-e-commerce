@@ -8,9 +8,15 @@ node {
     }
 
     dir(""){
-        stage('build') {
+
+        stage('clean') {
             sh "chmod +x ./mvnw"
             sh "./mvnw clean package"
+        }
+
+        stage('packaging') {
+            sh "./mvnw verify -DskipTests"
+            archiveArtifacts artifacts: '**/target/*.war', fingerprint: true
         }
 
          stage('SonarQube Analyse') {
