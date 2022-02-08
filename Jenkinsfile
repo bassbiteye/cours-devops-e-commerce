@@ -1,5 +1,5 @@
 node {
-    stage('checkout') {
+    /* stage('checkout') {
         checkout scm
     }
 
@@ -12,7 +12,7 @@ node {
             sh "chmod +x ./mvnw"
             sh "./mvnw clean"
         }
-    }
+    } */
     stage('Build Prod') {
         //when {branch 'fournisseur'}
         // sh './mvnw clean verify -DskipTests'
