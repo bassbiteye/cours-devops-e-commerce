@@ -38,4 +38,20 @@ public class StockImpl implements IStock{
             return null;
         }
     }
+
+    @Override
+    public int deleteS(Stock stock) {
+        try {
+
+        }catch (Exception ex)
+        {
+
+        }
+        return 0;
+    }
+
+    @Override
+    public int updateS(Stock stock) {
+        return 0;
+    }
 }
