@@ -14,7 +14,6 @@ node {
         }
 
          stage('SonarQube Analyse') {
-            sh "chmod +x ./mvnw"
             sh "./mvnw clean verify sonar:sonar \
                   -Dsonar.projectKey=cours-devops-e-commerce \
                   -Dsonar.host.url=http://172.17.0.2:9000 \
