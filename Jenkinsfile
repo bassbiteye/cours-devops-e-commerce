@@ -16,6 +16,6 @@ node {
     stage('Build Prod') {
         //when {branch 'fournisseur'}
         // sh './mvnw clean verify -DskipTests'
-        sh 'mvn test'
+        sh './mvnw test'
     }
 }
