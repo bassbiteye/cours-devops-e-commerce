@@ -14,10 +14,10 @@ node {
             sh "./mvnw test"
         }
 
-        /*stage('packaging') {
+        stage('packaging') {
             sh "./mvnw verify -DskipTests"
             archiveArtifacts artifacts: '**/target/*.war', fingerprint: true
-        }*/
+        }
 
          stage('Quality code') {
             sh "./mvnw clean verify sonar:sonar \
