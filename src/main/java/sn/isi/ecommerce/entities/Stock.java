@@ -4,6 +4,7 @@ import javax.persistence.*;
 import java.io.Serializable;
 
 @Entity
+@NamedQuery(name = "stock.all", query = "SELECT s FROM stock s")
 public class Stock  implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
