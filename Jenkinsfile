@@ -1,6 +1,6 @@
 node {
     stage('Test') {
-        sh './mvnw test'
+        sh 'mvnw test'
     }
     stage('Code Analysis') {
         sh './mvnw clean verify sonar:sonar \
