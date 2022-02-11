@@ -1,0 +1,689 @@
+/*------------------------------------------------------------------
+43. banner frame / .banner-frame
+-------------------------------------------------------------------*/
+.banner-frame{
+	margin: 0 -11px;
+	overflow: hidden;
+	padding: 23px 0 0;
+	img{max-width: 100%;}
+	.holder{
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		position: absolute;
+		padding: 42px 38px 20px 41px;
+	}
+	h2{
+		margin: 0 0 3px;
+		text-transform: uppercase;
+		font-weight: 300;
+		letter-spacing: 4.6px;
+		@include font-size(24px, 28px);
+	}
+	.mt-stars{
+		margin: 0;
+		padding: 0;
+		line-height: 1;
+		font-size: 12px;
+		list-style: none;
+		li{
+			margin: 0 1px 0 0;
+			@include alignment(inline-block, middle);
+		}
+		.fa{color: #c8a760;}
+		.fa-star-o{color: #d6d6d6;}
+	}
+	.btn-shop{
+		color: #878787;
+		font-size: 14px;
+		margin: 40px 0 0;
+		line-height: 16px;
+		text-decoration: none;
+		letter-spacing: -0.8px;
+		text-transform: uppercase;
+		font-family: $font-family-base-1;
+		@include transition (all, 0.4s, linear);
+		@include alignment(inline-block, middle);
+		span,
+		.fa{
+			color: #878787;
+			@include transition (all, 0.4s, linear);
+			@include alignment(inline-block, middle);
+		}
+		span{margin: 0 11px 0 0;}
+		.fa{
+			text-align: center;
+			border-radius: 100%;
+			border: 1px solid #878787;
+			@include size(24px, 24px);
+			@include font-size(17px, 21px);
+		}
+		&.add{margin: 0;}
+		&:hover{
+			color: $color1;
+			text-decoration: none;
+			span,
+			.fa{
+				color: $color1;
+				border-color: $color1;
+			}
+		}
+	}
+	.discount{
+		color: #fff;
+		float: right;
+		width: 129px;
+		height: 129px;
+		font-weight: bold;
+		text-align: center;
+		border-radius: 100%;
+		background: #eed24c;
+		@include font-size(37px, 40px);
+		font-family: $font-family-base-1;
+		span{
+			display: block;
+			padding: 44px 0 0;
+		}
+	}
+	.price{
+		display: block;
+		color: #9f9f9f;
+		padding: 12px 0 19px;
+		letter-spacing: -1.5px;
+		@include font-size(17px, 23px);
+		font-family: $font-family-base-1;
+	}
+	.shop{
+		right: 38px;
+		bottom: 24px;
+		color: #878787;
+		position: absolute;
+		text-decoration: none;
+		font-family: $font-family-base-1;
+		@include transition (all, 0.4s, linear);
+		@include alignment(inline-block, middle);
+		&:hover{
+			color: $color1;
+			text-decoration: none;
+			.fa{border-color: $color1;}
+		}
+	}
+	.right{text-align: right;}
+	.white{color: #fff;}
+	h3{
+		margin: 0 0 10px;
+		font: 700 21px/28px $font-family-base-1;
+	}
+	&.nospace{
+		margin: 0;
+		.banner-9,
+		.banner-10,
+		.banner-11{
+			margin: 0;
+			width: 33.33%;
+		}
+	}
+}
+/*------------------------------------------------------------------
+44. banner 1 / .banner-1
+-------------------------------------------------------------------*/
+.banner-1{
+	float: left;
+	width: 385px;
+	position: relative;
+	.holder{padding: 39px 38px 20px 41px;}
+}
+/*------------------------------------------------------------------
+45. Baners / .banner-2
+-------------------------------------------------------------------*/
+.banner-1,
+.banner-2,
+.banner-3,
+.banner-4,
+.banner-5,
+.banner-6,
+.banner-7,
+.banner-8,
+.banner-9,
+.banner-10,
+.banner-11,
+.banner-12,
+.banner-13,
+.banner-14,
+.banner-15,
+.banner-16,
+.banner-17,
+.banner-18,
+.banner-19{
+	float: left;
+	margin: 0 11px;
+	position: relative;
+}
+.banner-2,
+.banner-7,
+.banner-17,
+.banner-18{margin-bottom: 20px;}
+.banner-box{
+	float: left;
+	&.first{width: 408px;}
+	&.two{width: 294px;}
+	&.third{width: 434px;}
+	&.fourth{width: 814px;}
+	&.fifth{width: 398px;}
+	&.sixth{width: 100%;}
+}
+/*------------------------------------------------------------------
+46. banner 2 / .banner-2
+-------------------------------------------------------------------*/
+.banner-2{
+	.holder{padding: 33px 38px 20px 35px;}
+	.price{padding: 27px 0 0;}
+}
+/*------------------------------------------------------------------
+47. banner 3 / .banner-3
+-------------------------------------------------------------------*/
+.banner-3{
+	.holder{padding: 31px 26px 20px 41px;}
+	h2{
+		text-transform: none;
+		letter-spacing: 4.9px;
+	}
+	.shop{
+		right: 36px;
+		bottom: 32px;
+		letter-spacing: -0.6px;
+	}
+}
+/*------------------------------------------------------------------
+48. banner 4 / .banner-4
+-------------------------------------------------------------------*/
+.banner-4{
+	width: 385px;
+	.holder{padding: 33px 38px 20px 35px;}
+	.price{padding: 12px 0 26px;}
+}
+/*------------------------------------------------------------------
+49. banner 5 / .banner-5
+-------------------------------------------------------------------*/
+.banner-5{
+	width: 588px;
+	.holder{
+		padding: 0;
+	}
+	.texts{
+		position: absolute;
+		padding: 2px 8px;
+		line-height: 21px;
+		max-width: 65%;
+		bottom: 71px;
+		right: 56px;
+		left: 56px;
+		.title{
+			@include alignment(inline-block, middle);
+			text-transform: uppercase;
+			background: #535353;
+			padding: 3px 5px 4px;
+			font-weight: 600;
+			color: #fff;
+			margin: 0 0 3px;
+			letter-spacing: 4.1px;
+		}
+		h3{
+			margin: 0 0 8px;
+			font: 300 55px/60px $source-sans-pro;
+			strong{
+				display: block;
+				font: 700 57px/62px $font-family-base-1;
+			}
+		}
+		p{margin: 0 0 18px 2px;}
+		.price-add{
+			display: block;
+			font: 30px/35px $font-family-base-1;
+		}
+	}
+}
+/*------------------------------------------------------------------
+50. banner 6 / .banner-6
+-------------------------------------------------------------------*/
+.banner-6{
+	width: 276px;
+	.holder{padding: 24px 33px 28px 23px;}
+	.sub-title{
+		display: block;
+		font-weight: 600;
+		letter-spacing: 4px;
+		margin: 0 0 21px;
+		letter-spacing: 4.2px;
+	}
+	.btn-shop{
+		position: absolute;
+		bottom: 30px;
+		left: 31px;
+		right: 31px;
+		span,
+		.fa{color: #fff;}
+		.fa{border-color: #fff;}
+	}
+	h3{letter-spacing: 1px;}
+	.offer{
+		position: absolute;
+		right: 19px;
+		top: 50%;
+		@include size(129px, 129px);
+		border-radius: 100%;
+		background: #62c5de;
+		text-align: center;
+		padding: 34px 0 0;
+		letter-spacing: 1px;
+		.price-less{
+			@include alignment(inline-block, middle);
+			position: relative;
+			@include font-size(16px, 18px);
+			color: rgba(255, 255, 255, 0.57);
+			&:after{
+				position: absolute;
+				left: 0;
+				right: 0;
+				top: 10px;
+				height: 1px;
+				content: '';
+				background: rgba(255, 255, 255, 0.57);
+			}
+		}
+		.prices{
+			display: block;
+			@include font-size(29px, 32px);
+		}
+	}
+}
+/*------------------------------------------------------------------
+51. banner 7 / .banner-7
+-------------------------------------------------------------------*/
+.banner-7{
+	width: 294px;
+	.holder{padding: 26px 26px 28px;}
+	h2{
+		margin: 0 0 1px;
+		color: #939393;
+		@include font-size(18px, 28px);
+	}
+	.price-tag{
+		position: absolute;
+		right: 29px;
+		bottom: 29px;
+	}
+	.price{
+		color: #991015;
+		padding: 10px 0 11px;
+		@include font-size(27px, 30px);
+	}
+	.shop-now{
+		color: #fff;
+		background: #2e2d32;
+		text-transform: uppercase;
+		@include alignment(inline-block, middle);
+		text-decoration: none;
+		padding: 2px 9px 1px;
+		letter-spacing: 1px;
+		@include transition (all, 0.4s, linear);
+		&:hover{background: $color1;}
+	}
+}
+/*------------------------------------------------------------------
+52. banner 8 / .banner-8
+-------------------------------------------------------------------*/
+.banner-8{
+	width: 294px;
+	.holder{padding: 29px 24px 28px;}
+	h2{
+		color: #2b3d66;
+		margin: 0 0 46px;
+		@include font-size(18px, 28px);
+	}
+	.price-tag{
+		padding: 0;
+		.price-off{
+			display: block;
+			color: #9f9f9f;
+			@include alignment(inline-block, middle);
+			@include font-size(18px, 20px);
+			position: relative;
+			padding: 0 5px;
+			margin: 4px 0 6px;
+			&:after{
+				position: absolute;
+				left: 0;
+				right: 0;
+				top: 10px;
+				content: '';
+				height: 1px;
+				background: #9f9f9f;
+			}
+		}
+		.price{
+			padding: 0;
+			color: #2c3d65;
+			@include font-size(27px, 30px);
+		}
+	}
+	.btn-shop{
+		margin: 16px 0 0 -3px;
+		span{
+			color: #2c3d65;
+			text-transform: uppercase;
+		}
+		.fa{
+			color: #2c3d65;
+			border-color: #2c3d65;
+		}
+	}
+}
+/*------------------------------------------------------------------
+53. banner 9 / .banner-9
+-------------------------------------------------------------------*/
+.banner-9,
+.banner-10,
+.banner-11{
+	width: 385px;
+	.holder{padding: 36px 38px 28px;}
+	h2{
+		color: #b7b7b7;
+		font-weight: 600;
+		margin: 0 0 15px;
+		letter-spacing: 5px;
+		text-transform: lowercase;
+		text-transform: capitalize;
+		@include font-size(16px, 18px);
+		strong{
+			display: block;
+			color: #535353;
+			padding: 4px 0 0;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+			font: 700 24px/26px $font-family-base-1;
+		}
+	}
+	.btn-shop{
+		margin: 58px 0 0;
+		.fa{
+			@include size(18px, 18px);
+			@include font-size(14px, 18px);
+		}
+		span{margin: 0 7px 0 0;}
+	}
+	.btn-area{
+		position: absolute;
+		left: 28px;
+		bottom: 28px;
+	}
+}
+/*------------------------------------------------------------------
+54. banner 12 / .banner-12
+-------------------------------------------------------------------*/
+.banner-12{
+	margin-bottom: 25px;
+	h2 span{
+		display: block;
+		margin: 0 0 5px;
+		font-weight: 600;
+		text-transform: none;
+		@include font-size(16px, 18px);
+	}
+	.btn-shop{
+		position: absolute;
+		right: 38px;
+		bottom: 33px;
+		span,
+		.fa{color: #fff;}
+		.fa{
+			border-color: #fff;
+			background: #b1de89;
+			&:hover{border-color: $color1;}
+		}
+	}
+}
+/*------------------------------------------------------------------
+55. banner 13 / .banner-13
+-------------------------------------------------------------------*/
+.banner-13{
+	.holder{padding: 39px 39px 20px;}
+	h2{
+		letter-spacing: 2px;
+		span{
+			display: block;
+			color: #b7b7b7;
+			font-weight: 600;
+			letter-spacing: 5px;
+			text-transform: none;
+			padding: 0 3px 6px 0;
+			@include font-size(16px, 18px);
+		}
+		strong{font: 700 24px/25px $font-family-base-1;}
+	}
+	.btn-shop{
+		position: absolute;
+		right: 38px;
+		bottom: 35px;
+	}
+}
+/*------------------------------------------------------------------
+56. banner 15 / .banner-15
+-------------------------------------------------------------------*/
+.banner-15{
+	width: 589px;
+	.holder{padding: 56px 37px 20px 20px;}
+	h2{
+		color: #b7b7b7;
+		@include font-size(16px, 18px);
+		strong{
+			display: block;
+			color: #535353;
+			padding: 3px 0 0;
+			@include font-size(24px, 26px);
+		}
+	}
+	.btn-shop{
+		right: 38px;
+		bottom: 51px;
+		position: absolute;
+	}
+}
+/*------------------------------------------------------------------
+57. banner 17 / .banner-17
+-------------------------------------------------------------------*/
+.banner-17,
+.banner-18{width: 385px;}
+.banner-17 h4{
+	margin: 24% 0 0 10%;
+	letter-spacing: 23px;
+	text-align: center;
+	font-weight: bold;
+	@include font-size(52px, 54px);
+}
+/*------------------------------------------------------------------
+58. banner 18 / .banner-18
+-------------------------------------------------------------------*/
+.banner-18{
+	.holder{padding: 35px 31px 20px 41px;}
+	h2{
+		color: #5f3b34;
+		margin: 0 0 11px;
+		letter-spacing: 1.6px;
+		font: 700 18px/28px $font-family-base-1;
+	}
+	.price-off{
+		color: #9f9f9f;
+		padding: 0 3px;
+		position: relative;
+		margin: 20px 0 1px;
+		font: 18px/20px $font-family-base-1;
+		@include alignment(inline-block, middle);
+		&:after{
+			left: 0;
+			right: 0;
+			top: 10px;
+			content: '';
+			height: 1px;
+			position: absolute;
+			background: #9f9f9f;
+		}
+	}
+	.price{
+		padding: 0;
+		color: #603b34;
+		font: 23px/26px $font-family-base-1;
+	}
+	.btn-shop{
+		margin: 36px 0 0;
+		text-decoration: none;
+		.icon-shop{
+			color: #e5aa6f;
+			@include alignment(inline-block, middle);
+		}
+		.icon-shop{@include font-size(16px, 18px);}
+		span{
+			margin: 0;
+			color: #e5aa6f;
+			text-transform: uppercase;
+			@include font-size(13px, 16px);
+		}
+	}
+}
+/*------------------------------------------------------------------
+59. banner 19 / .banner-19
+-------------------------------------------------------------------*/
+.banner-19{
+	width: 792px;
+	font: 14px/21px $font-family-base;
+	.holder{padding: 102px 38px 22px 73px;}
+	.txt{max-width: 48%;}
+	.heading{
+		color: #6a6a6a;
+		display: block;
+		padding: 0 4px 11px;
+		letter-spacing: 4.1px;
+		text-transform: uppercase;
+		font: 600 14px/16px $font-family-base;
+	}
+	h3{
+		margin: 0 0 8px;
+		font: 100 58px/60px $font-family-base;
+		strong{
+			display: block;
+			font-weight: 600;
+		}
+	}
+	p{margin: 0 0 37px;}
+	.now{
+		color: #fff;
+		padding: 9px 25px;
+		background: #535353;
+		border-radius: 20px;
+		text-decoration: none;
+		letter-spacing: -0.4px;
+		text-transform: uppercase;
+		font: 13px/16px $font-family-base-1;
+		@include transition (all, 0.4s, linear);
+		&:hover{
+			color: $white;
+			background: $color1;
+		}
+	}
+}
+/*------------------------------------------------------------------
+60. banner 20 / .banner-20
+-------------------------------------------------------------------*/
+.banner-20{
+	position: relative;
+	margin: 0 0 20px 11px;
+	h2{
+		margin: 0 0 14px;
+		color: #2b3d66;
+		font-weight: bold;
+		text-transform: uppercase;
+		@include font-size(21px, 24px);
+	}
+	p{margin: 0 0 11px;}
+	.price-off{
+		color: #fff;
+		margin: 0 0 8px;
+		padding: 0 5px;
+		position: relative;
+		@include font-size(18px, 20px);
+		@include alignment(inline-block, middle);
+		&:after{
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: 10px;
+			height: 1px;
+			content: '';
+			background: #fff;
+		}
+	}
+	.price{
+		color: #2c3d65;
+		padding: 0 0 32px;
+		@include font-size(27px, 30px);
+	}
+	.card{
+		color: #2d4169;
+		font-weight: bold;
+		padding: 8px 27px;
+		border-radius: 20px;
+		text-decoration: none;
+		letter-spacing: 0.7px;
+		border: 2px solid #2c3d65;
+		@include font-size(13px, 16px);
+		@include transition (all, 0.4s, linear);
+		@include alignment(inline-block, middle);
+		&:hover{
+			color: $white;
+			background: $color1;
+			border-color: $color1;
+		}
+	}
+}
+/*------------------------------------------------------------------
+61. banner 21 / .banner-21
+-------------------------------------------------------------------*/
+.banner-21{
+	position: relative;
+	margin: 0 0 0 11px;
+	.holder{padding: 39px 38px 20px 41px;}
+	.title{
+		color: #6a6a6a;
+		display: block;
+		padding: 0 0 4px;
+		font-weight: 600;
+		letter-spacing: 4px;
+		text-transform: uppercase;
+		font: 600 14px/16px $font-family-base;
+	}
+	h2{
+		margin: 0 0 30px;
+		text-transform: none;
+		letter-spacing: -1.0px;
+		font: 100 37px/40px $font-family-base;
+		strong{font-weight: 600;}
+	}
+	.view{
+		color: #535353;
+		font-weight: bold;
+		padding: 8px 23px;
+		border-radius: 20px;
+		text-decoration: none;
+		text-transform: uppercase;
+		border: 2px solid #535353;
+		@include font-size(13px, 16px);
+		@include transition (all, 0.4s, linear);
+		@include alignment(inline-block, middle);
+		&:hover{
+			color: $white;
+			background: $color1;
+			border-color: $color1;
+		}
+	}
+}

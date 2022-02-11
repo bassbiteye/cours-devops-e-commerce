@@ -1,0 +1,577 @@
+
+/*------------------------------------------------------------------
+71. Mt Footer / #mt-footer
+-------------------------------------------------------------------*/
+#mt-footer{
+  @extend %clearfix;
+  &.montserrat{
+	font-family: $font-family-base-1;
+	.f-widget-heading{ text-transform: uppercase;}
+  }
+  &.fullwidth{width: 100% !important; max-width: 100% !important;}
+  &.style1{
+  	margin: 0 auto;
+  	max-width: 1600px;
+  	.footer-holder{padding: 76px 0 70px;}
+  }
+  &.style2{
+  	.footer-holder{padding: 51px 0 60px;}
+  	.f-widget-about p{margin: 0 0 33px;}
+  	.f-widget-about .address-list li:first-child{margin: 0 0 20px;}
+  	.footer-area{padding: 24px 0 20px;}
+  }
+  &.style3{
+  	.divider{
+  		padding-top: 50px;
+  		padding-bottom: 26px;
+  	}
+  	.f-widget-about p{margin: 0 0 32px;}
+  	.f-widget-newsletter p{margin: 0 0 23px;}
+  	.f-widget-newsletter .newsletter-form{margin: 0 0 30px;}
+  }
+  &.style4{
+  	margin: 0 auto;
+  	max-width: 1600px;
+  	.f-promo-box{padding: 27px 0 65px;}
+  	.footer-holder{
+  		background: $clr-7;
+  		padding: 73px 0 57px;
+  	}
+  	.f-widget-about p{margin: 0 0 32px;}
+  	.f-widget-newsletter p{margin: 0 0 23px;}
+  	.f-widget-newsletter .newsletter-form{margin: 0 0 30px;}
+  }
+  &.style5{
+  	margin: 0 auto;
+  	max-width: 1200px;
+  	.footer-holder{padding: 130px 11% 100px 9%;}
+  	.f-widget-newsletter .newsletter-form{width: 210px;}
+  }
+  &.style6{
+  	.footer-holder{
+  		padding: 83px 0 29px;
+  		.f-widget-heading{margin: 0 0 15px;}
+  	}
+  	.nav-widget-1 .f-widget-nav li{margin: 0 0 8px;}
+  	.f-widget-about{padding: 10px 0 0;}
+  	.logo{margin: 0 0 58px;}
+  	.footer-area p{
+  		color: #8f8f8f;
+  		letter-spacing: 1px;
+  		font: 11px/20px $source-sans-pro;
+  	}
+  	.bank-card-2.align-center{margin: 0 auto 7px;}
+  }
+  &.style7{
+  	.footer-holder{padding: 70px 0 61px;}
+  	.f-widget-about p{margin: 0 0 32px;}
+  	.f-widget-newsletter p{margin: 0 0 23px;}
+  	.f-widget-newsletter .newsletter-form{margin: 0 0 30px;}
+  }
+  &.style8{
+  	margin: 0 auto;
+  	max-width: 1203px;
+  	.logo{margin: 0 0 42px;}
+  	.footer-holder{padding: 86px 0 70px 68px;}
+  	.f-widget-about .address-list{
+  		margin: 0 0 43px;
+  		li:first-child{margin: 0 0 19px;}
+  	}
+  }
+  &.style9{
+  	margin: 0 auto;
+  	max-width: 1200px;
+  	p{margin: 0 0 22px;}
+  	.social-network{font-size: 18px;}
+  	.footer-holder{
+  		padding: 135px 38px 110px 121px;
+  		.f-widget-heading.follow{margin: 0 0 7px; padding: 0;}
+  	}
+  	.footer-area{padding: 22px 0 20px;}
+  	.bank-card{float: none; margin: 0 auto;}
+  	.f-widget-newsletter .newsletter-form{margin: 0 0 33px;}
+  }
+  .divider{
+	border-width: 1px 0;
+	border-style: solid;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	border-color: $clr-4;
+  }
+  .dark{
+	background: $clr-7;
+	position: relative;
+	.divider{
+	  padding-top: 0;
+	  padding-bottom: 40px;
+	  border-width: 0 0 1px;
+	}
+  }
+  .light{
+	background: $clr-13;
+	position: relative;
+	border-bottom: none;
+	.f-widget-about{
+	  .address-list{
+		a{
+		  transition: all 0.25s linear;
+		  &:hover{ color: $white;}
+		}
+	  }
+	}
+	.nav-widget-1{
+	  .f-widget-nav{
+		a{
+		  transition: all 0.25s linear;
+		  &:hover{ color: $white;}
+		}
+	  }
+	}
+	.divider{
+	  padding-top: 0;
+	  padding-bottom: 40px;
+	  border-width: 0 0 1px;
+	}
+  }
+  .logo{
+	width: 112px;
+	margin: 0 0 23px;
+	display: inline-block;
+	vertical-align: top;
+  }
+  p{margin: 0;}
+  .f-holder{
+	@extend %clearfix;
+	.f-widget-heading{
+	  @include font(16px, 16px);
+	  margin: 0 0 35px;
+	  font-weight: 700;
+	  color: $clr-2;
+	}
+	.f-nav-holder{
+	  padding-top: 100px;
+	  padding-bottom: 100px;
+	  &.dark{
+		&:before{ right: 0;}
+	  }
+	}
+	.f-about{
+	  min-height: 357px;
+	  background-position: 50% 50%;
+	  background-size: cover;
+	  padding-top: 80px;
+	  margin: 40px 0 0;
+	  color: $white;
+	  background: $clr-15;
+	  .address-list{
+		a{
+		  transition: all 0.25s linear;
+		  color: $white;
+		  &:hover{ color: $black; }
+		}
+	  }
+	}
+  }
+  .footer-holder{
+	padding: 40px 0 0;
+	.bg-dark{
+	  position: relative;
+	  padding: 60px 0;
+	  background: $clr-7;
+	  &:before{
+		@include element(0, -75px, auto, auto);
+		border-style: solid;
+		border-width: 0 0 331px 75px;
+		border-color: transparent transparent rgba(255, 255, 255, 0.8);
+		z-index: 1;
+	  }
+	}
+	&.black{
+		background: $black;
+	  position: relative;
+	  border-bottom: none;
+	  color: $clr-9;
+	  .nav-widget-1{
+		.f-widget-nav{
+		  li{
+			a{
+			  transition: all 0.25s linear;
+			  &:hover{ color: $white; }
+			}
+		  }
+		}
+	  }
+	  .social-icon{
+		a{
+		  transition: all 0.25s linear;
+		  &:hover{ color: $white; }
+		}
+	  }
+	  a{ color: $clr-9; }
+	  .f-widget-heading{ color: $white;}
+	}
+	.f-widget-heading{
+	  @include font(16px, 16px);
+	  margin: 0 0 35px;
+	  font-weight: 700;
+	  color: $clr-2;
+	  &.heading{ color: $black; }
+	  &.follow{
+		display: block;
+		margin: 0 0 20px;
+		padding: 0 5px 0 0;
+	  }
+	}
+	&.light{ .f-widget-heading{ color: $white;} }
+  }
+  .footer-area{
+	padding: 31px 0 20px;
+	.logo{ margin: 0 auto 20px;}
+	.copyright{
+	  margin: -70px 0 0;
+	  a{
+		transition: all 0.25s linear;
+		color: $clr-1;
+		&:hover{ color: $color1;}
+	  }
+	}
+	.copy-right p{
+		a{
+			transition: all 0.25s linear;
+			color: $clr-1;
+			&:hover{ color: $color1;}
+		}
+	}
+	p{
+	  margin: 0 0 15px;
+	  a{
+		font-weight: 700;
+		color: $black;
+		@include transition (all, 0.4s, linear);
+		&:hover{ color: $color1;}
+	  }
+	}
+  }
+  .bank-card-2{
+	width: 140px;
+	float: right;
+	padding: 4px 0 0;
+	&.align-center{
+	  margin: 0 auto 20px;
+	  float: none;
+	}
+	&.pull-left{
+	  float: left;
+	  margin: -80px 0 0;
+	}
+  }
+  .bank-card{
+	width: 265px;
+	float: right;
+	margin: -5px 0 0;
+	&.align-center{
+	  margin: 0 auto;
+	  float: none;
+	}
+	img{
+		height: auto;
+		display: block;
+		max-width: 100%;
+	}
+  }
+  .f-widget-about{
+  	color: $clr-10;
+  	p{margin: 0 0 25px;}
+	.address-list{
+	  overflow: hidden;
+	  margin: 0 0 20px;
+	  padding: 0;
+	  &.align-right{
+		margin: -4px 0 30px;
+		.fa-map-marker,
+		.fa-phone,
+		.fa-envelope-o,
+		address{float: right;}
+		.fa-map-marker{ margin: 4px 0 0 13px; }
+		.fa-phone{ margin: 1px 0 0 9px; }
+		.fa-envelope-o{ margin: 3px 0 0 7px; }
+	  }
+	  li{
+		display: block;
+		overflow: hidden;
+		&:first-child{margin: 0 0 14px;}
+		a{
+		  transition: all 0.25s linear;
+		  &:hover{ color: $color1;}
+		}
+	  }
+	  address{
+		float: left;
+		margin: 0;
+		font-style: normal;
+	  }
+	  .fa-map-marker,
+	  .fa-phone,
+	  .fa-envelope-o{
+		float: left;
+	  }
+	  .fa-map-marker{ margin: 4px 13px 0 0; }
+	  .fa-phone{ margin: 1px 9px 0 0; }
+	  .fa-envelope-o{ margin: 3px 7px 0 0; }
+	}
+  }
+  .nav-widget-1{
+	width: 33.3%;
+	float: left;
+	&.f-nav{
+	  width: 25%;
+	}
+	.f-widget-nav{
+	  overflow: hidden;
+	  margin: 0;
+	  li{
+		overflow: hidden;
+		display: block;
+		margin: 0 0 13px;
+		a{
+		  transition: all 0.25s linear;
+		  &:hover{ color: $color1;}
+		}
+	  }
+	}
+  }
+  .f-widget-newsletter{
+	.holder{
+	  overflow: hidden;
+	}
+	.newsletter-form{
+	  width: 218px;
+	  height: 30px;
+	  float: right;
+	  margin: 0 0 50px;
+	  overflow: hidden;
+	  border-width: 1px;
+	  border-style: solid;
+	  border-radius: 25px;
+	  border-color: $clr-1;
+	  @include placeholder {color: $clr-3;}
+	  &.form2{
+		border: none;
+		width: 255px;
+		height: auto;
+		.form-control{ 
+		  width: 66%;
+		  height: 42px;
+		  border-radius: 25px 0 0 25px;
+		  background: $white;
+		}
+		button{
+		  @include font(11px, 13px);
+		  height: 42px;
+		  padding: 0;
+		  width: 34%;
+		  background: $clr-12;
+		  color: $white;
+		  border-radius: 0 25px 25px 0;
+		  transition: all 0.25s linear;
+		  &:hover{ background: $color1;}
+		}
+	  }
+	  .form-control{
+		width: 88%;
+		height: 30px;
+		float: left;
+		background: none;
+		border: none;
+		box-shadow: none;
+		color: $clr-3;
+		outline: none;
+		font-weight: 200;
+		padding: 7px 10px 7px 22px;
+		font:700 11px/16px $font-family-base-1;
+	  }
+	  button{
+		float: left;
+		background: none;
+		border: none;
+		outline: none;
+		font:700 11px/16px $font-family-base-1;
+		width: 6%;
+		padding: 6px 0 0 0;
+	  }
+	}
+  }
+  .social-network{
+	&.social-icon{ @include font(18px, 20px); }
+	li{
+	  display: inline-block;
+	  vertical-align: middle;
+	  margin: 0 6px 0 2px;
+	}
+  }
+  .f-widget-news{
+	.news-articles{
+	  overflow: hidden;
+	  .news-column{
+		margin: 0 0 26px;
+		color: $clr-10;
+	  }
+	  .fa-twitter{
+		float: left;
+		@include font(18px, 20px);
+		margin: 4px 10px 0 0;
+	  }
+	  .txt-box{
+		overflow: hidden;
+		line-height: 23px;
+		a{
+		  font-weight: bold;
+		  transition: all 0.25s linear;
+		  &:hover{ color: $color1;}
+		}
+	  }
+	}
+  }
+  .f-widget-tabs{
+	.tabs{
+	  li{
+		float: left;
+		margin: 0 3px 6px 0;
+		a{
+		  padding: 1px 15px;
+		  display: block;
+		  border-radius: 25px;
+		  border: 1px solid $clr-11;
+		  transition: all 0.25s linear;
+		  &:hover{
+			background: $color1;
+			color: $white;
+		  }
+		}
+	  }
+	}
+  }
+  .f-widget-nav2{
+	li{
+	  float: left;
+	  margin: 0 26px 0 0;
+	}
+	a{
+	  transition: all 0.25s linear;
+	  &:hover{ color: $color1;}
+	}
+  }
+  .social-network{
+	a{
+	  transition: all 0.25s linear;
+	  &:hover{ color: $color1;}
+	}
+  }
+}
+/*------------------------------------------------------------------
+72. Mt Footer / #mt-footer
+-------------------------------------------------------------------*/
+.f-promo-box{
+	padding: 65px 0 0;
+	&.light{
+		.f-widget-item{
+			.widget-icon,
+			.f-promo-box-heading{ color: $white;}
+			.txt-holder{ color: $clr-10;}
+		}
+	}
+	.subcrib-form{
+		width: 305px;
+		height: 42px;
+		float: right;
+		overflow: hidden;
+		border-radius: 25px;
+		.form-control{
+			width: 71.4%;
+			height: 42px;
+			float: left;
+			background: $white;
+			color: $clr-12;
+			border-radius: 25px 0 0 25px;
+			border: none;
+			box-shadow: none;
+			outline: none;
+			@include font(13px, 15px);
+			font-weight: 700;
+			padding: 7px 10px 7px 22px;
+		}
+		button{
+			float: left;
+			border: none;
+			background: $clr-12;
+			color: $white;
+			outline: none;
+			border-radius: 0 25px 25px 0;
+			@include font(11px, 13px);
+			font-weight: 700;
+			width: 28.5%;
+			height: 42px;
+			letter-spacing: 1px;
+			padding: 2px 0 0 0;
+			transition: all 0.25s linear;
+			&:hover{ background: $color1;}
+		}
+	}
+	.social-network{
+		@include font(31px, 33px);
+		margin: 0 0 0 40px;
+		float: left;
+		li{ margin: 0 11px 0 3px;}
+	}
+	.f-widget-item{
+		@extend %clearfix;
+		&.border{
+			position: relative;
+			padding: 0 10px 0 0;
+			&:before{
+				@include element(0, auto, auto, -36px);
+				width: 1px;
+				height: 53px;
+				z-index: 0;
+				background: $clr-14;
+			}
+		}
+		.txt-holder{
+			@include font(12px, 20px);
+			overflow: hidden;
+			font-family: $font-family-base-2;
+			letter-spacing: 1px;
+			color: $clr-5;
+		}
+		.f-promo-box-heading{
+			@include font(16px, 20px);
+			font-weight: 700;
+			letter-spacing: 0;
+			margin: 0 0 1px;
+			color: $clr-5;
+			text-transform: uppercase;
+			font-family: $font-family-base-1;
+		}
+		.txt{
+			@include font(18px, 20px);
+			float: left;
+			color: $clr-5;
+			font-weight: 700;
+			padding: 11px 0 0;
+			text-transform: uppercase;
+			font-family: $font-family-base-1;
+		}
+		.widget-icon{
+			float: left;
+			margin: 0 23px 0 0;
+			@include font(45px, 50px);
+			color: $clr-6;
+			&.light-gray{ color: $clr-8; }
+		}
+		.fa-money{
+			top: -4px;
+			position: relative;
+		}
+	}
+	&.style2{padding: 56px 0 17px;}
+}

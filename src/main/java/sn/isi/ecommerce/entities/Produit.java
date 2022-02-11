@@ -23,11 +23,9 @@ public class Produit {
 	private double prixUnitaire;
 	private double quantite;
 	@Temporal(TemporalType.DATE)
-	public Date dateDePeremption;
+	private Date dateDePeremption;
 	@ManyToOne
 	private Categorie categorie = new Categorie();
-	@ManyToOne
-	private Stock stock = new Stock();
 
 	public Produit() {
 	}
