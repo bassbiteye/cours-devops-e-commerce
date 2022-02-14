@@ -9,7 +9,7 @@ node {
     stage('Test') {
 
         //maven: 'maven-3'
-        sh 'mvn --version'
+        sh './mvnw --version'
         sh 'mvn clean package'
         sh 'mvn test'
     }
