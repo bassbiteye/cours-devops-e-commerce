@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="projet-e-commerce" />
         <module name="gestion-ecommerce" />
+        <module name="projet-e-commerce" />
+        <module name="cours-devops-e-commerce" />
       </profile>
     </annotationProcessing>
   </component>
