@@ -68,7 +68,7 @@
                 <version>2.2</version>
                 <configuration>
                     <path>/</path>
-                    <url>http://localhost:8080/manager/html</url>
+                    <url>http://localhost:8080/manager/text</url>
                     <server>tomcat7</server>
                     <username>mven</username>
                     <password>mven</password>
