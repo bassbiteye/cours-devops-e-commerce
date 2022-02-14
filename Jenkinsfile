@@ -3,9 +3,12 @@ node {
         def mvnHome = tool name: 'Apache Maven 3.6.0', type: 'maven'
         //sh "${mvnHome}/bin/mvn -B -DskipTests clean package"
      } */
+     stage('checkout') {
+         checkout scm
+     }
     stage('Test') {
 
-        maven: 'maven-3'
+        //maven: 'maven-3'
         sh 'mvn --version'
         sh 'mvn clean package'
         sh 'mvn test'
