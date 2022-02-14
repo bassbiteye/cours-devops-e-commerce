@@ -10,7 +10,7 @@ node {
         sh './mvnw --version'
     }
     stage('Maven clean package') {
-        sh './mvnw clean package'
+        sh './mvnw clean package -DskipTests'
     }
     stage('Test') {
         sh './mvnw test'
