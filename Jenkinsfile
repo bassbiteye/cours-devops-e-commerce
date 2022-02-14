@@ -6,12 +6,13 @@ node {
      stage('checkout') {
          checkout scm
      }
-
-    stage('Test') {
-
-        //maven: 'maven-3'
+    stage('Maven Version') {
         sh './mvnw --version'
+    }
+    stage('Maven clean package') {
         sh './mvnw clean package'
+    }
+    stage('Test') {
         sh './mvnw test'
     }
     stage('Code Analysis') {
