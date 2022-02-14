@@ -16,7 +16,7 @@ node {
         sh './mvnw test'
     }
     stage('Code Analysis') {
-        sh './mvnw clean verify sonar:sonar \
+        sh './mvnw sonar:sonar \
                  -Dsonar.projectKey=devops-tp \
                  -Dsonar.host.url=http://192.168.0.109:9000 \
                  -Dsonar.login=154ba639ee2f917756458407c1aec895aa335467'
