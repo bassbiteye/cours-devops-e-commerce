@@ -64,7 +64,7 @@ public class CategorieImpl implements ICategorie {
 	public List<Categorie> getAll() {
 		try {
 			return em.createQuery("SELECT c FROM Categorie c").getResultList();
-		} catch (Exception e) {
+		  } catch (Exception e) {
 			e.printStackTrace();
 			return null;
 		}

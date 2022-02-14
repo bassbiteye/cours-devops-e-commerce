@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class IClientTest {
     private static IClient iClient;
 
-    @BeforeAll
+    /*@BeforeAll
     public static void init() {
         iClient = new ClientImpl();
     }
@@ -20,7 +20,7 @@ class IClientTest {
 
     @Test
     void getClientById() {
-        Assertions.assertNotNull(iClient.getClientById(1), "LE Test getClientById a echoué");
+        Assertions.assertNotNull(iClient.getClientById(7), "LE Test getClientById a echoué");
     }
 
     @Test
@@ -33,7 +33,7 @@ class IClientTest {
         Client client = new Client();
         client.setNom("Diallo");
         client.setPrenom("saliou");
-        int id = iClient.util() + 1;
+        int id = iClient.util() + 9;
         Assertions.assertEquals(49, iClient.addClient(client).getId(), "La methode addClient a echoué");
     }
 
@@ -41,11 +41,11 @@ class IClientTest {
     void updateClient() {
 
         Client client = new Client();
-        client.setId(1);
+        client.setId(6);
         client.setNom("Issa");
         client.setPrenom("Sow");
         client.setEmail("issasow@gmail.com");
-        Assertions.assertNotNull( iClient.updateClient(1, client), "La methode updateClient a echoué");
+        Assertions.assertNotNull( iClient.updateClient(7, client), "La methode updateClient a echoué");
     }
 
     @Test
