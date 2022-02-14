@@ -6,9 +6,7 @@ node {
      stage('checkout') {
          checkout scm
      }
-     tools {
-         maven '3.6.3'
-    }
+
     stage('Test') {
 
         //maven: 'maven-3'
