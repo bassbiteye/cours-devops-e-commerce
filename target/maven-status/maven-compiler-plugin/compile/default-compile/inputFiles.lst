@@ -1,0 +1,17 @@
+D:\cours\2021-2022\dev ops\projet-e-commerce\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\dao\ICategorie.java
+D:\cours\2021-2022\dev ops\projet-e-commerce\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\entities\Client.java
+D:\cours\2021-2022\dev ops\projet-e-commerce\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\entities\Stock.java
+D:\cours\2021-2022\dev ops\projet-e-commerce\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\entities\User.java
+D:\cours\2021-2022\dev ops\projet-e-commerce\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\entities\Categorie.java
+D:\cours\2021-2022\dev ops\projet-e-commerce\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\entities\Commande.java
+D:\cours\2021-2022\dev ops\projet-e-commerce\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\dao\IClient.java
+D:\cours\2021-2022\dev ops\projet-e-commerce\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\entities\Detail.java
+D:\cours\2021-2022\dev ops\projet-e-commerce\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\entities\Facturation.java
+D:\cours\2021-2022\dev ops\projet-e-commerce\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\dao\CategorieImpl.java
+D:\cours\2021-2022\dev ops\projet-e-commerce\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\dao\ProduitImpl.java
+D:\cours\2021-2022\dev ops\projet-e-commerce\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\dao\IProduit.java
+D:\cours\2021-2022\dev ops\projet-e-commerce\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\controllers\AccueilServlet.java
+D:\cours\2021-2022\dev ops\projet-e-commerce\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\entities\Fournisseur.java
+D:\cours\2021-2022\dev ops\projet-e-commerce\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\entities\Livraison.java
+D:\cours\2021-2022\dev ops\projet-e-commerce\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\controllers\CategorieServlet.java
+D:\cours\2021-2022\dev ops\projet-e-commerce\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\entities\Produit.java
