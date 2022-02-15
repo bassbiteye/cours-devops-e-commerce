@@ -11,4 +11,22 @@ public class Livraison implements Serializable {
 
     @OneToOne()
     private Commande commande;
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public Commande getCommande() {
+		return commande;
+	}
+
+	public void setCommande(Commande commande) {
+		this.commande = commande;
+	}
+    
+    
 }
