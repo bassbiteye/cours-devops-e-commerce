@@ -18,7 +18,7 @@ node {
     stage('Code Analysis') {
         sh './mvnw sonar:sonar \
                  -Dsonar.projectKey=devops-tp \
-                 -Dsonar.host.url=http://192.168.46.135:9001 \
-                 -Dsonar.login=154ba639ee2f917756458407c1aec895aa335467'
+                 -Dsonar.host.url=http://localhost:9000 \
+                 -Dsonar.login=46d48dfabf4fce7267719eba191d6a4774e6d5bc'
     }
 }
