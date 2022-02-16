@@ -8,50 +8,50 @@ import static org.junit.jupiter.api.Assertions.*;
 class IClientTest {
     private static IClient iClient;
 
-    /*@BeforeAll
+    @BeforeAll
     public static void init() {
         iClient = new ClientImpl();
     }
 
     @Test
     void getAllClients() {
-        Assertions.assertNotNull( iClient.getAllClients(), "La methode getAllClients a echoué");
+        assertNotNull( iClient.getAllClients(), "La methode getAllClients a echoué");
     }
 
     @Test
     void getClientById() {
-        Assertions.assertNotNull(iClient.getClientById(7), "LE Test getClientById a echoué");
+        assertNotNull(iClient.getClientById(7), "LE Test getClientById a echoué");
     }
 
     @Test
     void getClientByEmail() {
-        Assertions.assertNotNull(iClient.getClientByEmail("issasow@gmail.com"), "LE Test getClientByEmail a echoué");
+        assertNotNull(iClient.getClientByEmail("issasow@gmail.com"), "LE Test getClientByEmail a echoué");
     }
 
     @Test
     void addClient() {
         Client client = new Client();
-        client.setNom("Diallo");
-        client.setPrenom("saliou");
-        int id = iClient.util() + 9;
-        Assertions.assertEquals(49, iClient.addClient(client).getId(), "La methode addClient a echoué");
+        client.setNom("Gueye");
+        client.setPrenom("Elhadji");
+        int id = iClient.util() + 18;
+        assertEquals(18, iClient.addClient(client).getId(), "La methode addClient a echoué");
     }
 
     @Test
     void updateClient() {
 
         Client client = new Client();
-        client.setId(6);
-        client.setNom("Issa");
-        client.setPrenom("Sow");
-        client.setEmail("issasow@gmail.com");
-        Assertions.assertNotNull( iClient.updateClient(7, client), "La methode updateClient a echoué");
+        client.setId(8);
+        client.setNom("Ndiaye");
+        client.setPrenom("Penda");
+        client.setEmail("penda@gmail.com");
+        assertNotNull( iClient.updateClient(8, client), "La methode updateClient a echoué");
     }
 
     @Test
     void deleteClient() {
         int id = iClient.util();
-        Assertions.assertEquals( true, iClient.deleteClient(id), "La methode deleteClient a echoué");
+        assertEquals( true, iClient.deleteClient(id), "La methode deleteClient a echoué");
     }
 
     /*@Test

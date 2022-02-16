@@ -10,12 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98d302df-2a9f-4bda-8c78-26a1f1e6a444" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/dao/CategorieImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/dao/CategorieImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/sn/isi/ecommerce/dao/IClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sn/isi/ecommerce/dao/IClientTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +122,7 @@
       <recent name="sn.isi.ecommerce.controllers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IClientTest.addClient (2)">
+  <component name="RunManager" selected="JUnit.IClientTest.updateClient">
     <configuration name="IClientTest.addClient (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="eCormmerce" />
       <extension name="coverage">
@@ -341,10 +337,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IClientTest.updateClient" />
         <item itemvalue="JUnit.IClientTest.addClient (2)" />
         <item itemvalue="JUnit.IClientTest.deleteClient" />
         <item itemvalue="JUnit.IClientTest.getClientByEmail" />
-        <item itemvalue="JUnit.IClientTest.updateClient" />
         <item itemvalue="JUnit.IClientTest.addClient (1)" />
       </list>
     </recent_temporary>
@@ -385,7 +381,7 @@
       <workItem from="1642721324898" duration="9033000" />
       <workItem from="1644342419853" duration="1627000" />
       <workItem from="1644441160932" duration="567000" />
-      <workItem from="1644606796916" duration="4339000" />
+      <workItem from="1644606796916" duration="11416000" />
     </task>
     <servers />
   </component>
