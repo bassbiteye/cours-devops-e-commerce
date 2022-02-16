@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c5166d2c-be7b-415d-bd30-aacdf8d7a3e4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +53,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="JUnit.IStockTest">
+  <component name="RunManager" selected="Maven.gestion-ecommerce [tomcat7:run]">
     <configuration name="IStockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cours-devops-e-commerce" />
       <extension name="coverage">
@@ -112,7 +113,9 @@
       <option name="presentableId" value="Default" />
       <updated>1644351463892</updated>
       <workItem from="1644351478714" duration="2019000" />
-      <workItem from="1644604026243" duration="807000" />
+      <workItem from="1644604026243" duration="2939000" />
+      <workItem from="1644681785768" duration="49000" />
+      <workItem from="1645027311490" duration="7000" />
     </task>
     <servers />
   </component>
