@@ -122,7 +122,7 @@
       <recent name="sn.isi.ecommerce.controllers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IClientTest.getClientById">
+  <component name="RunManager" selected="JUnit.IClientTest.getClientByEmail">
     <configuration name="IClientTest.addClient (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gestion-ecommerce" />
       <extension name="coverage">
@@ -337,11 +337,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IClientTest.getClientByEmail" />
         <item itemvalue="JUnit.IClientTest.getClientById" />
         <item itemvalue="JUnit.IClientTest.updateClient" />
         <item itemvalue="JUnit.IClientTest.addClient (2)" />
         <item itemvalue="JUnit.IClientTest.deleteClient" />
-        <item itemvalue="JUnit.IClientTest.getClientByEmail" />
       </list>
     </recent_temporary>
   </component>
@@ -381,7 +381,7 @@
       <workItem from="1642721324898" duration="9033000" />
       <workItem from="1644342419853" duration="1627000" />
       <workItem from="1644441160932" duration="567000" />
-      <workItem from="1644606796916" duration="11792000" />
+      <workItem from="1644606796916" duration="13371000" />
     </task>
     <task id="LOCAL-00001" summary="Les_Test">
       <created>1645045142163</created>
@@ -410,5 +410,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Les_Test" />
     <option name="LAST_COMMIT_MESSAGE" value="Les_Test" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/sn/isi/ecommerce/dao/IClientTest.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

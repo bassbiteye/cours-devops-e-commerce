@@ -25,7 +25,7 @@ class IClientTest {
 
     @Test
     void getClientByEmail() {
-        assertNotNull(iClient.getClientByEmail("issasow@gmail.com"), "LE Test getClientByEmail a echoué");
+        assertNull ( iClient.getClientByEmail("penda@gmail.com"),"LE Test getClientByEmail a echoué");
     }
 
     @Test
@@ -33,8 +33,8 @@ class IClientTest {
         Client client = new Client();
         client.setNom("Gueye");
         client.setPrenom("Elhadji");
-        int id = iClient.util() + 18;
-        assertEquals(18, iClient.addClient(client).getId(), "La methode addClient a echoué");
+        int id = iClient.util() + 19;
+        assertEquals(19, iClient.addClient(client).getId(), "La methode addClient a echoué");
     }
 
     @Test
