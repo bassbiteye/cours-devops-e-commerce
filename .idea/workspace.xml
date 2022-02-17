@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98d302df-2a9f-4bda-8c78-26a1f1e6a444" name="Default Changelist" comment="Les_Test">
+    <list default="true" id="98d302df-2a9f-4bda-8c78-26a1f1e6a444" name="Default Changelist" comment="Les_Test-u">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/sn/isi/ecommerce/dao/IClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sn/isi/ecommerce/dao/IClientTest.java" afterDir="false" />
     </list>
@@ -122,7 +122,7 @@
       <recent name="sn.isi.ecommerce.controllers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IClientTest.getClientByEmail">
+  <component name="RunManager" selected="JUnit.IClientTest.addClient (2)">
     <configuration name="IClientTest.addClient (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gestion-ecommerce" />
       <extension name="coverage">
@@ -337,10 +337,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IClientTest.addClient (2)" />
         <item itemvalue="JUnit.IClientTest.getClientByEmail" />
         <item itemvalue="JUnit.IClientTest.getClientById" />
         <item itemvalue="JUnit.IClientTest.updateClient" />
-        <item itemvalue="JUnit.IClientTest.addClient (2)" />
         <item itemvalue="JUnit.IClientTest.deleteClient" />
       </list>
     </recent_temporary>
@@ -381,7 +381,7 @@
       <workItem from="1642721324898" duration="9033000" />
       <workItem from="1644342419853" duration="1627000" />
       <workItem from="1644441160932" duration="567000" />
-      <workItem from="1644606796916" duration="13371000" />
+      <workItem from="1644606796916" duration="14420000" />
     </task>
     <task id="LOCAL-00001" summary="Les_Test">
       <created>1645045142163</created>
@@ -390,7 +390,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645045142163</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Les_Test-u">
+      <created>1645060525682</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1645060525682</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -409,15 +416,20 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Les_Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Les_Test" />
+    <MESSAGE value="Les_Test-u" />
+    <option name="LAST_COMMIT_MESSAGE" value="Les_Test-u" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/sn/isi/ecommerce/dao/IClientTest.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="2" />
+          <line>31</line>
+          <properties class="sn.isi.ecommerce.dao.IClientTest" method="addClient">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
