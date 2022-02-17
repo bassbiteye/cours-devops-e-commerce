@@ -20,7 +20,7 @@ class IClientTest {
 
     @Test
     void getClientById() {
-        assertNotNull(iClient.getClientById(7), "LE Test getClientById a echoué");
+        assertNotNull(iClient.getClientById(8), "LE Test getClientById a echoué");
     }
 
     @Test
