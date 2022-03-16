@@ -76,8 +76,8 @@
                     <path>/</path>
                     <contextReloadable>true</contextReloadable>
                     <url>http://localhost:8082/manager/Ecommerce</url>
-                    <username>mven</username>
-                    <password>mven</password>
+                    <username>maven</username>
+                    <password>maven</password>
                     <update>true</update>
                 </configuration>
             </plugin>
