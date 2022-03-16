@@ -10,13 +10,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98d302df-2a9f-4bda-8c78-26a1f1e6a444" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-<<<<<<< HEAD
-      <change beforePath="$PROJECT_DIR$/src/test/java/sn/isi/ecommerce/dao/CommandeImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sn/isi/ecommerce/dao/CommandeImplTest.java" afterDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/src/test/java/sn/isi/ecommerce/dao/DetailImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sn/isi/ecommerce/dao/DetailImplTest.java" afterDir="false" />
->>>>>>> 88a32b5066f2cd3f6dfd6acc7e2dcd8b3f93831f
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.java" beforeDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,8 +48,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -54,15 +60,11 @@
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
-        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
-        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
-        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
-        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
@@ -78,10 +80,10 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
@@ -110,9 +112,10 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.2816092" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -137,7 +140,6 @@
       <command value="mvn install" />
     </option>
   </component>
-<<<<<<< HEAD
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -150,29 +152,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CommandeImplTest.updateCommande">
+  <component name="RunManager" selected="Maven.gestion-ecommerce [tomcat7:run]">
     <configuration name="CommandeImplTest.deleteCommande" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gestion-ecommerce" />
-=======
-  <component name="RunManager" selected="JUnit.DetailImplTest.getDetail">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Tests.Main" />
-      <module name="cours-devops-e-commerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DetailImplTest.addDetail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="cours-devops-e-commerce" />
->>>>>>> 88a32b5066f2cd3f6dfd6acc7e2dcd8b3f93831f
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="sn.isi.ecommerce.dao.*" />
@@ -180,25 +162,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="sn.isi.ecommerce.dao" />
-<<<<<<< HEAD
       <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.CommandeImplTest" />
       <option name="METHOD_NAME" value="deleteCommande" />
-=======
-      <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.DetailImplTest" />
-      <option name="METHOD_NAME" value="addDetail" />
->>>>>>> 88a32b5066f2cd3f6dfd6acc7e2dcd8b3f93831f
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-<<<<<<< HEAD
     <configuration name="CommandeImplTest.getAllCommande" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gestion-ecommerce" />
-=======
-    <configuration name="DetailImplTest.deleteDetail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="cours-devops-e-commerce" />
->>>>>>> 88a32b5066f2cd3f6dfd6acc7e2dcd8b3f93831f
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="sn.isi.ecommerce.dao.*" />
@@ -206,25 +178,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="sn.isi.ecommerce.dao" />
-<<<<<<< HEAD
       <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.CommandeImplTest" />
       <option name="METHOD_NAME" value="getAllCommande" />
-=======
-      <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.DetailImplTest" />
-      <option name="METHOD_NAME" value="deleteDetail" />
->>>>>>> 88a32b5066f2cd3f6dfd6acc7e2dcd8b3f93831f
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-<<<<<<< HEAD
     <configuration name="CommandeImplTest.getCommande" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gestion-ecommerce" />
-=======
-    <configuration name="DetailImplTest.getAllDetail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="cours-devops-e-commerce" />
->>>>>>> 88a32b5066f2cd3f6dfd6acc7e2dcd8b3f93831f
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="sn.isi.ecommerce.dao.*" />
@@ -232,25 +194,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="sn.isi.ecommerce.dao" />
-<<<<<<< HEAD
       <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.CommandeImplTest" />
       <option name="METHOD_NAME" value="getCommande" />
-=======
-      <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.DetailImplTest" />
-      <option name="METHOD_NAME" value="getAllDetail" />
->>>>>>> 88a32b5066f2cd3f6dfd6acc7e2dcd8b3f93831f
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-<<<<<<< HEAD
     <configuration name="CommandeImplTest.getCommandeByClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gestion-ecommerce" />
-=======
-    <configuration name="DetailImplTest.getDetail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="cours-devops-e-commerce" />
->>>>>>> 88a32b5066f2cd3f6dfd6acc7e2dcd8b3f93831f
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="sn.isi.ecommerce.dao.*" />
@@ -258,7 +210,6 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="sn.isi.ecommerce.dao" />
-<<<<<<< HEAD
       <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.CommandeImplTest" />
       <option name="METHOD_NAME" value="getCommandeByClient" />
       <option name="TEST_OBJECT" value="method" />
@@ -277,10 +228,6 @@
       <option name="PACKAGE_NAME" value="sn.isi.ecommerce.dao" />
       <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.CommandeImplTest" />
       <option name="METHOD_NAME" value="updateCommande" />
-=======
-      <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.DetailImplTest" />
-      <option name="METHOD_NAME" value="getDetail" />
->>>>>>> 88a32b5066f2cd3f6dfd6acc7e2dcd8b3f93831f
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -312,6 +259,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Tomcat 9.0.35" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.35" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8888/projet_e_commerce_war/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="projet-e-commerce:war">
@@ -322,6 +270,7 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="6254b82e-c0b5-46c5-9006-46a5177ca079" />
+        <option name="HTTP_PORT" value="8888" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -399,14 +348,13 @@
       </method>
     </configuration>
     <list>
-<<<<<<< HEAD
-      <item itemvalue="Maven.gestion-ecommerce [tomcat7:run]" />
-      <item itemvalue="Tomcat Server.Tomcat 9.0.35" />
       <item itemvalue="JUnit.CommandeImplTest.getCommande" />
       <item itemvalue="JUnit.CommandeImplTest.deleteCommande" />
       <item itemvalue="JUnit.CommandeImplTest.getAllCommande" />
       <item itemvalue="JUnit.CommandeImplTest.updateCommande" />
       <item itemvalue="JUnit.CommandeImplTest.getCommandeByClient" />
+      <item itemvalue="Maven.gestion-ecommerce [tomcat7:run]" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.35" />
     </list>
     <recent_temporary>
       <list>
@@ -415,26 +363,10 @@
         <item itemvalue="JUnit.CommandeImplTest.getAllCommande" />
         <item itemvalue="JUnit.CommandeImplTest.deleteCommande" />
         <item itemvalue="JUnit.CommandeImplTest.getCommande" />
-=======
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Maven.gestion-ecommerce [tomcat7:run]" />
-      <item itemvalue="JUnit.DetailImplTest.addDetail" />
-      <item itemvalue="JUnit.DetailImplTest.deleteDetail" />
-      <item itemvalue="JUnit.DetailImplTest.getAllDetail" />
-      <item itemvalue="JUnit.DetailImplTest.getDetail" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.DetailImplTest.getDetail" />
-        <item itemvalue="JUnit.DetailImplTest.getAllDetail" />
-        <item itemvalue="JUnit.DetailImplTest.deleteDetail" />
-        <item itemvalue="JUnit.DetailImplTest.addDetail" />
-        <item itemvalue="Application.Main" />
->>>>>>> 88a32b5066f2cd3f6dfd6acc7e2dcd8b3f93831f
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -457,7 +389,21 @@
       <workItem from="1642682162730" duration="1705000" />
       <workItem from="1642721324898" duration="9033000" />
       <workItem from="1643639081805" duration="12148000" />
-      <workItem from="1643732043637" duration="8309000" />
+      <workItem from="1643732043637" duration="9107000" />
+      <workItem from="1643810923048" duration="2457000" />
+      <workItem from="1643826383117" duration="1714000" />
+      <workItem from="1643910651618" duration="279000" />
+      <workItem from="1643912753228" duration="17000" />
+      <workItem from="1644343673247" duration="1145000" />
+      <workItem from="1644441856132" duration="41000" />
+      <workItem from="1644592277892" duration="8640000" />
+      <workItem from="1644680514083" duration="17000" />
+      <workItem from="1644929969272" duration="599000" />
+      <workItem from="1644968938074" duration="598000" />
+      <workItem from="1645037321540" duration="2430000" />
+      <workItem from="1645120432024" duration="100000" />
+      <workItem from="1647357454586" duration="3308000" />
+      <workItem from="1647416225770" duration="4623000" />
     </task>
     <servers />
   </component>
@@ -469,7 +415,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
