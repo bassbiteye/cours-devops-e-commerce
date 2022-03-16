@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="projet-e-commerce:war" />
-    </artifacts-to-build>
-  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98d302df-2a9f-4bda-8c78-26a1f1e6a444" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/sn/isi/ecommerce/dao/IClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sn/isi/ecommerce/dao/IClientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gestion-ecommerce-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2021-12-26" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,18 +54,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JpbToolWindowState">
-    <option name="myId2FirstActivated">
-      <map>
-        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
-      </map>
-    </option>
-    <option name="myId2Visible">
-      <map>
-        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
-      </map>
-    </option>
-  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -69,11 +64,23 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="22poKWjHLvJEjfAlsHace1nscTT" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -86,8 +93,8 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -95,9 +102,10 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.4045977" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -107,33 +115,16 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="dao" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Tests" />
       <recent name="sn.isi.ecommerce.dao" />
-      <recent name="sn.isi.ecommerce.services" />
-      <recent name="sn.isi.ecommerce.controllers" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IClientTest.addClient (2)">
-    <configuration name="IClientTest.addClient (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="eCormmerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sn.isi.ecommerce.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sn.isi.ecommerce.dao" />
-      <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.IClientTest" />
-      <option name="METHOD_NAME" value="addClient" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IClientTest.addClient (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.IClientTest.addClient">
+    <configuration name="IClientTest.addClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gestion-ecommerce" />
       <extension name="coverage">
         <pattern>
@@ -149,49 +140,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IClientTest.deleteClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="gestion-ecommerce" />
+    <configuration name="RolesImplTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cours-devops-e-commerce" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sn.isi.ecommerce.dao.*" />
+          <option name="PATTERN" value="Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="sn.isi.ecommerce.dao" />
-      <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.IClientTest" />
-      <option name="METHOD_NAME" value="deleteClient" />
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.RolesImplTest" />
+      <option name="METHOD_NAME" value="add" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IClientTest.getClientByEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="gestion-ecommerce" />
+    <configuration name="RolesImplTest.getAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cours-devops-e-commerce" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sn.isi.ecommerce.dao.*" />
+          <option name="PATTERN" value="Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="sn.isi.ecommerce.dao" />
-      <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.IClientTest" />
-      <option name="METHOD_NAME" value="getClientByEmail" />
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.RolesImplTest" />
+      <option name="METHOD_NAME" value="getAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IClientTest.updateClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="gestion-ecommerce" />
+    <configuration name="RolesImplTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cours-devops-e-commerce" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sn.isi.ecommerce.dao.*" />
+          <option name="PATTERN" value="Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="sn.isi.ecommerce.dao" />
-      <option name="MAIN_CLASS_NAME" value="sn.isi.ecommerce.dao.IClientTest" />
-      <option name="METHOD_NAME" value="updateClient" />
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.RolesImplTest" />
+      <option name="METHOD_NAME" value="update" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsersImplTest.login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cours-devops-e-commerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.UsersImplTest" />
+      <option name="METHOD_NAME" value="login" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -222,109 +229,21 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
-    <configuration name="Tomcat 9.0.35" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.35" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <artifact name="projet-e-commerce:war">
-          <settings>
-            <option name="CONTEXT_PATH" value="/projet_e_commerce_war" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="6254b82e-c0b5-46c5-9006-46a5177ca079" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="50445" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="projet-e-commerce:war" />
-        </option>
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.IClientTest.deleteClient" />
-      <item itemvalue="JUnit.IClientTest.updateClient" />
-      <item itemvalue="JUnit.IClientTest.addClient (1)" />
+      <item itemvalue="JUnit.RolesImplTest.add" />
+      <item itemvalue="JUnit.RolesImplTest.getAll" />
+      <item itemvalue="JUnit.RolesImplTest.update" />
+      <item itemvalue="JUnit.UsersImplTest.login" />
+      <item itemvalue="JUnit.IClientTest.addClient" />
       <item itemvalue="Maven.gestion-ecommerce [tomcat7:run]" />
-      <item itemvalue="Tomcat Server.Tomcat 9.0.35" />
-      <item itemvalue="JUnit.IClientTest.getClientByEmail" />
-      <item itemvalue="JUnit.IClientTest.addClient (2)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.IClientTest.addClient (2)" />
-        <item itemvalue="JUnit.IClientTest.deleteClient" />
-        <item itemvalue="JUnit.IClientTest.getClientByEmail" />
-        <item itemvalue="JUnit.IClientTest.updateClient" />
-        <item itemvalue="JUnit.IClientTest.addClient (1)" />
+        <item itemvalue="JUnit.IClientTest.addClient" />
+        <item itemvalue="JUnit.RolesImplTest.add" />
+        <item itemvalue="JUnit.RolesImplTest.getAll" />
+        <item itemvalue="JUnit.RolesImplTest.update" />
+        <item itemvalue="JUnit.UsersImplTest.login" />
       </list>
     </recent_temporary>
   </component>
@@ -352,31 +271,21 @@
       <option name="presentableId" value="Default" />
       <updated>1640543825935</updated>
       <workItem from="1640543833704" duration="3316000" />
-      <workItem from="1642026901010" duration="7578000" />
-      <workItem from="1642089613233" duration="1079000" />
-      <workItem from="1642200461111" duration="5092000" />
-      <workItem from="1642283859263" duration="6237000" />
-      <workItem from="1642337160210" duration="11590000" />
-      <workItem from="1642465994261" duration="2939000" />
-      <workItem from="1642469180692" duration="141000" />
-      <workItem from="1642538708629" duration="421000" />
-      <workItem from="1642682162730" duration="1705000" />
-      <workItem from="1642721324898" duration="9033000" />
+      <workItem from="1642005267898" duration="636000" />
+      <workItem from="1642086120765" duration="6945000" />
+      <workItem from="1642110837435" duration="1508000" />
+      <workItem from="1642114759913" duration="1641000" />
+      <workItem from="1642181842978" duration="7310000" />
+      <workItem from="1642450859719" duration="744000" />
+      <workItem from="1642451648991" duration="1325000" />
+      <workItem from="1642534236082" duration="1640000" />
+      <workItem from="1642542241564" duration="640000" />
+      <workItem from="1645035700455" duration="1051000" />
+      <workItem from="1647387271570" duration="656000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
