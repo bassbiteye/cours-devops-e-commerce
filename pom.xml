@@ -78,6 +78,7 @@
                     <url>http://localhost:8082/manager/Ecommerce</url>
                     <username>mven</username>
                     <password>mven</password>
+                    <update>true</update>
                 </configuration>
             </plugin>
 
