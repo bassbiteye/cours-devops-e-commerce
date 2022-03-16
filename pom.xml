@@ -15,6 +15,7 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.compiler.source>1.8</maven.compiler.source>
         <junit.version>5.7.1</junit.version>
+        <maven.tomcat.port>8082</maven.tomcat.port>
     </properties>
 
     <dependencies>
@@ -73,9 +74,7 @@
                 <version>2.2</version>
                 <configuration>
                     <path>/</path>
-                    <url>http://localhost:8080/manager/Ecommerce</url>
-                    <username>mven</username>
-                    <password>mven</password>
+                    <contextReloadable>true</contextReloadable>
                 </configuration>
             </plugin>
 
