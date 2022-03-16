@@ -73,11 +73,11 @@
                 <artifactId>tomcat7-maven-plugin</artifactId>
                 <version>2.2</version>
                 <configuration>
-                    <path>/</path>
+                    <path>/ecommerce</path>
                     <contextReloadable>true</contextReloadable>
-                    <url>http://localhost:8082/manager/Ecommerce</url>
-                    <username>maven</username>
-                    <password>maven</password>
+                    <url>http://localhost:8082/manager/text</url>
+                    <!--<username>war-deployer</username>
+                    <password>jenkins-tomcat-deploy</password>-->
                     <update>true</update>
                 </configuration>
             </plugin>
