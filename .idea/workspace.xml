@@ -11,6 +11,23 @@
   <component name="ChangeListManager">
     <list default="true" id="98d302df-2a9f-4bda-8c78-26a1f1e6a444" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/src/test/java/sn/isi/ecommerce/dao/CommandeImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sn/isi/ecommerce/dao/CommandeImplTest.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/src/test/java/sn/isi/ecommerce/dao/DetailImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sn/isi/ecommerce/dao/DetailImplTest.java" afterDir="false" />
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/src/test/java/sn/isi/ecommerce/dao/IClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sn/isi/ecommerce/dao/IClientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.java" beforeDir="false" />
+=======
+>>>>>>> 88a32b5066f2cd3f6dfd6acc7e2dcd8b3f93831f
+>>>>>>> e08bf86de4b1a88bbe753ea7e5a912e16f19419b
+>>>>>>> 6621bce129018429af3ce2fefad52d54be79aaa5
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -354,6 +371,25 @@
         <item itemvalue="JUnit.CommandeImplTest.getAllCommande" />
         <item itemvalue="JUnit.CommandeImplTest.deleteCommande" />
         <item itemvalue="JUnit.CommandeImplTest.getCommande" />
+<<<<<<< HEAD
+=======
+=======
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.DetailImplTest.addDetail" />
+      <item itemvalue="JUnit.DetailImplTest.deleteDetail" />
+      <item itemvalue="JUnit.DetailImplTest.getAllDetail" />
+      <item itemvalue="JUnit.DetailImplTest.getDetail" />
+      <item itemvalue="Maven.gestion-ecommerce [tomcat7:run]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DetailImplTest.getDetail" />
+        <item itemvalue="JUnit.DetailImplTest.getAllDetail" />
+        <item itemvalue="JUnit.DetailImplTest.deleteDetail" />
+        <item itemvalue="JUnit.DetailImplTest.addDetail" />
+        <item itemvalue="Application.Main" />
+>>>>>>> 88a32b5066f2cd3f6dfd6acc7e2dcd8b3f93831f
+>>>>>>> 6621bce129018429af3ce2fefad52d54be79aaa5
       </list>
     </recent_temporary>
   </component>

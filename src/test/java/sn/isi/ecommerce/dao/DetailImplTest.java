@@ -61,7 +61,7 @@ class DetailImplTest {
 //        {
 //            System.out.println("Get detail reussie");
 //        }
-        Assertions.assertNotNull(detailDao.getDetail(1), "Echec recuperation d'un detail commande");
+//        Assertions.assertNotNull(detailDao.getDetail(1), "Echec recuperation d'un detail commande");
     }
 
     @Test
