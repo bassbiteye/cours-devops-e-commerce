@@ -19,9 +19,9 @@ class UsersImplTest {
     void add() {
         IUsers userdao = new UsersImpl();
         Users user = new Users();
-        user.setNom("Yanga");
-        user.setPrenom("Exaucé");
-        user.setEmail("exauce@gmail.com");
+        user.setNom("Zokoi");
+        user.setPrenom("Legrand");
+        user.setEmail("legrand@gmail.com");
         user.setPassword("passer123");
         user.setEtat(1);
 
