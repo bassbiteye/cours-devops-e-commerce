@@ -17,9 +17,9 @@ node {
                  -Dsonar.host.url=http://localhost:9000 \
                  -Dsonar.login=46d48dfabf4fce7267719eba191d6a4774e6d5bc'
     }
-    stage('Tomcat Deployment') {
+    /* stage('Tomcat Deployment') {
         sh './mvnw tomcat7:deploy'
-    }
+    } */
     stage ('Server'){
         steps {
            rtServer (
