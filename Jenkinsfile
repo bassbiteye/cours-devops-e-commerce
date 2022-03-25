@@ -21,31 +21,31 @@ node {
         sh './mvnw tomcat7:deploy'
     } */
     stage ('Server'){
-        steps {
-           rtServer (
-             id: "Artifactory",
-             url: 'http://localhost:8046/artifactory',
-             username: 'admin1',
-              password: 'Passer123',
-              bypassProxy: true,
-               timeout: 300
-                    )
-        }
+
+       rtServer (
+         id: "Artifactory",
+         url: 'http://localhost:8046/artifactory',
+         username: 'admin1',
+          password: 'Passer123',
+          bypassProxy: true,
+           timeout: 300
+                )
+
     }
     stage('Upload'){
-        steps{
-            rtUpload (
-             serverId:"Artifactory" ,
-              spec: '''{
-               "files": [
-                          {
-                          "pattern": "*.war",
-                          "target": "logic-ops-lab-libs-snapshot-local"
-                          }
-                        ]
-                       }''',
-                    )
-        }
+
+        rtUpload (
+         serverId:"Artifactory" ,
+          spec: '''{
+           "files": [
+                      {
+                      "pattern": "*.war",
+                      "target": "logic-ops-lab-libs-snapshot-local"
+                      }
+                    ]
+                   }''',
+                )
+
     }
     stage ('Publish build info') {
         steps {
