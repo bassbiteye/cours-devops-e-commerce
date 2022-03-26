@@ -1,0 +1,91 @@
+pipeline{
+    agent any
+    tools {
+        maven "MAVEN_HOME"
+        jdk "JDKJAVA"
+    }
+    stages{
+       stage('GetCode'){
+            steps{
+                       git(branch:'LiVRAISON',
+                       credentialsId: 'MyCredential_Id',
+                       url: 'https://github.com/bassbiteye/cours-devops-e-commerce') 
+
+            }
+        }
+        stage('JUnit test'){
+             steps{
+                bat "mvn clean test"
+             }
+        }
+        stage('build'){
+            steps{
+                bat "mvn clean install -f pom.xml"
+            }
+        }
+        
+         stage ('Scan Code Quality')  {
+             steps{
+               withSonarQubeEnv('sonar') {
+               bat "mvn -f pom.xml sonar:sonar"
+                }
+             }
+        }
+        
+        
+      
+        
+        
+      
+        
+        // stage('SonarQube analysis') {
+        // // def scannerHome = tool 'SonarScanner 4.0';
+        //     steps{
+        //         withSonarQubeEnv('sonarqube-9.2.4') { 
+        //             // If you have configured more than one global server connection, you can specify its name
+        //             // sh "${scannerHome}/bin/sonar-scanner"
+        //             bat "mvn sonar:sonar"
+        //         }
+        //     }
+        // } 
+       
+       stage('deploy') {
+        steps{
+            rtServer (
+                id:"Artifactory",
+                url:"http://localhost:8082/artifactory",
+                username:"admin",
+                password:"Passer@123",
+                bypassProxy:true,
+                timeout:300
+                
+                )
+        }
+        }
+        
+        stage('Upload') {
+        steps{
+            rtUpload (
+                serverId:"Artifactory",
+               spec: '''{
+                   "files":[
+                       {
+                           "pattern":"*.war",
+                           "target": "ecomerce-devops-libs-snapshot-local"
+                       }
+                       ]
+               }''',
+                
+            )
+        }
+        } 
+        stage('Publish build info') {
+        steps{
+            rtPublishBuildInfo (
+                serverId:"Artifactory"
+                
+                )
+        }
+        }
+    }
+}

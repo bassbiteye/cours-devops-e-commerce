@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="gestion-ecommerce" />
         <module name="projet-e-commerce" />
+        <module name="cours-devops-e-commerce" />
       </profile>
     </annotationProcessing>
   </component>
