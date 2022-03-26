@@ -1,24 +1,75 @@
-node {
-    /* stage('maven def'){
-        def mvnHome = tool name: 'Apache Maven 3.6.0', type: 'maven'
-        //sh "${mvnHome}/bin/mvn -B -DskipTests clean package"
-     } */
-     stage('checkout') {
-         checkout scm
+pipeline{
+    agent any
+
+    tools {
+        maven 'apache-maven-3.8.4'
+    }
+
+    stages{
+        stage('Get source'){
+            steps{
+                git(
+                url:"https://github.com/bassbiteye/cours-devops-e-commerce.git",
+                credentialsId: "github_test_ISI_id",
+                branch:"dev");
+            }
+        }
+
+        stage('Units Tests') {
+        steps {
+        bat 'mvn test'
+        }
+
+
+}
+     stage('sonar test'){
+         steps{
+             bat 'mvn clean verify sonar:sonar \
+  -Dsonar.projectKey=projetdvops \
+  -Dsonar.host.url=http://localhost:9000 \
+  -Dsonar.login=11f183b381c32480dd649bd6d11a25fad3408cc3'
+         }
      }
-    stage('Maven Version') {
-        sh './mvnw --version'
+
+     stage('jfog') {
+        steps{
+            rtServer (
+                id:"Artifactory",
+                url:"http://localhost:8046/artifactory",
+                username:"admin",
+                password:"Mohamed4@",
+                bypassProxy:true,
+                timeout:300
+
+                )
+        }
+        }
+       stage('Upload') {
+        steps{
+            rtUpload (
+                serverId:"Artifactory",
+               spec: '''{
+                   "files":[
+                       {
+                           "pattern":"*.war",
+                           "target": "projetdevopsofficiel-libs-snapshot-local"
+                       }
+                       ]
+               }''',
+
+            )
+        }
+        }
+        stage('Publish build info') {
+        steps{
+            rtPublishBuildInfo (
+                serverId:"Artifactory"
+
+                )
+        }
+        }
+
     }
-    stage('Maven clean package') {
-        sh './mvnw clean package -DskipTests'
-    }
-    stage('Test') {
-        sh './mvnw test'
-    }
-    stage('Code Analysis') {
-        sh './mvnw sonar:sonar \
-                 -Dsonar.projectKey=devops-tp \
-                 -Dsonar.host.url=http://localhost:9000 \
-                 -Dsonar.login=46d48dfabf4fce7267719eba191d6a4774e6d5bc'
-    }
+
+
 }
