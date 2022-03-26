@@ -58,6 +58,24 @@
             <artifactId>eclipselink</artifactId>
             <version>2.5.0</version>
         </dependency>-->
+        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+  <!--      <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>3.141.59</version>
+        </dependency>-->
+        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver -->
+       <!-- <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-chrome-driver</artifactId>
+            <version>3.141.59</version>
+        </dependency>
+        &lt;!&ndash; https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server &ndash;&gt;
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-server</artifactId>
+            <version>3.141.59</version>
+        </dependency>-->
     </dependencies>
 
     <build>
@@ -73,7 +91,7 @@
                 <version>2.2</version>
                 <configuration>
                     <path>/</path>
-                    <url>http://localhost:8080/manager/Ecommerce</url>
+                    <url>http://localhost:8085/manager/Ecommerce</url>
                     <username>mven</username>
                     <password>mven</password>
                 </configuration>

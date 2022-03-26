@@ -1,6 +1,6 @@
 package sn.isi.ecommerce.dao;
 
-import org.junit.Assert;
+
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
@@ -37,7 +37,7 @@ class FournisseurImplTest {
         //save
         IFournisseur iFournisseur = new FournisseurImpl();
         int ok = iFournisseur.add(fournisseur);
-        Assert.assertEquals(1,ok);
+        Assertions.assertEquals(1,ok);
 
         return;
     }
