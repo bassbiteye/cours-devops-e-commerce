@@ -36,8 +36,8 @@ pipeline{
             rtServer (
                 id:"Artifactory",
                 url:"http://localhost:8046/artifactory",
-                username:"admin",
-                password:"Mohamed4@",
+                username:"",
+                password:"",
                 bypassProxy:true,
                 timeout:300
 
