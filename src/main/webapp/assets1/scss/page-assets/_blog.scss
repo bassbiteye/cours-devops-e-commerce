@@ -1,0 +1,874 @@
+
+/*------------------------------------------------------------------
+62. Mt Blog Detail / .mt-blog-detail
+-------------------------------------------------------------------*/
+.mt-blog-detail{
+	&.fullwidth{ margin: 0 0 162px; }
+	&.style4{ margin: 0 0 172px; }
+	&.style1{
+		padding: 46px 0 0;
+		margin: 0 0 112px;
+		.blog-post{
+			font-size: 16px;
+			margin: 0 0 142px;
+			&.style2{
+				margin: 0 0 33px;
+				.blog-txt{
+					padding: 5px 0 0;
+					width: 59%;
+					p{ margin: 0 0 30px; }
+				}
+				.blog-nav{ margin: 0 0 13px; }
+			}
+			&.detail{
+				.blog-txt{ p{ margin: 0 0 32px; }}
+			}
+			.blog-txt{ 
+				width: 83%;
+				padding: 0 70px 0 0;
+			}
+			.blog-nav{ margin: 0 0 34px; }
+			.img-block{
+				padding: 114px 0 0;
+				margin: 0 0 102px;
+			}
+		}
+	}
+	&.style2{
+		padding: 46px 0 0;
+		margin: 0 0 112px;
+		.blog-post{
+			font-size: 16px;
+			margin: 0 0 71px;
+			&.detail{
+				.blog-txt{ p{ margin: 0 0 32px; }}
+			}
+			.img-holder{ margin: 0 0 37px;}
+			.time{ margin: -38px 35px 0 0;}
+			.blog-txt{ padding: 0 70px 0 0; }
+			.blog-nav{ margin: 0 0 34px; }
+			.img-block{
+				padding: 114px 0 0;
+				margin: 0 0 102px;
+			}
+		}
+		.btn-holder{ padding: 70px 0 0; }
+	}
+	.header{
+		@extend %clearfix;
+		padding-top: 12px;
+		padding-bottom: 9px;
+		position: relative;
+		margin: 0 0 55px;
+		&:before{
+			@include element(0, -9999px, 0, -9999px);
+			background: $clr-29;
+		}
+		.breadcrumbs{
+			@include font(14px, 16px);
+			font-weight: 200;
+			overflow: hidden;
+			float: left;
+			color: $black;
+			ul{
+				overflow: hidden;
+				margin: 0;
+				li{
+					margin: 0 10px 0 0;
+					display: inline-block;
+					vertical-align: middle;
+				}
+				.fa-angle-right{margin: 0 0 0 5px;}
+				a{
+					@include transition (all, 0.4s, linear);
+					color: $black;
+					&:hover{ color: $color1;}
+				}
+			}
+		}
+		.category{
+			margin: 4px auto 0;
+			text-align: center;
+			width: 73%;
+			float: left;
+			color: $color1;
+			@include font(15px, 17px);
+			a{@include transition (all, 0.4s, linear);}
+			a:hover{color: $color1;}
+		}
+		.align-right{
+			float: right;
+			overflow: hidden;
+			@include font(14px, 16px);
+			color: $black;
+			font-weight: 200;
+			margin: 0;
+			li{
+				float: left;
+				margin: 0 8px 0 22px;
+			}
+			a{
+				color: $black;
+				@include transition (all, 0.4s, linear);
+				&:hover{ color: $color1;}
+			}
+			.fa-search{margin: 4px 0 0 5px;}
+			.fa-bars{
+				@include font(21px, 23px);
+				margin: 0 0 0 9px;
+				display: inline-block;
+				vertical-align: middle;
+			}
+		}
+	}
+	.header-holder{
+		padding-top: 23px;
+		padding-bottom: 100px;
+		padding-left: 100px;
+		h2{
+			@include font(28px, 30px);
+			text-transform: uppercase;
+			color: $clr-44;
+			font-family: $font-family-base-1;
+			font-weight: 700;
+			margin: 0 50px 0 0;
+			display: inline-block;
+			vertical-align: middle;
+			width: 29.6%;
+		}
+	}
+	.txt-wrap{
+		@include font(16px, 24px);
+		color: $clr-44;
+		display: inline-block;
+		vertical-align: middle;
+		width: 56%;
+		position: relative;
+		&:before{
+			@include element(0, auto, auto, -50px);
+			@include size(1px, 100px);
+			background: $clr-44;
+		}
+	}
+	.sidebar{
+		position: relative;
+		&:before{
+			@include element(70px, auto, auto, 24px);
+			background: $clr-33;
+			width: 1px;
+			height: 680px;
+		}
+	}
+}
+/*------------------------------------------------------------------
+63. Mt Blog Post / .mt-blog-post
+-------------------------------------------------------------------*/
+.blog-post{
+	overflow: hidden;
+	@include font(14px, 27px);
+	font-weight: 200;
+	margin: 0 0 105px;
+	color: $clr-30;
+	&.style2{
+		line-height: 23px;
+		padding: 0 0 35px;
+		margin: 0 0 33px;
+		border-style: solid;
+		border-width: 0 0 1px;
+		border-color: $clr-33;
+		.img-holder{
+			width: 35%;
+			float: left;
+			margin: 0 42px 0 0;
+		}
+		.comment-nav{
+			right: 6px;
+			bottom: 19px;
+			top: auto;
+			@include font(13px, 15px);
+		}
+		.blog-txt{
+			width: 56%;
+			p{ margin: 0 0 32px; }
+		}
+		h2{
+			@include font(20px, 22px);
+			margin: 0 0 7px;
+		}
+		.blog-nav{
+			margin: 0 0 12px;
+			@include font(13px, 16px);
+			li{
+				margin: 0 30px 0 0;
+				position: relative;
+				z-index: 1;
+				&:before{
+					@include element(0, auto, auto, -16px);
+					height: 14px;
+					width: 1px;
+					background: $clr-30;
+				}
+				&:first-child:before{ display: none;}
+			}
+		}
+	}
+	&.style3{
+		margin: 0 0 97px;
+		position: relative;
+		.img-holder{margin: 0;}
+		.blog-txt{
+			padding: 60px;
+			width: 1090px;
+			line-height: 27px;
+			background: $white;
+			position: relative;
+			margin: -121px 0 0 41px;
+			p{ margin: 0 0 31px;}
+		}
+		.time{
+			top: 38px;
+			margin: 0;
+			left: 60px;
+			color: $clr-30;
+			background: $white;
+			position: absolute;
+		}
+		.img-block{
+			padding: 24px 0 0;
+			&.fullwidth{
+				width: 885px;
+				margin: 0 auto 80px;
+			}
+			.img{ margin: 0 30px 37px 0; }
+		}
+	}
+	&.detail .blog-txt p{ margin: 0 0 24px; }
+	.img-holder{
+		width: 100%;
+		overflow: hidden;
+		margin: 0 0 32px;
+		position: relative;
+	}
+	.blog-txt{
+		float: left;
+		overflow: hidden;
+		width: 84%;
+		p{margin: 0 0 24px;}
+	}
+	.comment-nav{
+		overflow: hidden;
+		margin: 0;
+		position: absolute;
+		right: 36px;
+		top: 55px;
+		@include font(16px, 18px);
+		font-weight: bold;
+		font-family: $font-family-base-1;
+		li{
+			margin: 0 17px 0 0;
+			float: left;
+		}
+		.fa-comments{ margin: 0 4px 0 0; }
+		.fa-share-alt{ margin: 0 6px 0 0; }
+		a{
+			@include transition (all, 0.4s, linear);
+			color: $white;
+			&:hover{ color: $color1;}
+		}
+	}
+	h2{
+		@include font(30px, 33px);
+		font-weight: bold;
+		font-family: $font-family-base-1;
+		margin: 0 0 17px;
+		text-transform: uppercase;
+		color: $clr-30;
+		a{
+			@include transition (all, 0.4s, linear);
+			color: $clr-30;
+			&:hover{ color: $color1;}
+		}
+	}
+	.blog-nav{
+		@include font(14px, 16px);
+		font-style: italic;
+		font-weight: 200;
+		margin: 0 0 32px;
+		overflow: hidden;
+		padding: 0 0 0 2px;
+		color: $clr-30;
+		li{
+			float: left;
+			margin: 0 40px 0 0;
+		}
+		a{
+			color: $clr-30;
+			@include transition (all, 0.4s, linear);
+			&:hover{ color: $color1;}
+		}
+		.fa-clock-o,
+		.fa-list,
+		.fa-comment{ margin: 0 7px 0 0;}
+	}
+	.btn-more{
+		@include font(14px, 16px);
+		font-weight: 700;
+		text-transform: uppercase;
+		word-spacing: -3px;
+		margin: 0 0 0 4px;
+		letter-spacing: 1px;
+		@include transition (all, 0.4s, linear);
+		color: $clr-30;
+		&:hover{ color: $color1;}
+	}
+	.time{
+		float: left;
+		width: 78px;
+		padding: 10px 10px 16px 15px;
+		letter-spacing: 1px;
+		overflow: hidden;
+		display: block;
+		margin: -32px 51px 0 0;
+		text-align: center;
+		@include font(18px, 20px);
+		font-weight: 400;
+		background: $clr-31;
+		color: $white;
+		strong{
+			@include font(30px, 33px);
+			display: block;
+		}
+	}
+	.img-block{
+		overflow: hidden;
+		padding: 80px 0 0;
+		margin: 0 0 80px;
+		&.fullwidth{
+			width: 865px;
+			margin: 0 auto;
+			.img{width: 261px;}
+		}
+		.img{
+			float: left;
+			width: 182px;
+			margin: 0 10px 10px 0;
+			a{
+				display: block;
+				position: relative;
+				@include transition (all, 0.4s, linear);
+				.fa{
+					top: 50%;
+					left: 50%;
+					opacity: 0;
+					visibility: hidden;
+					position: absolute;
+					@include font(30px, 30px);
+					transform: translate(-50%, -50%);
+					@include transition (all, 0.4s, linear);
+					color: $white;
+				}
+				&:hover .fa{
+					opacity: 1;
+					visibility: visible;
+				}
+			}
+		}
+	}
+}
+/*------------------------------------------------------------------
+64. Btn Holder / .btn-holder
+-------------------------------------------------------------------*/
+.btn-holder{
+	overflow: hidden;
+	.btn-prev{
+		@include font(18px, 20px);
+		font-weight: 700;
+		border-width: 2px;
+		border-style: solid;
+		padding: 5px 16px 5px 11px;
+		text-transform: uppercase;
+		float: left;
+		@include transition (all, 0.4s, linear);
+		color: $clr-30;
+		border-color: $clr-30;
+		&:hover{
+			border-color: $color1;
+			background: $color1;
+			color: $white;
+		}
+		.fa-angle-left{margin: 0 5px 0 0;}
+	}
+	.btn-next{
+		@include font(18px, 20px);
+		font-weight: 700;
+		border-width: 2px;
+		border-style: solid;
+		padding: 5px 13px 5px 18px;
+		text-transform: uppercase;
+		float: right;
+		@include transition (all, 0.4s, linear);
+		color: $clr-30;
+		border-color: $clr-30;
+		&:hover{
+			border-color: $color1;
+			background: $color1;
+			color: $white;
+		}
+		.fa-angle-right{margin: 0 0 0 4px;}
+	}
+	.pagination{
+		@include font(23px, 25px);
+		font-weight: 700;
+		font-family: $font-family-base-1;
+		overflow: hidden;
+		padding: 60px 0 10px 7px;
+		text-transform: uppercase;
+		color: $clr-34;
+		&.pagelink{
+			margin: 0 auto;
+			width: 300px;
+			padding-top: 91px;
+		}
+		li{
+			float: left;
+			margin: 0 16px 0 0;
+		}
+		.active{
+			a{
+				border-width: 0 0 4px;
+				border-style: solid;
+				color: $clr-30;
+				border-color: $clr-30;
+			}
+		}
+		a{
+			@include transition (all, 0.4s, linear);
+			color: $clr-34;
+			&:hover{
+				color: $clr-30;
+				border-color: $clr-30;
+				border-width: 0 0 4px;
+				border-style: solid;
+			}
+		}
+	}
+}
+/*------------------------------------------------------------------
+65. Widget / .widget
+-------------------------------------------------------------------*/
+.widget{
+	overflow: hidden;
+	margin: 0 0 68px;
+	padding: 0 6px 0 0;
+	h3{
+		@include font(18px, 20px);
+		font-family: $font-family-base-1;
+		font-weight: 400;
+		text-transform: uppercase;
+		margin: 0 0 23px;
+		padding: 0 0 8px;
+		position: relative;
+		color: $clr-30;
+		&:before{
+			@include element(auto, 0, 0, auto);
+			@include size(59px, 4px);
+			background: $clr-30;
+		}
+	}
+	&.category-widget{
+		.widget-nav{
+			@include font(18px, 20px);
+			font-weight: 200;
+			margin: 0;
+			overflow: hidden;
+			padding: 0 4px 0 0;
+			color: $clr-30;
+			li{margin: 0 0 8px;}
+			a{
+				@include transition (all, 0.4s, linear);
+				color: $clr-30;
+				&:hover{ color: $color1;}
+			}
+		}
+	}
+	&.popular-widget{
+		@include font(14px, 17px);
+		font-weight: 200;
+		color: $clr-30;
+		h3:before{ width: 81px;}
+		.popular-post{
+			overflow: hidden;
+			padding: 5px 0 0;
+			li{
+				margin: 0 0 13px;
+				overflow: hidden;
+			}
+		}
+		.img-post{
+			float: right;
+			width: 16.5%;
+			margin: 0 0 0 10px;
+		}
+		.info-dscrp{
+			width: 76%;
+			float: right;
+			overflow: hidden;
+			max-width: 260px;
+			padding: 3px 7px 0 0;
+			p{ margin: 0 0 2px;}
+		}
+		.time{
+			font-style: italic;
+			color: $clr-32;
+		}
+	}
+	&.tag-widget{
+		@include font(16px, 18px);
+		font-weight: 200;
+		color: $clr-30;
+		h3:before{ width: 24px;}
+		.tags{
+			width: 200px;
+			overflow: hidden;
+			float: right;
+			li{
+				display: inline-block;
+				vertical-align: middle;
+				margin: 0 0 10px;
+			}
+			a{
+				@include transition (all, 0.4s, linear);
+				&:hover{ color: $color1;}
+			}
+		}
+	}
+}
+/*------------------------------------------------------------------
+66. Mt Author Box / .mt-author-box
+-------------------------------------------------------------------*/
+.mt-author-box{
+	padding: 42px 40px 35px 47px;
+	overflow: hidden;
+	margin: 0 0 57px;
+	background: $clr-35;
+	&.fullwidth{
+		width: 865px;
+		margin: 0 auto 87px;
+		.author-img{ width: 18.8%; }
+	}
+	.author-img{
+		width: 20.9%;
+		float: left;
+		margin: 0 37px 0 0;
+	}
+	.author-txt{
+		float: left;
+		overflow: hidden;
+		width: 72%;
+		padding: 15px 0 0;
+		p{margin: 0 0 19px;}
+	}
+	h3{
+		@include font(18px, 21px);
+		font-weight: 400;
+		margin: 0 0 10px;
+		color: $black;
+		a{
+			@include transition (all, 0.4s, linear);
+			color: $black;
+			&:hover{ color: $color1; }
+		}
+	}
+	.social-network{
+		@include font(13px, 15px);
+		overflow: hidden;
+		padding: 0 0 0 2px;
+		color: $black;
+		li{
+			float: left;
+			margin: 0 13px 0 0;
+		}
+		a{
+			@include transition (all, 0.4s, linear);
+			color: $black;
+			&:hover{ color: $color1;}
+		}
+	}
+}
+/*------------------------------------------------------------------
+67. Mt Comments Section / .mt-comments-section
+-------------------------------------------------------------------*/
+.mt-comments-section{
+	overflow: hidden;
+	padding: 40px 0;
+	margin: 0 0 40px;
+	&.fullwidth{
+		width: 865px;
+		margin: 0 auto;
+		ul{
+			.img-box{
+				width: 7.9%;
+				margin: 0 16px 0 0;
+			}
+			li.second-comment{
+				padding: 0 0 0 89px;
+				.img-box{ width: 8.9%; }
+			}
+		}
+		.mt-leave-comment{
+			h2{ margin: 0 0 27px; }
+			.comment-form{
+				.form-group{ margin: 0 0 22px; }
+				textarea{ margin: 0;}
+				.form-btn{
+					padding: 14px 7px 13px 5px;
+					font-weight: 700;
+				}
+			}
+		}
+	}
+	.mt-comments-heading{
+		overflow: hidden;
+		margin: 0 0 25px;
+	}
+	h2{
+		@include font(24px, 26px);
+		font-family: $font-family-base-1;
+		font-weight: 400;
+		text-transform: uppercase;
+		margin: 0 0 23px;
+		padding: 0 0 16px;
+		position: relative;
+		color: $clr-30;
+		&:before{
+			@include element(auto, auto, 0, 2px);
+			@include size(81px, 4px);
+			background: $clr-30;
+		}
+		a{
+			@include transition (all, 0.4s, linear);
+			color: $clr-30;
+			&:hover{ color: $color1;}
+		}
+	}
+	ul{
+		padding: 0 0 0 17px;
+		overflow: hidden;
+		margin: 0 0 60px;
+		li{
+			overflow: hidden;
+			margin: 0 0 55px;
+			&.second-comment{
+				padding: 0 0 0 93px;
+				.img-box{width: 9.7%;}
+				.txt{width: 87%;}
+			}
+		}
+		.img-box{
+			width: 8.8%;
+			float: left;
+			overflow: hidden;
+			margin: 0 20px 0 0;
+		}
+		.txt{
+			float: left;
+			width: 88%;
+			overflow: hidden;
+			@include font(14px, 22px);
+			padding: 7px 0 30px;
+			border-width: 0 0 1px;
+			border-style: solid;
+			color: $clr-1;
+			border-color: $clr-29;
+			h3{
+				@include font(14px, 16px);
+				font-weight: 600;
+				margin: 0 0 6px;
+				color: $black;
+				a{
+					@include transition (all, 0.4s, linear);
+					color: $black;
+					&:hover{ color: $color1; }
+				}
+			}
+			.mt-time{
+				@include font(11px, 12px);
+				font-weight: 200;
+				font-style: italic;
+				display: block;
+				margin: 0 0 19px;
+				color: $black;
+			}
+		}
+	}
+	.mt-leave-comment{
+		overflow: hidden;
+		h2{
+			margin: 0 0 25px;
+			&:before{ display: none;}
+		}
+		.comment-form{
+			overflow: hidden;
+			padding: 0 0 0 4px;
+			.form-group{
+				overflow: hidden;
+				margin: 0 0 20px;
+			}
+			.form-control{
+				@include font(14px, 16px);
+				font-weight: 400;
+				width: 31.5%;
+				height: 47px;
+				float: left;
+				border: none;
+				outline: none;
+				box-shadow: none;
+				border-radius: 0;
+				margin: 0 0 0 20px;
+				padding: 11px 10px 5px 26px;
+				color: $clr-1;
+				background: $clr-27;
+				&:first-child{margin: 0;}
+			}
+			textarea{
+				min-height: 108px;
+				resize: none;
+				width: 100%;
+				@include font(14px, 16px);
+				font-weight: 400;
+				height: 47px;
+				border: none;
+				outline: none;
+				box-shadow: none;
+				padding: 20px 10px 5px 26px;
+				color: $clr-1;
+				background: $clr-27;
+			}
+			.form-btn{
+				width: 93px;
+				display: block;
+				padding: 10px;
+				@include font(14px, 16px);
+				font-weight: 400;
+				border: none;
+				outline: none;
+				@include transition (all, 0.4s, linear);
+				background: $clr-27;
+				color: $clr-1;
+				&:hover{
+					background: $clr-30;
+					color: $color1;
+				}
+			}
+		}
+	}
+}
+#blog-isotops.mt-iso{
+	overflow: hidden;
+	margin: 0 -50px 95px 0;
+}
+/*------------------------------------------------------------------
+68. Post Blog / .post-blog
+-------------------------------------------------------------------*/
+.post-blog{
+	width: 374px;
+	float: left;
+	margin: 0 37px 48px 0;
+	padding: 0 40px;
+	.img-holder{
+		margin: 0 -40px;
+		overflow: hidden;
+		position: relative;
+	}
+	.comment-nav{
+		overflow: hidden;
+		margin: 0;
+		position: absolute;
+		right: 6px;
+		bottom: 14px;
+		@include font(16px, 18px);
+		font-weight: bold;
+		font-family: $font-family-base-1;
+		li{
+			margin: 0 17px 0 0;
+			float: left;
+		}
+		.fa-comments{ margin: 0 4px 0 0; }
+		.fa-share-alt{ margin: 0 6px 0 0; }
+		a{
+			@include transition (all, 0.4s, linear);
+			color: $clr-35;
+			&:hover{ color: $color1;}
+		}
+	}
+	h2{
+		@include font(24px, 26px);
+		font-weight: bold;
+		font-family: $font-family-base-1;
+		margin: 0;
+		position: absolute;
+		left: 45px;
+		top: 38px;
+		text-transform: uppercase;
+		color: $white;
+		a{
+			@include transition (all, 0.4s, linear);
+			color: $white;
+			&:hover{ color: $color1;}
+		}
+	}
+	.time{
+		position: relative;
+		width: 66px;
+		padding: 10px 10px 16px 15px;
+		letter-spacing: 1px;
+		overflow: hidden;
+		display: block;
+		margin: -36px 47px 18px -5px;
+		text-align: center;
+		@include font(14px, 16px);
+		font-weight: 200;
+		background: $clr-35;
+		color: $clr-30;
+		strong{
+			@include font(24px, 26px);
+			display: block;
+		}
+	}
+	.txt-holder{
+		overflow: hidden;
+		@include font(16px, 19px);
+		p{ margin: 0 0 27px;}
+	}
+	.btn-more{
+		@include font(12px, 14px);
+		font-weight: 400;
+		@include transition (all, 0.4s, linear);
+		color: $clr-30;
+		&:hover{ color: $color1; }
+		.fa-angle-right{ margin: 0 2px 0 0;}
+	}
+}
+/*------------------------------------------------------------------
+69. Loading Holder / .loading-holder
+-------------------------------------------------------------------*/
+.loading-holder{
+	border-width: 1px 0;
+	border-style: solid;
+	border-color: $clr-33;
+	padding: 19px 0;
+	overflow: hidden;
+	.txt{
+		display: block;
+		@include font(18px, 21px);
+		font-weight: 700;
+		letter-spacing: 1px;
+		font-family: $font-family-base-1;
+		color: $clr-17;
+		.fa-refresh{margin: 0 0 0 10px;}
+	}
+}
+/*------------------------------------------------------------------
+70. Blog Isotops / #blog-isotops
+-------------------------------------------------------------------*/
+#blog-isotops{margin: 0 0 90px;}

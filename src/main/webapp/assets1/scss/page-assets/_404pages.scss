@@ -1,0 +1,199 @@
+
+/*------------------------------------------------------------------
+5. Mt Error Section / .mt-error-sec
+-------------------------------------------------------------------*/
+.mt-error-sec{
+	@extend %clearfix;
+	padding: 131px 0 76px;
+	&.dark{
+		background: $clr-7;
+		position: relative;
+	}
+	&.style2{
+		padding: 261px 0 219px;
+		.error-holder{
+			width: auto;
+			.txt{margin: 0 0 32px;}
+		}
+		.btn-list{
+			.form2 .form-control{
+				height: 30px;
+				width: 91%;
+				@include font(14px, 16px);
+			}
+			li{margin: 0 1px 0 3px;}
+		}
+	}
+	&.style3{
+		padding: 261px 0 254px;
+	}
+	&.error-section{
+		text-align: center;
+		background-position: 50% 50%;
+		background-size: cover;
+		color: $white;
+		@include v-align(499px, middle, after);
+		.section-error{text-align: left;}
+		.error-holder{
+			width: auto;
+			.txt{margin: 0 0 32px;}
+		}
+		.btn-list{
+			.error-form{
+				@include placeholder{ color: $white; }
+				border-color: $white;
+				.btn-submit{
+					color: $white;
+					padding: 5px 10px 0;
+				}
+			}
+			.form2 .form-control{
+				height: 30px;
+				width: 91%;
+				@include font(14px, 16px);
+			}
+			li{margin: 0 1px 0 3px;}
+		}
+		.btn-back{
+			background: $white;
+			color: $clr-16;
+		}
+		.error-code2,
+		h1{ color: $white; }
+	}
+	.montserrat{font-family: $font-family-base-1;}
+	.error-code{
+		@include font(193px, 195px);
+		display: block;
+		font-weight: 700;
+		letter-spacing: -7px;
+		margin: 0 0 34px;
+		color: $clr-16;
+	}
+	.error-code2{
+		@include font(210px, 212px);
+		display: block;
+		font-weight: 700;
+		letter-spacing: -7px;
+		margin: -25px 0 0;
+		color: $clr-16;
+		padding: 0 0 0 11px;
+	}
+	.error-holder{
+		width: 440px;
+		overflow: hidden;
+		h1{margin: 0 0 14px;}
+		.txt{
+			@include font(20px, 24px);
+			margin: 0 0 28px;
+		}
+		.btn-back{
+			width: 148px;
+			padding: 10px 15px;
+			@include font(14px, 16px);
+			&:hover{color: $color1;}
+		}
+	}
+	h1{
+		@include font(36px, 38px);
+		margin: 0 0 12px;
+		font-weight: 700;
+		letter-spacing: -3px;
+		word-spacing: 3px;
+		color: $clr-16;
+	}
+	.txt{
+		@include font(24px, 26px);
+		font-weight: 300;
+		font-family: $font-family-base;
+		overflow: hidden;
+		margin: 0 0 75px;
+	}
+	.btn-list{
+		overflow: hidden;
+		margin: 0 0 67px;
+		li{
+			display: inline-block;
+			vertical-align: middle;
+			margin: 0 7px 0 15px;
+			&:only-child{
+				width: 662px;
+				padding: 52px 0 0;
+				.error-form{
+					width: 100%;
+					.form-control{
+						width: 93%;
+						text-transform: capitalize;
+					}
+					.btn-submit{padding: 8px 21px 0 0;}
+				}
+			}
+		}
+		.error-form{
+			width: 216px;
+			font-weight: 700;
+			border: 2px solid $clr-16;
+			font-family: $font-family-base-1;
+			@include placeholder{ color: $clr-16; }
+			&.form2{
+				width: 494px;
+				.btn-submit{ padding: 5px 10px 0;}
+			}
+			.form-control{
+				width: 80%;
+				height: 37px;
+				float: left;
+				border: none;
+				outline: none;
+				background: none;
+				@include font(16px, 18px);
+				text-transform: uppercase;
+				letter-spacing: -1px;
+				padding: 10px 10px 10px 16px;
+				box-shadow: none;
+			}
+			.btn-submit{
+				background: none;
+				border: none;
+				color: $clr-16;
+				outline: none;
+				@include font(18px, 20px);
+				font-weight: 400;
+				padding: 8px 10px 0 10px;
+				&:hover{color: $color1;}
+			}
+		}
+	}
+	.btn-back{
+		width: 174px;
+		font-family: $font-family-base-1;
+		font-weight: 700;
+		@include font(16px, 18px);
+		padding: 11px 15px;
+		text-align: center;
+		display: block;
+		background: $clr-16;
+		color: $white;
+		transition: all 0.25s linear;
+		&.btn-transparent{
+			background: none;
+			margin: 0 auto 20px;
+			width: 184px;
+			color: $clr-16;
+			.fa-home{margin: 0 8px 0 0;}
+			&:hover{ opacity: 0.7;}
+		}
+	}
+	.error-form{
+		border-color: $clr-16;
+		@include placeholder{ color: $clr-16; }
+		.form-control{color: $clr-16;}
+		.btn-submit{ color: $clr-16;}
+		.btn-back{
+			background: $clr-16;
+			color: $white;
+			&:hover{ background: $clr-1; }
+			&.btn-transparent{ color: $clr-16; }
+		}
+	}
+}

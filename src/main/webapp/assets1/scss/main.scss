@@ -1,0 +1,250 @@
+/*------------------------------------------------------------------
+  [Master Stylesheet]
+
+  Project:    Schon
+  Version:    1.0
+  Primary use:  HTML Template for Schon
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+
+1. import files
+2. Body
+3. Wrapper / #wrapper
+3. Mt Header / #mt-header
+4. Mt Top Bar / .mt-top-bar
+4. Main / #main
+5. Mt Bottom Bar / .mt-bottom-bar
+5. Mt Error Section / .mt-error-sec
+6. Nav / #nav
+6. Mt Newsletter Popup / .mt-newsletter-popup
+7. Popup Holder / .popup-holder
+7. Mt Nav Holder / .mt-nav-holder
+8. Fancybox Skin / .fancybox-skin
+8. Mt Side Over / .mt-side-over
+9. Mt Map Holder / .mt-map-holder
+10. Mt Map Descrp / .mt-map-descrp
+11. Mt Contact Detial / .mt-contact-detial
+12. Mt Form Section / .mt-form-sec
+13. Mt Contact Banner / .mt-contact-banner
+14. Mt About Section / .mt-about-sec
+15. Mt Team Section / .mt-team-sec
+16. Mt Workspace Section / .mt-workspace-sec
+17. Mt Process Section / .mt-process-sec
+18. Mt seller Section / .mt-seller-sec
+19. Mt Heading / .mt-heading
+20. Mt Heading2 / .mt-heading2
+21. Mt Patners / .mt-patners
+23. Mt Product1 / .mt-product1
+24. Mt Product2 / .mt-product2
+25. product-3 / .product-3
+26. Mt product4 / .mt-product4
+27. Product Area / .product-area
+28. Mt Producttabs / .mt-producttabs
+29. Mt Bestseller / .mt-bestseller
+30. Mt Smallproducts / .mt-smallproducts
+31. Mt Productsc / .mt-productsc
+32. Mt Productscrollbar / .mt-productscrollbar
+33. js tab hidden / .js-tab-hidden
+34. Mt Detail Section / .mt-detail-sec
+35. Mt Product Table / .mt-product-table
+36. product detail ab / .product-detail-tab
+37. product comment / .product-comment
+38. related products / .related-products
+39. mt shoplist header / .mt-shoplist-header
+40. Mt productlisthold / .mt-productlisthold
+41. Mt pagination / .mt-pagination
+42. product post / .product-post
+43. banner frame / .banner-frame
+44. banner 1 / .banner-1
+45. Baners / .banner-2
+46. banner 2 / .banner-2
+47. banner 3 / .banner-3
+48. banner 4 / .banner-4
+49. banner 5 / .banner-5
+50. banner 6 / .banner-6
+51. banner 7 / .banner-7
+52. banner 8 / .banner-8
+53. banner 9 / .banner-9
+54. banner 12 / .banner-12
+55. banner 13 / .banner-13
+56. banner 15 / .banner-15
+57. banner 17 / .banner-17
+58. banner 18 / .banner-18
+59. banner 19 / .banner-19
+60. banner 20 / .banner-20
+61. banner 21 / .banner-21
+62. Mt Blog Detail / .mt-blog-detail
+63. Mt Blog Post / .mt-blog-post
+64. Btn Holder / .btn-holder
+65. Widget / .widget
+66. Mt Author Box / .mt-author-box
+67. Mt Comments Section / .mt-comments-section
+68. Post Blog / .post-blog
+69. Loading Holder / .loading-holder
+70. Blog Isotops / #blog-isotops
+71. Mt Footer / #mt-footer
+72. Mt Footer / #mt-footer
+73. Sidebar / #sidebar
+74. Shop Widget / .shop-widget
+75. Nice Form / .nice-form
+76. Mt Main Slider / .mt-main-slider
+77. Mt Mainslider2 / .mt-mainslider2
+78. Mt Mainslider3 / .mt-mainslider3
+79. Mt Mainslider4 / .mt-mainslider4
+80. Slider 1 / .slider-1
+81. Slider 3 / .slider-3
+82. Slider 5 / .slider-5
+83. Slider 7 / .slider-7
+84. Coming Soon
+
+-------------------------------------------------------------------*/
+
+
+
+$breakpoints: (
+  'xs-phone': 320px,
+  'phone': 480px,
+  'tablet': 768px,
+  'desktop': 1024px,
+  'widescreen': 1200px
+);
+
+// keywords
+$media-expressions: (
+  'screen': 'screen',
+  'print': 'print',
+  'handheld': 'handheld',
+  'landscape': '(orientation: landscape)',
+  'portrait': '(orientation: portrait)',
+  'retina2x': '(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)',
+  'retina3x': '(-webkit-min-device-pixel-ratio: 2.5), (min-resolution: 240dpi)'
+);
+
+// ligatured operators ≥ ≤
+
+@import 'vendors/include-media';
+
+@import "bootstrap-custom";
+@import "vendors/bootstrap/variables";
+@import "vendors/bootstrap/mixins";
+
+@import 'base/mixins';
+@import 'base/helpers';
+
+
+@import 'page-assets/header';
+@import 'page-assets/footer';
+@import 'page-assets/sliders';
+@import 'page-assets/banners';
+@import 'page-assets/products';
+@import 'page-assets/plugin-reset';
+@import 'page-assets/blog';
+@import 'page-assets/404pages';
+@import 'page-assets/ecom-helper';
+@import 'page-assets/sidebar';
+@import 'page-assets/coming-soon';
+
+@font-face { @include fontface(fontello, fontello, 400, normal) }
+
+.icomoon[class^="icon-"]:before,
+.icomoon[class*=" icon-"]:before {
+	font-family: "fontello"; 
+	font-style: normal;
+	font-weight: normal;
+	speak: none;
+	display: inline-block;
+	text-decoration: inherit;
+	width: 1em;
+	margin-right: .2em;
+	text-align: center;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1em;
+	margin-left: .2em;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+ 
+.icon-down-open-mini:before { content: '\e800'; }
+.icon-left-open-mini:before { content: '\e801'; }
+.icon-right-open-mini:before { content: '\e802'; }
+.icon-up-open-mini:before { content: '\e803'; }
+.icon-shop:before { content: '\e804'; }
+.icon-euro:before { content: '\e805'; }
+.icon-heart-empty:before { content: '\e806'; }
+.icon-exchange:before { content: '\e807'; }
+.icon-eye:before { content: '\e808'; }
+
+/*------------------------------------------------------------------
+3. Wrapper / #wrapper
+-------------------------------------------------------------------*/
+#wrapper {
+	@extend %boxreset;
+	font-family: $source-sans-pro;
+}
+img{
+	display: block;
+	width: 100%;
+}
+a{
+	&:hover,
+	&:active,
+	&:focus{
+		text-decoration: none;
+		outline: none;
+	}
+}
+/*------------------------------------------------------------------
+4. Main / #main
+-------------------------------------------------------------------*/
+#mt-main{overflow: hidden;}
+#back-top{
+	bottom: 0;
+	opacity: 0;
+	z-index: 9;
+	right: 20px;
+	width: 50px;
+	color: #fff;
+	height: 50px;
+	cursor: pointer;
+	font-size: 25px;
+	position: fixed;
+	line-height: 47px;
+	text-align: center;
+	border-radius: 5px;
+	background: #252525;
+	transition: all 0.6s ease;
+	transform: translateY(40px);
+	 -ms-transform: translateY(40px);
+	-webkit-transition: all 0.6s ease;
+	-webkit-transform: translateY(40px);
+	&.active{
+		opacity: 1;
+		transition: all 0.6s ease;
+		-webkit-transition: all 0.6s ease;
+		-ms-transform: translateY(-20px); /* IE 9 */ 
+		-webkit-transform: translateY(-20px); /* Safari */ 
+		transform: translateY(-20px);
+	}
+	&:hover{
+		opacity: 0.9;
+	}
+}
+.loader-container{background: #fff; bottom: 0; left: 0; position: fixed; right: 0; top: 0; z-index: 9999;}
+.loader {
+  display: block;
+  position: absolute;
+  font-size: 0;
+  color: #f36b21;
+  left: 50%;
+  top: 50%;
+  width: 100px;
+  height: 100px;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  -ms-transform: translateY(-50%) translateX(-50%);
+  -o-transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
+}
+
+.changer-active #style-changer {margin: 0;}
