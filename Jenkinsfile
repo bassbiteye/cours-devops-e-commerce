@@ -48,10 +48,10 @@ node {
 
     }
     stage ('Publish build info') {
-        steps {
-            rtPublishBuildInfo (
-                serverId: "Artifactory"
-            )
-        }
+
+        rtPublishBuildInfo (
+            serverId: "Artifactory"
+        )
+
     }
 }
