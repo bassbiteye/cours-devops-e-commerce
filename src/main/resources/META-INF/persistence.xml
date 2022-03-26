@@ -9,7 +9,6 @@
 		<class>sn.isi.ecommerce.entities.Produit</class>
 		<class>sn.isi.ecommerce.entities.Client</class>
 		<class>sn.isi.ecommerce.entities.Commande</class>
-
 		<properties>
 			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
 			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/bdEcommerce" />
