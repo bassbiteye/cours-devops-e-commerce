@@ -1,0 +1,47 @@
+pipeline{
+    agent any
+    environment {
+        PATH = "$PATH:C:\\soft\\apache-maven-3.8.4\\bin"
+    }
+    stages{
+       stage('Clone'){
+            steps{
+               git(url:'https://github.com/bassbiteye/cours-devops-e-commerce',
+                    credentialsId:'gitid',
+                    branch:'master'
+                    )
+            }
+         }        
+       stage('Build'){
+            steps{
+                bat 'mvn clean package'
+            }
+         }
+         
+          stage('Test code'){
+            steps{
+                bat 'mvn clean '
+            }
+        }
+
+ 	stage('Deploy'){
+          steps{      
+            script
+             {  
+                bat returnStatus: true, script: 'robocopy "target" "D:\\setup\\apache-tomcat-8.5.65-windows-x64\\apache-tomcat-8.5.65\\webapps" ecommerce.war'
+               }
+           }
+         }
+        stage('SonarQube analysis') {
+//    def scannerHome = tool 'SonarScanner 4.0';
+        steps{
+        withSonarQubeEnv('sonarqube') { 
+        // If you have configured more than one global server connection, you can specify its name
+//      sh "${scannerHome}/bin/sonar-scanner"
+        bat "mvn clean package sonar:sonar"
+    }
+        }
+        }
+       
+    }
+}
