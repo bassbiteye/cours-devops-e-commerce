@@ -59,7 +59,6 @@
             <version>2.5.0</version>
         </dependency>-->
     </dependencies>
-
     <build>
         <plugins>
             <plugin>
@@ -69,7 +68,7 @@
             </plugin>
             <plugin>
                 <groupId>org.apache.tomcat.maven</groupId>
-                <artifactId>tomcat7-maven-plugin</artifactId>
+                <artifactId>tomcat9-maven-plugin</artifactId>
                 <version>2.2</version>
                 <configuration>
                     <path>/</path>
@@ -78,8 +77,6 @@
                     <password>mven</password>
                 </configuration>
             </plugin>
-
         </plugins>
     </build>
-
 </project>
