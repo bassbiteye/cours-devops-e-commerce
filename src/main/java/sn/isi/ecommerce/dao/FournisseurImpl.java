@@ -73,6 +73,12 @@ public class FournisseurImpl implements IFournisseur {
 
 	@Override
 	public int number(int id) {
-		return 0;
+		try {
+			List<Fournisseur> list = em.createQuery("SELECT f FROM Fournisseur f").getResultList();
+			return list.size();
+		} catch (Exception e) {
+			e.printStackTrace();
+			return 0;
+		}
 	}
 }
