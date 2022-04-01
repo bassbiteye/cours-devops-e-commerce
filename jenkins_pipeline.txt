@@ -1,0 +1,91 @@
+pipeline {
+    agent any
+	tools {
+	    maven "maven_home"
+	 	}
+	stages {
+	    stage('Git CheckOut') {
+		    steps{  
+		          git  url:"https://github.com/bassbiteye/cours-devops-e-commerce.git",
+                   credentialsId:"credentials",
+                   branch:"gestion_commandes"
+		    }
+		}
+		
+	
+        stage('Clean and Install') {
+            steps {
+                bat'mvn clean install '
+                
+              
+            }
+           
+        }
+       
+        stage('Testing') {
+            steps {
+                bat'mvn test'
+                
+             
+            }
+          
+        }
+        
+       
+         
+      
+        stage ('Package'){
+            steps {
+                bat'mvn package'
+             }
+        }
+        
+        
+         
+       
+        
+        	stage('SonarQube analysis') {
+        	    steps{
+        	      withSonarQubeEnv(credentialsId: 'sonarqube-token', installationName: 'sonarqube-9.2.4') {
+                bat 'mvn org.sonarsource.scanner.maven:sonar-maven-plugin:3.7.0.1746:sonar'
+          }   
+        	    }
+         
+    }
+        
+	stage ('Artifactory'){
+            steps {
+               rtServer (
+                 id: "Jfrog",
+                 url: 'http://localhost:8046/artifactory',
+                 username: 'admin',
+                  password: 'password',
+                  bypassProxy: true,
+                   timeout: 300
+                        )
+            }
+        }
+        stage('Upload'){
+            steps{
+                rtUpload (
+                 serverId:"Jfrog" ,
+                  spec: '''{
+                  "files": [
+                      {
+                      "pattern": "*.war",
+                      "target": "logic-ops-lab-libs-snapshot-local"
+                      }
+                            ]
+                          }''',
+                        )
+            }
+        }
+        stage ('Publish build info') {
+            steps {
+                rtPublishBuildInfo (
+                    serverId: "Jfrog"
+                )
+            }
+        }
+    }
+}
