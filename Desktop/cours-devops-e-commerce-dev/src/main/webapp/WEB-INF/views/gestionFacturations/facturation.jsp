@@ -1,1 +1,0 @@
-<h1>Gestion des facturations</h1>
