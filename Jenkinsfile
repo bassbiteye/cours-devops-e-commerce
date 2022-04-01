@@ -1,24 +1,80 @@
-node {
-    /* stage('maven def'){
-        def mvnHome = tool name: 'Apache Maven 3.6.0', type: 'maven'
-        //sh "${mvnHome}/bin/mvn -B -DskipTests clean package"
-     } */
-     stage('checkout') {
-         checkout scm
-     }
-    stage('Maven Version') {
-        sh './mvnw --version'
-    }
-    stage('Maven clean package') {
-        sh './mvnw clean package -DskipTests'
-    }
-    stage('Test') {
-        sh './mvnw test'
-    }
-    stage('Code Analysis') {
-        sh './mvnw sonar:sonar \
-                 -Dsonar.projectKey=devops-tp \
-                 -Dsonar.host.url=http://localhost:9000 \
-                 -Dsonar.login=46d48dfabf4fce7267719eba191d6a4774e6d5bc'
-    }
+pipeline{
+    agent any
+    
+    
+    
+    stages{
+        stage('Get source'){
+            steps{
+                git(
+                url:"https://github.com/bassbiteye/cours-devops-e-commerce.git",
+                credentialsId: "TESTISI",
+                branch:"dev");
+            }
+        }
+  
+    stage('build') {
+            steps{
+                
+                bat 'mvn clean install'
+                
+            }
+            
+        }
+        
+        stage('Units Tests') {
+        steps {
+        bat 'mvn test'
+         }
+        }
+        
+         stage('scan') {
+            steps{
+                withSonarQubeEnv(installationName:'sqk'){
+                    bat 'mvn org.sonarsource.scanner.maven:sonar-maven-plugin:3.7.0.1746:sonar'
+                }
+                
+            }
+
+        }
+     
+     stage('jfog') {
+        steps{
+            rtServer (
+                id:"Artifactory",
+                url:"http://localhost:8082/artifactory",
+                username:"admin",
+                password:"Passer@157829",
+                bypassProxy:true,
+                timeout:300
+                
+                )
+        }
+        }
+       stage('Upload') {
+        steps{
+            rtUpload (
+                serverId:"Artifactory",
+               spec: '''{
+                   "files":[
+                       {
+                           "pattern":"*.war",
+                           "target": "ecommerce-libs-snapshot-local"
+                       }
+                       ]
+               }''',
+                
+            )
+        }
+        } 
+        stage('Publish build info') {
+        steps{
+            rtPublishBuildInfo (
+                serverId:"Artifactory"
+                
+                )
+        }
+        }   
+
 }
+  }
