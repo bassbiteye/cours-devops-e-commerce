@@ -24,7 +24,7 @@ node {
 
        rtServer (
          id: "Artifactory",
-         url: 'http://localhost:8046/artifactory',
+         url: 'http://localhost:8046/artifactory/logic-ops-lab/',
          username: 'admin1',
           password: 'Passer123',
           bypassProxy: true,
