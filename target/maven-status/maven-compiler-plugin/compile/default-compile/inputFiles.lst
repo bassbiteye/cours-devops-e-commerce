@@ -1,19 +1,19 @@
-C:\Users\Izao\Documents\ISI\M2GL\DevOps\projet-e-commerce\src\main\java\sn\isi\ecommerce\entities\Commande.java
-C:\Users\Izao\Documents\ISI\M2GL\DevOps\projet-e-commerce\src\main\java\sn\isi\ecommerce\entities\Stock.java
-C:\Users\Izao\Documents\ISI\M2GL\DevOps\projet-e-commerce\src\main\java\sn\isi\ecommerce\entities\Client.java
-C:\Users\Izao\Documents\ISI\M2GL\DevOps\projet-e-commerce\src\main\java\sn\isi\ecommerce\entities\Facturation.java
-C:\Users\Izao\Documents\ISI\M2GL\DevOps\projet-e-commerce\src\main\java\sn\isi\ecommerce\entities\Categorie.java
-C:\Users\Izao\Documents\ISI\M2GL\DevOps\projet-e-commerce\src\main\java\sn\isi\ecommerce\dao\ICategorie.java
-C:\Users\Izao\Documents\ISI\M2GL\DevOps\projet-e-commerce\src\main\java\sn\isi\ecommerce\dao\IProduit.java
-C:\Users\Izao\Documents\ISI\M2GL\DevOps\projet-e-commerce\src\main\java\sn\isi\ecommerce\dao\ClientImpl.java
-C:\Users\Izao\Documents\ISI\M2GL\DevOps\projet-e-commerce\src\main\java\Tests\Main.java
-C:\Users\Izao\Documents\ISI\M2GL\DevOps\projet-e-commerce\src\main\java\sn\isi\ecommerce\entities\Produit.java
-C:\Users\Izao\Documents\ISI\M2GL\DevOps\projet-e-commerce\src\main\java\sn\isi\ecommerce\entities\Detail.java
-C:\Users\Izao\Documents\ISI\M2GL\DevOps\projet-e-commerce\src\main\java\sn\isi\ecommerce\entities\Livraison.java
-C:\Users\Izao\Documents\ISI\M2GL\DevOps\projet-e-commerce\src\main\java\sn\isi\ecommerce\controllers\CategorieServlet.java
-C:\Users\Izao\Documents\ISI\M2GL\DevOps\projet-e-commerce\src\main\java\sn\isi\ecommerce\entities\User.java
-C:\Users\Izao\Documents\ISI\M2GL\DevOps\projet-e-commerce\src\main\java\sn\isi\ecommerce\dao\CategorieImpl.java
-C:\Users\Izao\Documents\ISI\M2GL\DevOps\projet-e-commerce\src\main\java\sn\isi\ecommerce\entities\Fournisseur.java
-C:\Users\Izao\Documents\ISI\M2GL\DevOps\projet-e-commerce\src\main\java\sn\isi\ecommerce\controllers\AccueilServlet.java
-C:\Users\Izao\Documents\ISI\M2GL\DevOps\projet-e-commerce\src\main\java\sn\isi\ecommerce\dao\ProduitImpl.java
-C:\Users\Izao\Documents\ISI\M2GL\DevOps\projet-e-commerce\src\main\java\sn\isi\ecommerce\dao\IClient.java
+C:\Users\ROI\Videos\M2\DEVOOPS\ecommerce devoop\src\main\java\sn\isi\ecommerce\entities\Detail.java
+C:\Users\ROI\Videos\M2\DEVOOPS\ecommerce devoop\src\main\java\sn\isi\ecommerce\dao\IClient.java
+C:\Users\ROI\Videos\M2\DEVOOPS\ecommerce devoop\src\main\java\sn\isi\ecommerce\dao\ICategorie.java
+C:\Users\ROI\Videos\M2\DEVOOPS\ecommerce devoop\src\main\java\sn\isi\ecommerce\dao\IProduit.java
+C:\Users\ROI\Videos\M2\DEVOOPS\ecommerce devoop\src\main\java\sn\isi\ecommerce\dao\ProduitImpl.java
+C:\Users\ROI\Videos\M2\DEVOOPS\ecommerce devoop\src\main\java\sn\isi\ecommerce\entities\Fournisseur.java
+C:\Users\ROI\Videos\M2\DEVOOPS\ecommerce devoop\src\main\java\sn\isi\ecommerce\entities\Livraison.java
+C:\Users\ROI\Videos\M2\DEVOOPS\ecommerce devoop\src\main\java\sn\isi\ecommerce\entities\Produit.java
+C:\Users\ROI\Videos\M2\DEVOOPS\ecommerce devoop\src\main\java\sn\isi\ecommerce\dao\CategorieImpl.java
+C:\Users\ROI\Videos\M2\DEVOOPS\ecommerce devoop\src\main\java\sn\isi\ecommerce\controllers\AccueilServlet.java
+C:\Users\ROI\Videos\M2\DEVOOPS\ecommerce devoop\src\main\java\sn\isi\ecommerce\entities\Categorie.java
+C:\Users\ROI\Videos\M2\DEVOOPS\ecommerce devoop\src\main\java\sn\isi\ecommerce\entities\Stock.java
+C:\Users\ROI\Videos\M2\DEVOOPS\ecommerce devoop\src\main\java\Tests\Main.java
+C:\Users\ROI\Videos\M2\DEVOOPS\ecommerce devoop\src\main\java\sn\isi\ecommerce\entities\Commande.java
+C:\Users\ROI\Videos\M2\DEVOOPS\ecommerce devoop\src\main\java\sn\isi\ecommerce\entities\User.java
+C:\Users\ROI\Videos\M2\DEVOOPS\ecommerce devoop\src\main\java\sn\isi\ecommerce\entities\Client.java
+C:\Users\ROI\Videos\M2\DEVOOPS\ecommerce devoop\src\main\java\sn\isi\ecommerce\dao\ClientImpl.java
+C:\Users\ROI\Videos\M2\DEVOOPS\ecommerce devoop\src\main\java\sn\isi\ecommerce\controllers\CategorieServlet.java
+C:\Users\ROI\Videos\M2\DEVOOPS\ecommerce devoop\src\main\java\sn\isi\ecommerce\entities\Facturation.java
