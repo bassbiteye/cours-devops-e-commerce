@@ -18,7 +18,7 @@ public class Facturation<client, commande> implements Serializable {
 //    @OneToOne(mappedBy = "facturation", fetch = FetchType.EAGER)
 //    private Client client;
     @OneToOne(mappedBy = "facturation", fetch = FetchType.EAGER)
-    private Commande commandes;
+    private Commande commande;
 
 
 
@@ -58,12 +58,12 @@ public class Facturation<client, commande> implements Serializable {
         this.dateFact = dateFact;
     }
 
-    public Commande getCommandes() {
-        return commandes;
+    public Commande getCommande() {
+        return commande;
     }
 
-    public void setCommandes(Commande commandes) {
-        this.commandes = commandes;
+    public void setCommande(Commande commande) {
+        this.commande = commande;
     }
 }
 

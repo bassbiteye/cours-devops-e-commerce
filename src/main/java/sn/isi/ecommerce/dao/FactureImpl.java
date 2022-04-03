@@ -27,11 +27,11 @@ public class FactureImpl implements IFacturation {
     @Override
     public Facturation saveFacture(Client client, Commande commande) {
         List<Client> clients = new ArrayList<Client>();
-        List<Commande> commandes = new ArrayList<Commande>();
-        commandes.add(commande);
+//        List<Commande> commandes = new ArrayList<Commande>();
+//        commandes.add(commande);
         clients.add(client);
-        facture.setClient(clients);
-        facture.setCommande(commandes);
+//        facture.setClient(clients);
+        facture.setCommande(commande);
         try {
             em.getTransaction().begin();
             em.persist(facture);
