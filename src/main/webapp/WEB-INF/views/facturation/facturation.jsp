@@ -37,7 +37,7 @@
                         <td><%=facture.getId()%></td>
                         <td><%=facture.getDateFact()%></td>
                         <td>
-                            <a href="FacturationServlet?action=edit&id=<%=facture.getId()%>" title="Modifier Facturation"  class="btn btn-info btn-sm "> Modifier </a>
+                            <a href="FacturationServlet?action=edite&id=<%=facture.getId()%>" title="Modifier Facturation"  class="btn btn-info btn-sm "> Modifier </a>
                             <a href="FacturationServlet?action=delete&id=<%=facture.getId()%>" title="Supprimer Facturation" class="btn btn-danger btn-sm "> Supprimer </a>
                         </td>
                     </tr>
