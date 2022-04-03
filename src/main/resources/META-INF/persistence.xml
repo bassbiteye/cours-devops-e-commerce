@@ -9,6 +9,7 @@
 		<class>sn.isi.ecommerce.entities.Produit</class>
 		<class>sn.isi.ecommerce.entities.Client</class>
 		<class>sn.isi.ecommerce.entities.Commande</class>
+		<class>sn.isi.ecommerce.entities.Facturation</class>
 
 		<properties>
 			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
