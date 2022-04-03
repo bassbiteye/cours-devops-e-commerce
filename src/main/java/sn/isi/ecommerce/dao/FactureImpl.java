@@ -21,7 +21,12 @@ public class FactureImpl implements IFacturation {
 
     @Override
     public List<Facturation> getAllFacture() {
-        return null;
+        try {
+			return em.createQuery("SELECT f FROM Facturation f").getResultList();
+		} catch (Exception e) {
+			e.printStackTrace();
+			return null;
+		}
     }
 
     @Override
