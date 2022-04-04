@@ -69,8 +69,8 @@
                 <configuration>
                     <path>/</path>
                     <url>http://localhost:8080/manager/Ecommerce</url>
-                    <username>mven</username>
-                    <password>mven</password>
+                    <username>mausarr05</username>
+                    <password>mausarr05</password>
                 </configuration>
             </plugin>
 
