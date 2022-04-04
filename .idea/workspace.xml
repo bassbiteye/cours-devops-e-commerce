@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0d388f7-92d9-41da-9626-9da9f7577086" name="Changes" comment="&quot;implementation du test pour produit&quot;">
+      <change afterPath="$PROJECT_DIR$/JENKINSFILE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/controllers/JENKINSFILE.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -320,7 +322,7 @@
       <workItem from="1645014938093" duration="915000" />
       <workItem from="1645019356091" duration="564000" />
       <workItem from="1645034199981" duration="526000" />
-      <workItem from="1649098480945" duration="1313000" />
+      <workItem from="1649098480945" duration="3471000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;implementation du test pour produit&quot;">
       <created>1642518973516</created>
