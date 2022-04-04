@@ -8,11 +8,3 @@ Tâches effetcuées par Thierno Ndiaye (thiendiayeisidk@groupeisi.com):
 -> Création de la classe Test pour catégorie
 
 
-Tâches effetcuées par Mamadou Sarr (mausarr05@gmail.com):
--> Création de l'entité Produit
--> Création de l'interface IProduit
--> Implémentation de l'interface IProduit
--> Gestion CRUD Produit
--> Création de la classe Test pour produit
-
-
