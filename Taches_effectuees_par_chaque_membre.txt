@@ -1,0 +1,18 @@
+Gestion catégorie et produit:
+Tâches effetcuées par Thierno Ndiaye (thiendiayeisidk@groupeisi.com):
+-> Intégration template Admin et structuration des pages web
+-> Création de l'entité Catégorie
+-> Création de l'interface ICategorie
+-> Implémentation de l'interface ICatégorie
+-> Gestion CRUD Categorie
+-> Création de la classe Test pour catégorie
+
+
+Tâches effetcuées par Mamadou Sarr (mausarr05@gmail.com):
+-> Création de l'entité Produit
+-> Création de l'interface IProduit
+-> Implémentation de l'interface IProduit
+-> Gestion CRUD Produit
+-> Création de la classe Test pour produit
+
+
