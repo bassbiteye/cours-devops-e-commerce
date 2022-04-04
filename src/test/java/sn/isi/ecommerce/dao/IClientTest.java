@@ -14,8 +14,8 @@ class IClientTest {
     }
 
     @Test
-    void getAllClients() {
-        assertNotNull( iClient.getAllClients(), "La methode getAllClients a echoué");
+    void getAllClient() {
+        assertNotNull( iClient.getAllClient(), "La methode getAllClients a echoué");
     }
 
     @Test
@@ -25,7 +25,7 @@ class IClientTest {
 
     @Test
     void getClientByEmail() {
-        assertNull ( iClient.getClientByEmail("penda@gmail.com"),"LE Test getClientByEmail a echoué");
+        assertNull ( iClient.getClientByEmails("penda@gmail.com"),"LE Test getClientByEmail a echoué");
     }
 
     @Test
@@ -35,7 +35,7 @@ class IClientTest {
         client.setPrenom("Moustapha");
         int id = iClient.util() + 1;
         //assertEquals(41, iClient.addClient(client).getId(), "La methode addClient a echoué");
-        Assertions.assertEquals(client.getNom(), iClient.addClient(client).getNom(), "La methode addClient a echouÃ©");
+        Assertions.assertEquals(client.getNom(), iClient.addClients(client).getNom(), "La methode addClient a echouÃ©");
     }
 
     @Test
@@ -46,17 +46,14 @@ class IClientTest {
         client.setNom("Diallo");
         client.setPrenom("Moustapha");
         client.setEmail("diallo@gmail.com");
-        Assertions.assertNotNull( iClient.updateClient(2, client), "La methode updateClient a echouÃ©");
+        Assertions.assertNotNull( iClient.updateClients(2, client), "La methode updateClient a echouÃ©");
     }
 
     @Test
     void deleteClient() {
         int id = iClient.util();
-        Assertions.assertEquals( true, iClient.deleteClient(id), "La methode deleteClient a echouÃ©");
+        Assertions.assertEquals( true, iClient.deleteClients(id), "La methode deleteClient a echouÃ©");
     }
 
-    /*@Test
-    void getAllCommandesOfClientId() {
-        Assertions.assertNotNull( iClient.getAllCommandesOfClientId(1), "La methode getAllCommandesOfClientId a echoué");
-    }*/
+
 }

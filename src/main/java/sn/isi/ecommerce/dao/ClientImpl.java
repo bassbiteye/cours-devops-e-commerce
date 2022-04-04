@@ -21,7 +21,7 @@ public class ClientImpl implements IClient {
     }
 
     @Override
-    public List<Client> getAllClients() {
+    public List<Client> getAllClient() {
         try {
             return entityManager.createQuery("SELECT c FROM Client c").getResultList();
         } catch (Exception e) {
@@ -40,7 +40,7 @@ public class ClientImpl implements IClient {
     }
 
     @Override
-    public Client getClientByEmail(String email) {
+    public Client getClientByEmails(String email) {
         try{
             Client client = (Client) entityManager.createQuery("SELECT c FROM Client c WHERE c.email = :email")
                     .setParameter("email", email).getSingleResult();
@@ -52,7 +52,7 @@ public class ClientImpl implements IClient {
     }
 
     @Override
-    public Client addClient(Client client) {
+    public Client addClients(Client client) {
         try {
             entityManager.getTransaction().begin();
             entityManager.persist(client);
@@ -66,7 +66,7 @@ public class ClientImpl implements IClient {
     }
 
     @Override
-    public Client updateClient(int id, Client client) {
+    public Client updateClients(int id, Client client) {
         try {
             if (this.getClientById(id) == null){
                 return null;
@@ -84,7 +84,7 @@ public class ClientImpl implements IClient {
     }
 
     @Override
-    public boolean deleteClient(int id) {
+    public boolean deleteClients(int id) {
         try {
             Client client = entityManager.find(Client.class, id);
             if (this.getClientById(id) == null){

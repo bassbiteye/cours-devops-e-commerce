@@ -6,12 +6,12 @@ import sn.isi.ecommerce.entities.Commande;
 import java.util.List;
 
 public interface IClient {
-    List<Client> getAllClients();
+    List<Client> getAllClient();
     Client getClientById(int id);
-    Client getClientByEmail(String email);
-    Client addClient(Client client);
-    Client updateClient(int id, Client client);
-    boolean deleteClient(int id);
+    Client getClientByEmails(String email);
+    Client addClients(Client client);
+    Client updateClients(int id, Client client);
+    boolean deleteClients(int id);
     List<Commande> getAllCommandesOfClientId(int id);
     int util();
 }
