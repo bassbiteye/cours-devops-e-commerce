@@ -32,9 +32,9 @@ class IClientTest {
     void addClient() {
         Client client = new Client();
         client.setNom("Diallo");
-        client.setPrenom("Moustapha");
+        client.setPrenom("Mamadou Saliou");
         int id = iClient.util() + 1;
-        //assertEquals(41, iClient.addClient(client).getId(), "La methode addClient a echoué");
+        
         Assertions.assertEquals(client.getNom(), iClient.addClients(client).getNom(), "La methode addClient a echouÃ©");
     }
 
@@ -44,8 +44,8 @@ class IClientTest {
         Client client = new Client();
         client.setId(8);
         client.setNom("Diallo");
-        client.setPrenom("Moustapha");
-        client.setEmail("diallo@gmail.com");
+        client.setPrenom("Saliou");
+        client.setEmail("Saliouhoolo@gmail.com");
         Assertions.assertNotNull( iClient.updateClients(2, client), "La methode updateClient a echouÃ©");
     }
 
