@@ -19,15 +19,15 @@ class UsersImplTest {
     void add() {
         IUsers userdao = new UsersImpl();
         Users user = new Users();
-        user.setNom("Zokoi");
-        user.setPrenom("Legrand");
-        user.setEmail("legrand@gmail.com");
+        user.setNom("Test");
+        user.setPrenom("Test");
+        user.setEmail("testd@gmail.com");
         user.setPassword("passer123");
         user.setEtat(1);
 
         List<Roles> rolesL = new ArrayList<Roles>();
         IRoles roledoa = new RolesImpl();
-        Roles role1 = roledoa.get(1);
+        Roles role1 = roledoa.get(2);
         rolesL.add(role1);
         user.setRoles(rolesL);
 

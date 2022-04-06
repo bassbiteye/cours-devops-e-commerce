@@ -22,7 +22,7 @@ class RolesImplTest {
         IRoles roledoa = new RolesImpl();
 
         Roles roles = new Roles();
-        roles.setNom("ROLE_FOURNISSEUR");
+        roles.setNom("ROLE_CLIENT");
 
         int result = roledoa.add(roles);
         System.out.println(result);
