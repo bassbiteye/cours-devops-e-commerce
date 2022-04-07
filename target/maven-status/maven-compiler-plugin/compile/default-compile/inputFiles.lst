@@ -1,8 +1,7 @@
-/Users/macbookpro/Documents/GitHub/cours-devops-e-commerce/src/main/java/sn/isi/ecommerce/dao/IRoles.java
-/Users/macbookpro/Documents/GitHub/cours-devops-e-commerce/src/main/java/sn/isi/ecommerce/controllers/AccueilServlet.java
-/Users/macbookpro/Documents/GitHub/cours-devops-e-commerce/src/main/java/sn/isi/ecommerce/controllers/LoginServlet.java
-/Users/macbookpro/Documents/GitHub/cours-devops-e-commerce/src/main/java/sn/isi/ecommerce/dao/RolesImpl.java
-/Users/macbookpro/Documents/GitHub/cours-devops-e-commerce/src/main/java/sn/isi/ecommerce/dao/IUsers.java
-/Users/macbookpro/Documents/GitHub/cours-devops-e-commerce/src/main/java/sn/isi/ecommerce/entities/Users.java
-/Users/macbookpro/Documents/GitHub/cours-devops-e-commerce/src/main/java/sn/isi/ecommerce/entities/Roles.java
-/Users/macbookpro/Documents/GitHub/cours-devops-e-commerce/src/main/java/sn/isi/ecommerce/dao/UsersImpl.java
+C:\Users\svsv\Desktop\Ecomerce\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\dao\RolesImpl.java
+C:\Users\svsv\Desktop\Ecomerce\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\entities\Users.java
+C:\Users\svsv\Desktop\Ecomerce\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\controllers\LoginServlet.java
+C:\Users\svsv\Desktop\Ecomerce\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\entities\Roles.java
+C:\Users\svsv\Desktop\Ecomerce\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\dao\UsersImpl.java
+C:\Users\svsv\Desktop\Ecomerce\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\dao\IRoles.java
+C:\Users\svsv\Desktop\Ecomerce\cours-devops-e-commerce\src\main\java\sn\isi\ecommerce\dao\IUsers.java

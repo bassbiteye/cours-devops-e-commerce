@@ -1,81 +1,76 @@
-// - Creation des Entities Utilisateur et Roles avec leur Interface et classe d'implèmentation
-// - Creation des TestUnitaire avec JUnit sur les classes d'implémentation
-// - Creation LoginServelet
-
 pipeline {
     agent any
-	tools {
-	        maven "maven_home"
-	 	}
-	stages {
-	    stage('Git CheckOut') {
-		    steps{
-		          git  url:"https://github.com/bassbiteye/cours-devops-e-commerce.git",
-                   credentialsId: "JenkinsCredentialsID",
-                   branch:"utilisateur"
-		    }
-		}
-
-        stage('Clean and Install') {
+    tools {
+    maven 'MAVEN_HOME'
+    }
+    stages {
+        stage('Get source') {
             steps {
-                sh 'mvn clean install '
+                git(
+                    url:'https://github.com/bassbiteye/cours-devops-e-commerce',
+                    credentialsId:'github_id_isi',
+                    branch:'utilisateur'
+                )
             }
         }
 
-        stage('Test Features Users') {
-            steps {
-                sh 'mvn test'
+        stage('JUnit test'){
+             steps{
+                bat "mvn clean test"
+             }
+        }
+        stage('Clean and Install'){
+            steps{
+                bat "mvn clean install -f pom.xml"
             }
-
         }
 
-        stage ('Package'){
-            steps {
-                sh 'mvn package'
+        stage ('Scan Code Quality')  {
+             steps{
+               withSonarQubeEnv('SonarQube') {
+               bat "mvn -f pom.xml sonar:sonar"
+                }
              }
         }
 
-        stage('SonarQube analysis') {
-        	steps{
-                withSonarQubeEnv(credentialsId: 'sonarqube-token', installationName: 'sonarqube-9.2.4') {
-                    sh 'mvn org.sonarsource.scanner.maven:sonar-maven-plugin:3.7.0.1746:sonar'
-                }
-            }
-        }
 
-	    stage ('Artifactory'){
-            steps {
-               rtServer (
-                 id: "Jfrog",
-                 url: 'http://localhost:8046/artifactory',
-                 username: 'admin',
-                 password: 'password',
-                 bypassProxy: true,
-                 timeout: 300
-               )
-            }
-        }
-        stage('Upload'){
+
+          stage ('Local Deployment ')  {
             steps{
-                rtUpload (
-                    serverId:"Jfrog" ,
-                    spec: '''{
-                    "files": [
-                      {
-                          "pattern": "*.war",
-                          "target": "logic-ops-lab-libs-snapshot-local"
-                      }
-                    ]
-                    }''',
+            rtServer (
+                id:"Artifactory",
+                url:"http://localhost:8082/artifactory",
+                username:"admin",
+                password:"password",
+                bypassProxy:true,
+                timeout:300
+
                 )
-            }
         }
-        stage ('Publish build info') {
-            steps {
-                rtPublishBuildInfo (
-                    serverId: "Jfrog"
+        }
+       stage('Upload') {
+        steps{
+            rtUpload (
+                serverId:"Artifactory",
+               spec: '''{
+                   "files":[
+                       {
+                           "pattern":"*.war",
+                           "target": "ecomerce-devops-libs-snapshot-local"
+                       }
+                       ]
+               }''',
+
+            )
+        }
+        }
+        stage('Publish build info') {
+        steps{
+            rtPublishBuildInfo (
+                serverId:"Artifactory"
+
                 )
-            }
+        }
         }
     }
 }
