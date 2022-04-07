@@ -1,0 +1,10 @@
+M2GL 
+Features Gestion des Utilisateurs
+
+Membre:
+- Exaucé YANGAKODROS
+    // * Creation des Entities Utilisateur et Roles avec leur Interface et classe d'implèmentation
+    // * Creation des TestUnitaire avec JUnit sur les classes d'implémentation
+    // * Creation LoginServelet
+- Saratou DIALLO
+- Moinsalima DJOUMOI
