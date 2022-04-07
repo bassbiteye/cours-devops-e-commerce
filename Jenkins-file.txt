@@ -72,7 +72,7 @@ pipeline {
                       "target": "ecommerce-libs-snapshot-local"
                       }
                             ]
-                          }
+                          }''',
                         )
             }
         }
