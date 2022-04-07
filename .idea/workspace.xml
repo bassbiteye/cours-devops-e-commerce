@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98d302df-2a9f-4bda-8c78-26a1f1e6a444" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javax_servlet_jsp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sn/isi/ecommerce/controllers/RoleServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tâches.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/cours-devops-e-commerce.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/gestionUsers/role.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipeline_Jenkins.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Pipeline_Jenkins.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +90,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/javax.servlet.jsp.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/gestionUsers" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -108,20 +104,21 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp/public" />
-      <recent name="C:\Users\user\Documents\M2 ISI\devops\gestion-ecommerce\src\main" />
-      <recent name="C:\Users\user\Documents\M2 ISI\devops\gestion-ecommerce\src\main\resources" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="Tests" />
       <recent name="sn.isi.ecommerce.dao" />
     </key>
     <key name="ImportMappingsDialog.RecentPackages">
       <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\svsv\Desktop\Ecomerce\cours-devops-e-commerce\src\main\webapp\WEB-INF\views\gestionUsers" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/public" />
+      <recent name="C:\Users\user\Documents\M2 ISI\devops\gestion-ecommerce\src\main" />
+      <recent name="C:\Users\user\Documents\M2 ISI\devops\gestion-ecommerce\src\main\resources" />
     </key>
   </component>
   <component name="RunManager" selected="Maven.gestion-ecommerce [tomcat7:run]">
@@ -228,7 +225,7 @@
       </list>
     </option>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -270,11 +267,18 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="618" y="306" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1649347742608">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="618" y="306" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.834@0.0.1536.834" timestamp="1649347742608" />
   </component>
 </project>
