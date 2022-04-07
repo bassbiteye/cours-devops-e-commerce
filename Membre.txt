@@ -5,6 +5,10 @@ Membre:
 - Exaucé YANGAKODROS
     // * Creation des Entities Utilisateur et Roles avec leur Interface et classe d'implèmentation
     // * Creation des TestUnitaire avec JUnit sur les classes d'implémentation
-    // * Creation LoginServelet
+    // * Creation LoginServlet
 - Saratou DIALLO
+    // * Implementation CRUD Utilisateur Servlet
+    // * Creation View Utilisateur listing et ajout
 - Moinsalima DJOUMOI
+    // * Implementation CRUD Rôles Servlet
+    // * Creation View Rôles listing et ajout

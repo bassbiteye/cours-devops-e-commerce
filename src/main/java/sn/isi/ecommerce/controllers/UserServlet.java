@@ -1,11 +1,8 @@
 package sn.isi.ecommerce.controllers;
 
-import sn.isi.ecommerce.dao.CategorieImpl;
-import sn.isi.ecommerce.dao.ICategorie;
-import sn.isi.ecommerce.dao.IUser;
-import sn.isi.ecommerce.dao.UserImpl;
-import sn.isi.ecommerce.entities.Categorie;
-import sn.isi.ecommerce.entities.User;
+import sn.isi.ecommerce.dao.IUsers;
+import sn.isi.ecommerce.dao.UsersImpl;
+import sn.isi.ecommerce.entities.Users;
 
 import javax.servlet.*;
 import javax.servlet.http.*;
@@ -24,8 +21,8 @@ public class UserServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        IUser iuser = new UserImpl();
-        List<User> users = iuser.getAll();
+        IUsers iuser = new UsersImpl();
+        List<Users> users = iuser.getAll();
         request.setAttribute("users", users); // set la liste des catégories
         request.setAttribute("isModification", "false");
         String action = (request.getParameter("action") != null) ? request.getParameter("action") : "null";
@@ -41,13 +38,13 @@ public class UserServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        IUser iuser = new UserImpl();
+        IUsers iuser = new UsersImpl();
         String libelle = request.getParameter("libelle-categorie");
         // set les valeurs de catégorie
-        User user = new User();
+        Users user = new Users();
         //user.set(libelle);
         iuser.add(user);
-        List<User> users = iuser.getAll();
+        List<Users> users = iuser.getAll();
         request.setAttribute("users", users);
         request.getRequestDispatcher("WEB-INF/views/user/crudUser.jsp").forward(request, response);
     }
@@ -63,9 +60,9 @@ public class UserServlet extends HttpServlet {
     private void deleteUser(HttpServletRequest request, HttpServletResponse response)throws ServletException, IOException
     {
         int id = Integer.parseInt(request.getParameter("id"));
-        IUser iuser = new UserImpl();
+        IUsers iuser = new UsersImpl();
         iuser.delete(id);
-        List<User> users = iuser.getAll();
+        List<Users> users = iuser.getAll();
         request.getRequestDispatcher("WEB-INF/views/user/crudUser.jsp").forward(request, response);
     }
 }
