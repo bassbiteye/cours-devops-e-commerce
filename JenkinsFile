@@ -1,0 +1,72 @@
+pipeline {
+    agent any
+
+    tools {
+        maven "maven3.8.3"
+    }
+
+    stages {
+        stage('Get source client') {
+            steps {
+                git(
+                    url:'https://github.com/bassbiteye/cours-devops-e-commerce.git',
+                    branch: 'iclient'
+                )
+
+                bat "git log"
+            }
+        }
+        
+        stage('Test code gestion client') {
+            steps {
+                bat "mvn test"
+            }
+        }
+        
+        stage('SonarQube analysis') {
+            //def scannerHome = tool 'SonarScanner 4.0';
+            steps {
+                bat 'mvn clean verify sonar:sonar \
+               -Dsonar.projectKey=e-commerce-devops \
+               -Dsonar.host.url=http://localhost:9000 \
+               -Dsonar.login=8caa38c26a4d7b20277fbe587833885f05678b70'
+            }
+        }
+        
+        stage('jfog') {
+            steps{
+                rtServer (
+                    id:"Artifactory",
+                    url:"http://localhost:8046/artifactory",
+                    username:"admin",
+                    password:"password",
+                    bypassProxy:true,
+                    timeout:300
+                )
+            }
+        }
+    
+        stage('Upload') {
+            steps{
+                rtUpload (
+                    serverId:"Artifactory",
+                   spec: '''{
+                       "files":[
+                           {
+                               "pattern":"*.war",
+                               "target": "tp-devops-libs-snapshot-local"
+                           }
+                           ]
+                   }''',
+                    
+                )
+            }
+        }
+    }
+    
+    post {
+        always {
+            junit 'target/surefire-reports/TEST-*.xml'
+        }
+    }
+}

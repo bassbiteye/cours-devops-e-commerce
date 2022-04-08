@@ -1,0 +1,10 @@
+Prenom et nom : Issa Sow
+Email : issasowisidk@groupeisi.com
+
+Tâche effectuées:
+	-> Creation de l'entitté Client
+	-> Creation de l'interface Iclient
+	-> Implementation de l'interface Iclient
+	-> Création de la classe de teste(IClient) unitairs pour  l'entité client
+	-> Creation de la methode de teste addClient
+	-> Création des vues pour le client
