@@ -1,0 +1,126 @@
+//salut monsieur veuillez verifier votre mail je vous ai envoye mon inscription j'etais venu tardivement du coup j'avaid pas un groupe 
+et j'ai fait les configuration avec la branche dev Merci.
+
+pipeline{
+    agent any
+     tools { 
+        maven "maven3.8.4"
+    }
+    stages{ 
+  
+        stage('Get source'){
+           steps{
+                git(
+                url:"https://github.com/bassbiteye/cours-devops-e-commerce.git",
+                credentialsId: "TPDEVOPS",
+                branch:"dev");
+            }
+        }       
+       stage('Build'){
+            steps{
+                bat 'mvn clean package'
+            }
+         }
+         stage('test'){
+            steps{
+                bat 'mvn test'
+            }
+         }
+        stage('SonarQube analysis') {
+//    def scannerHome = tool 'SonarScanner 4.0';
+        steps{
+    
+  
+ bat'mvn clean verify sonar:sonar \
+  -Dsonar.projectKey=TPDEVOPS \
+  -Dsonar.host.url=http://localhost:9000 \
+  -Dsonar.login=cef0f7581772b3275f016b36fd011de815588016'
+  
+  
+  
+    }
+        }
+        
+    }
+    
+}
+
+
+pipeline{
+    agent any
+     tools { 
+        maven "maven3.8.4"
+    }
+    stages{ 
+  
+        stage('Get source'){
+           steps{
+                git(
+                url:"https://github.com/bassbiteye/cours-devops-e-commerce.git",
+                credentialsId: "TPDEVOPS",
+                branch:"dev");
+            }
+        }       
+       stage('Build'){
+            steps{
+                bat 'mvn clean package'
+            }
+         }
+         stage('test'){
+            steps{
+                bat 'mvn test'
+            }
+         }
+        stage('SonarQube analysis') {
+//    def scannerHome = tool 'SonarScanner 4.0';
+        steps{
+    
+  
+ bat'mvn clean verify sonar:sonar \
+  -Dsonar.projectKey=TPDEVOPS \
+  -Dsonar.host.url=http://localhost:9000 \
+  -Dsonar.login=cef0f7581772b3275f016b36fd011de815588016'
+  
+  
+  
+    }
+        }
+    
+        stage('jfog') {
+        steps{
+            rtServer (
+                id:"Artifactory",
+                url:"http://localhost:8082/artifactory",
+                username:"admin",
+                password:"Mouna5050",
+                bypassProxy:true,
+                timeout:300
+                
+                )
+        }
+        }
+       stage('Upload') {
+        steps{
+            rtUpload (
+                serverId:"Artifactory",
+               spec: '''{
+                   "files":[
+                       {
+                           "pattern":"*.war",
+                           "target": "logic-ops-lab-libs-snapshot-local"
+                       }
+                       ]
+               }''',
+                
+            )
+        }
+        } 
+        stage('Publish build info') {
+        steps{
+            rtPublishBuildInfo (
+                serverId:"Artifactory"
+                
+                )
+        }
+        }    
+    }
