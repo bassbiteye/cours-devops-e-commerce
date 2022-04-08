@@ -1,0 +1,76 @@
+pipeline {
+    agent any
+
+    tools{
+        maven 'MAVEN_HOME'
+    }
+    stages {
+        stage('get_sources') {
+            steps {
+                git branch: 'utilisateur',
+                credentialsId: 'credential_sarahmsd',
+                url: 'https://github.com/bassbiteye/cours-devops-e-commerce.git'
+            }
+        }
+
+        stage('scan_code') {
+            steps {
+                withSonarQubeEnv('SonarQube'){
+                    bat "mvn -f pom.xml sonar:sonar"
+                }
+            }
+        }
+
+        stage('junit_tests') {
+            steps {
+                bat "mvn test"
+            }
+        }
+
+        stage('deployement') {
+            steps {
+                bat "mvn -DskipTests tomcat7:deploy"
+            }
+        }
+
+        stage('jfog') {
+            steps{
+                rtServer (
+                    id:"Ecommerce",
+                    url:"http://localhost:8082/artifactory",
+                    username:"admin",
+                    password:"Passer123",
+                    bypassProxy:true,
+                    timeout:300
+
+                    )
+            }
+        }
+
+        stage('Upload') {
+        steps{
+            rtUpload (
+                serverId:"Ecommerce",
+               spec: '''{
+                   "files":[
+                       {
+                           "pattern":"*.war",
+                           "target": "ecommerce-libs-snapshot-local"
+                       }
+                       ]
+               }''',
+
+            )
+        }
+        }
+
+        stage('Publish build info') {
+            steps{
+                rtPublishBuildInfo (
+                    serverId:"Ecommerce"
+
+                )
+            }
+        }
+    }
+}

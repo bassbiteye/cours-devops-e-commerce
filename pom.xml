@@ -14,6 +14,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.tomcat.port>8084</maven.tomcat.port>
         <junit.version>5.7.1</junit.version>
     </properties>
 
