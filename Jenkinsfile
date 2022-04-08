@@ -14,15 +14,54 @@ node {
             sh "./mvnw test"
         }
 
-        stage('packaging') {
-            sh "./mvnw verify -DskipTests"
-            archiveArtifacts artifacts: '**/target/*.war', fingerprint: true
-        }
 
          stage('Quality code') {
             sh "./mvnw clean verify sonar:sonar \
                   -Dsonar.projectKey=cours-devops-e-commerce \
                   -Dsonar.login=b94abbcbdecd2e8b51170b74b0ca196461aba2f8"
         }
+
+         stage('packaging') {
+               sh "./mvnw verify -DskipTests"
+               archiveArtifacts artifacts: '**/target/*.war', fingerprint: true
+        }
+
+          stage('Tomcat Localy Deployment') {
+                  sh './mvnw tomcat7:deploy'
+          }
+
+          stage ('Connexion Artifactory Server'){
+              steps {
+                 rtServer (
+                   id: "Artifactory",
+                   url: 'http://localhost:8046/artifactory',
+                   username: 'root',
+                    password: 'root',
+                    bypassProxy: true,
+                     timeout: 300 )
+              }
+          }
+          stage('Upload'){
+              steps{
+                  rtUpload (
+                   serverId:"Artifactory" ,
+                    spec: '''{
+                     "files": [
+                                {
+                                "pattern": "*.war",
+                                "target": "logic-ops-lab-libs-snapshot-local"
+                                }
+                              ]
+                             }''',
+                          )
+              }
+          }
+          stage ('Publish build info') {
+              steps {
+                  rtPublishBuildInfo (
+                      serverId: "Artifactory"
+                  )
+              }
+          }
     }
 }
