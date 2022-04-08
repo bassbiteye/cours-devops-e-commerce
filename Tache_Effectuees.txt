@@ -1,0 +1,13 @@
+
+Mon_Mail : elgueyeisidk1@groupeisi.com
+
+Tâches effectuées au niveau du projet
+
+''Branche iclient''
+
+ -> Creation de l'entité Client
+ -> Creation de l'intervace Iclient
+ -> Implementation de l'interface Iclient
+ -> Creation de la classe test Iclient pour l'entité Client
+ -> Creation Methode TEST - Update , DELETE
+ -> Creation des vues
