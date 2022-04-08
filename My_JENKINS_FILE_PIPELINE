@@ -1,0 +1,75 @@
+pipeline{
+    agent any
+     tools {
+        maven "maven3.8.4"
+    }
+    stages{
+
+        stage('Get source'){
+           steps{
+                git(
+                url:"https://github.com/bassbiteye/cours-devops-e-commerce.git",
+                credentialsId: "TP_Devops",
+                branch:"dev");
+            }
+        }
+       stage('Build'){
+            steps{
+                bat 'mvn clean package'
+            }
+         }
+         stage('test'){
+            steps{
+                bat 'mvn test'
+            }
+         }
+        stage('SonarQube analysis') {
+//    def scannerHome = tool 'SonarScanner 4.0';
+        steps{
+
+
+  bat 'mvn clean verify sonar:sonar \
+  -Dsonar.projectKey=Projet_Devops \
+  -Dsonar.host.url=http://localhost:9000 \
+  -Dsonar.login=b1a2082672694a4430725034ba0130f99f92c02c'
+      }
+     }
+  stage('jfog') {
+        steps{
+            rtServer (
+                id:"Artifactory",
+                url:"http://localhost:8046/artifactory",
+                username:"admin",
+                password:"Binetandoye93",
+                bypassProxy:true,
+                timeout:300
+
+                )
+        }
+        }
+       stage('Upload') {
+        steps{
+            rtUpload (
+                serverId:"Artifactory",
+               spec: '''{
+                   "files":[
+                       {
+                           "pattern":"*.war",
+                           "target": "logic-ops-lab-libs-snapshot-local"
+                       }
+                       ]
+               }''',
+
+            )
+        }
+        }
+        stage('Publish build info') {
+        steps{
+            rtPublishBuildInfo (
+                serverId:"Artifactory"
+
+                )
+        }
+        }
+  }
+}
