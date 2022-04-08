@@ -50,7 +50,7 @@ class IClientTest {
 
     @Test
     void deleteClient() {
-        Assertions.assertEquals( true, iClient.deleteClient(9), "La methode deleteClient a echoué");
+        Assertions.assertEquals( true, iClient.deleteClient(9), "La methode deleteClients a echoué");
     }
 
     @Test
