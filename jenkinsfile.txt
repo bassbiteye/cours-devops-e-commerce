@@ -1,0 +1,78 @@
+pipeline {
+    agent any
+  tools {
+    maven 'maven_home'
+  }
+    stages {
+        stage('Get source') {
+            steps {
+                git(
+                    url:'https://github.com/bassbiteye/cours-devops-e-commerce',
+                    credentialsId:'github_id_isi',
+                    branch:'master'
+                )
+            }
+        }
+        stage('Initialize tools'){
+            steps{
+                echo "${maven_home}"
+            }
+        }
+         stage('Test'){
+             steps{
+                bat "mvn test"
+             }
+        }
+       
+        stage ('build')  {
+             steps{
+                bat "mvn clean install -f pom.xml"
+             }
+        }
+   
+        stage ('Quality code')  {
+             steps{
+               withSonarQubeEnv('Sonarqube') {
+               bat "mvn -f pom.xml sonar:sonar"
+                }
+             }
+        }
+        stage('jfog') {
+        steps{
+            rtServer (
+                id:"cours-devops",
+                url:"http://localhost:8082/artifactory",
+                username:"admin",
+                password:"Passer1234",
+                bypassProxy:true,
+                timeout:300
+               
+                )
+        }
+        }
+       stage('Upload') {
+        steps{
+            rtUpload (
+                serverId:"cours-devops",
+               spec: '''{
+                   "files":[
+                       {
+                           "pattern":"*.war",
+                           "target": "ecommerce-libs-snapshot-local"
+                       }
+                       ]
+               }''',
+               
+            )
+        }
+        }
+        stage('Publish build info') {
+        steps{
+            rtPublishBuildInfo (
+                serverId:"cours-devops"
+               
+                )
+        }
+        }
+    }
+}
