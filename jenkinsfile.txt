@@ -1,0 +1,79 @@
+pipeline{
+    agent any
+
+    tools {
+        maven 'maven_home'
+        jdk 'java_home'
+    }
+
+    stages{
+
+        stage('Get Code from Github'){
+            steps{
+                git (url: "https://github.com/bassbiteye/cours-devops-e-commerce.git",
+                credentialsId:"MyCredential_Id",
+                branch: "gestion_commandes")
+            }
+        }
+
+        stage('Build and Test'){
+            steps{
+                bat "mvn clean package"
+            }
+        }
+
+        stage('Test'){
+            steps{
+                bat "mvn test"
+            }
+        }
+
+        stage('SonarQube analysis') {
+            steps{
+                    withSonarQubeEnv(credentialsId: 'sonarqube-token', installationName: 'SonarQube'){
+                    bat 'mvn org.sonarsource.scanner.maven:sonar-maven-plugin:3.7.0.1746:sonar'
+                }
+            }
+
+        }
+
+        stage('jfog') {
+            steps{
+                rtServer(
+                    id:"Artifactory",
+                    url:"http://localhost:8082/artifactory",
+                    username:"Admin",
+                    password:"Badoulahi8",
+                    bypassProxy:true,
+                    timeout:300
+                )
+            }
+        }
+
+        stage('Upload'){
+            steps{
+                rtUpload (
+                    serverId:"Artifactory",
+                    spec: '''{
+                       "files":[
+                           {
+                               "pattern":"*.war",
+                               "target": "gestion-commande-libs-snapshot-local"
+                           }
+                           ]
+                    }''',
+
+                )
+            }
+        }
+
+        stage('Publish build info') {
+            steps{
+                rtPublishBuildInfo (
+                    serverId:"Artifactory"
+
+                )
+            }
+        }
+    }
+}
